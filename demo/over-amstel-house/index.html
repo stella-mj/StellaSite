@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#15181d" />
+<title>The house that grew with the polder</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3l11 6v14l-11 6-11-6V9z' fill='%23ff7a2f'/%3E%3Cpath d='M16 3l11 6-11 6-11-6z' fill='%23ffb27f'/%3E%3C/svg%3E" />
+  <script type="module" crossorigin src="./assets/index-CINinGWy.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DD_kFoUN.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="labels" class="hidden" aria-hidden="true"><svg id="leaders"></svg></div>
+
+<aside id="sidebar" aria-label="Systems and parts">
+  <header class="side-head">
+    <div class="brand">
+      <h1 id="title">Model explorer</h1>
+      <p id="subtitle"></p>
+    </div>
+    <button id="btn-close-side" class="ibtn only-mobile" aria-label="Close part list"></button>
+  </header>
+  <label class="search"><span class="search-icon"></span><input id="search" type="search" placeholder="Search parts" autocomplete="off" spellcheck="false" aria-label="Search parts" /><kbd>/</kbd></label>
+  <nav id="tree"></nav>
+  <footer class="side-foot"><p id="notice"></p></footer>
+</aside>
+
+<header id="topbar">
+  <button id="btn-menu" class="ibtn" aria-label="Part list" title="Part list"></button>
+  <div id="brandchip" class="brandchip"><b id="m-title"></b><span id="m-sub"></span></div>
+  <div class="top-actions">
+    <div id="learn" class="learn" aria-label="Learning modes"></div>
+    <button id="btn-labels" class="ibtn" aria-pressed="false" aria-label="Labels" title="Labels (L)"></button>
+    <button id="btn-about" class="ibtn" aria-label="About this model" title="About"></button>
+    <button id="btn-help" class="ibtn" aria-label="Keyboard shortcuts and settings" title="Shortcuts (?)"></button>
+  </div>
+</header>
+
+<section id="infopanel" class="panel hidden" aria-live="polite" aria-label="Part details">
+  <div class="grab only-mobile"></div>
+  <button id="info-close" class="ibtn close" aria-label="Close details"></button>
+  <div id="info-body"></div>
+  <div class="info-actions">
+    <button data-act="focus" title="Focus (F)"><span>Focus</span></button>
+    <button data-act="isolate" title="Isolate (I)"><span>Isolate</span></button>
+    <button data-act="hide" title="Hide (H)"><span>Hide</span></button>
+    <button data-act="showall" title="Show all (A)"><span>Show all</span></button>
+  </div>
+</section>
+
+<section id="modepanel" class="panel hidden" aria-live="polite"></section>
+
+<section id="eracard" class="panel" aria-live="polite"></section>
+<section id="hingebox" class="panel hidden" aria-label="Moving parts"></section>
+<section id="rembrandt" class="hidden" aria-label="Rembrandt's etching"></section>
+
+<footer id="toolbar">
+  <div class="tb-row">
+    <div class="tb-stamp">
+      <div class="stamp-row">
+        <div id="year-stamp" class="year-stamp">1910</div>
+        <button id="btn-era" class="era-toggle" aria-controls="eracard" aria-expanded="true"
+                title="Show / hide the era description (N)" aria-label="Show or hide the era description"></button>
+      </div>
+      <div id="nap" class="nap" title="NAP gauge: water and land levels against Amsterdam Ordnance Datum"></div>
+    </div>
+    <div class="tb-btns">
+      <button id="tb-prev" class="ibtn" aria-label="Previous era" title="Previous era (←)"></button>
+      <button id="tb-play" class="ibtn round big" aria-label="Play the years" title="Play the years (Space)"></button>
+      <button id="tb-next" class="ibtn" aria-label="Next era" title="Next era (→)"></button>
+    </div>
+    <div class="tb-track">
+      <div id="tb-eras" class="tb-eras"></div>
+      <div class="tb-rail">
+        <div id="tb-events" class="tb-events"></div>
+        <input id="year" type="range" min="0" max="1" step="0.0001" value="0.9" aria-label="Year" />
+      </div>
+      <div id="tb-ticks" class="tb-ticks"></div>
+    </div>
+    <button id="btn-tools" class="ibtn only-mobile" aria-label="More controls" title="More controls"></button>
+  </div>
+  <div class="tool-row">
+    <div class="explode">
+      <button id="btn-play" class="ibtn round small" aria-label="Play explode" title="Play explode (E)"></button>
+      <label for="explode">Explode</label>
+      <input id="explode" type="range" min="0" max="1" step="0.001" value="0" />
+      <output id="explode-val">0%</output>
+    </div>
+    <div id="toggles" class="chips toggles" aria-label="Scene toggles"></div>
+    <div id="views" class="chips" aria-label="Camera views"></div>
+  </div>
+</footer>
+
+<div id="intro" class="modal hidden" role="dialog" aria-modal="true" aria-label="Introduction">
+  <div class="modal-card intro-card" id="intro-card"></div>
+</div>
+
+<div id="scrim"></div>
+<div id="toast" class="hidden" role="status"></div>
+<pre id="hud" class="hidden"></pre>
+
+<div id="help" class="modal hidden" role="dialog" aria-modal="true" aria-label="Shortcuts and settings">
+  <div class="modal-card">
+    <button class="ibtn close" data-close aria-label="Close"></button>
+    <h2>Shortcuts</h2>
+    <dl class="keys">
+      <div><dt><kbd>Space</kbd></dt><dd>Play / pause the years</dd></div>
+      <div><dt><kbd>←</kbd> <kbd>→</kbd></dt><dd>Previous / next era (Shift: ±10 years)</dd></div>
+      <div><dt><kbd>W</kbd></dt><dd>Winter</dd></div>
+      <div><dt><kbd>E</kbd></dt><dd>Play / pause explode</dd></div>
+      <div><dt><kbd>[</kbd> <kbd>]</kbd></dt><dd>Explode less / more</dd></div>
+      <div><dt><kbd>N</kbd></dt><dd>Show / hide the era description</dd></div>
+      <div><dt><kbd>F</kbd></dt><dd>Focus selection</dd></div>
+      <div><dt><kbd>I</kbd></dt><dd>Isolate selection</dd></div>
+      <div><dt><kbd>H</kbd></dt><dd>Hide selection</dd></div>
+      <div><dt><kbd>A</kbd></dt><dd>Show everything</dd></div>
+      <div><dt><kbd>S</kbd></dt><dd>Solo the selection's system</dd></div>
+      <div><dt><kbd>L</kbd></dt><dd>Labels</dd></div>
+      <div><dt><kbd>1</kbd>–<kbd>9</kbd></dt><dd>Camera views</dd></div>
+      <div><dt><kbd>0</kbd></dt><dd>Fit everything</dd></div>
+      <div><dt><kbd>/</kbd></dt><dd>Search parts</dd></div>
+      <div><dt><kbd>Esc</kbd></dt><dd>Clear selection / close</dd></div>
+      <div><dt><kbd>D</kbd></dt><dd>Stats overlay</dd></div>
+      <div><dt><kbd>?</kbd></dt><dd>This panel</dd></div>
+    </dl>
+    <p class="muted">Drag to orbit, right-drag or two fingers to pan, scroll or pinch to zoom. Click a part to learn about it; double-click to focus.</p>
+    <h3>Display</h3>
+    <div class="settings">
+      <label><input type="checkbox" id="set-ao" /> Ambient occlusion <kbd>O</kbd></label>
+      <label><input type="checkbox" id="set-ground" /> Studio floor <kbd>G</kbd></label>
+      <label><input type="checkbox" id="set-labels" /> Labels <kbd>L</kbd></label>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="modal hidden" role="dialog" aria-modal="true" aria-label="About this model">
+  <div class="modal-card" id="about-card"></div>
+</div>
+
+<div id="loading">
+  <div class="load-card">
+    <div class="spinner" aria-hidden="true"></div>
+    <h1 id="load-title">Loading model</h1>
+    <div class="bar"><div id="load-bar"></div></div>
+    <p id="load-msg">Starting…</p>
+  </div>
+</div>
+
+</body>
+</html>
