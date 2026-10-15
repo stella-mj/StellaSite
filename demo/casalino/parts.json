@@ -1,0 +1,2012 @@
+{
+ "title": "Casalino – percorso museale",
+ "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
+ "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
+ "generated": "2026-10-15 18:57",
+ "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
+ "systems": [
+  {
+   "id": "piano_primo",
+   "name": "Piano primo (1)",
+   "color": "#c98a4b",
+   "desc": "Piano primo: Sala video (Stanza 1) e stanze 2-9, più scala, passaggi e locali staff.",
+   "explode": [
+    0,
+    0,
+    0
+   ],
+   "stage": [
+    0.0,
+    1.0
+   ],
+   "hidden": false
+  },
+  {
+   "id": "piano_terra",
+   "name": "Piano terra (0)",
+   "color": "#5b8fb9",
+   "desc": "Piano terra: Hall di ingresso (Stanza 18) e stanze 10-17, più scala, servizi e locali tecnici.",
+   "explode": [
+    0,
+    0,
+    0
+   ],
+   "stage": [
+    0.0,
+    1.0
+   ],
+   "hidden": false
+  }
+ ],
+ "parts": [
+  {
+   "id": "cas_s01",
+   "name": "Stanza 1 – Video introduttivo (Sala video)",
+   "system": "piano_primo",
+   "desc": "STANZA 01 – VIDEO INTRODUTTIVO. IN QUESTA SALA VERRÀ PROIETTATO UN VIDEO SEMPLICE ED INTUITIVO PER DARE AL VISITATORE LA COMPRENSIONE DEL PERIODO STORICO DEL QUALE SI PARLERÀ E FAR COMPRENDERE:\n– COME SCOPPIÒ LA GUERRA\n– DOMINIO ITALO-TEDESCO IN EUROPA 1939-1942\n– INVERNO 1942/43 RIBALTAMENTO DELLA SITUAZIONE SUL FRONTE EST\n– CONFERENZA DI CASABLANCA GENNAIO 1943: DECISIONE APERTURA DI UN NUOVO FRONTE, IN ITALIA\n– CON LO SBARCO IN SICILIA INIZIA LA CAMPAGNA D'ITALIA, LA GUERRA TOCCA PAESE PER PAESE TUTTA LA PENISOLA, GLI ALLEATI RISALGONO LENTAMENTE, LIBERANO ROMA FINO AD ARRIVARE QUI NELLE ZONE DEL CHIANTI…\n– A QUESTA CAMPAGNA PARTECIPARONO TANTE NAZIONALITÀ TRA CUI IL SUDAFRICA CON LA 6SAAD ETC ETC\n– TOPOLINO CHE ESCE E INVITA A PROSEGUIRE PER COMPRENDERE DA DOVE ARRIVAVANO QUESTI GIOVANI",
+   "explode": [
+    -10.952,
+    -16.889,
+    -3.75
+   ],
+   "stage": [
+    0.094,
+    0.254
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "37.9 m² [SCALED]",
+    "Altezza pareti": "2.90 m [EST]",
+    "Ordine di visita": "2 di 19"
+   },
+   "facts": [
+    "Schermo curvo invertito rispetto alla pianta: il pubblico siede rivolto verso la parete, non verso le finestre. [EST]"
+   ],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": "1",
+   "flow": 1,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img00.jpg"
+   ],
+   "tris": 683,
+   "bbox": [
+    [
+     -2.28,
+     -2.442,
+     3.55
+    ],
+    [
+     4.747,
+     4.705,
+     6.65
+    ]
+   ]
+  },
+  {
+   "id": "cas_s02",
+   "name": "Stanza 2 – Viaggio in Sudafrica",
+   "system": "piano_primo",
+   "desc": "STANZA 02 – VIAGGIO IN SUDAFRICA, COSA SPINSE A PARTIRE? CON UN PASSAGGIO STUDIATO CON SUONI ARMONIOSI FACCIAMO UN SALTO IN SUDAFRICA DOVE SPIEGARE:\n– L'ASPETTO UMANO DEL RECLUTAMENTO VOLONTARI E IL CLIMA (GIORNALI + MANIFESTI DI RECLUTAMENTO)\n– LE MOTIVAZIONI CHE HANNO SPINTO I GIOVANI A PARTIRE PER UNA GUERRA COSÌ LONTANA\n– LE DISCUSSIONI IN CASA (REALIZZARE UNA FINESTRA SU UNA FARM DOVE TRAMITE VIDEO SI VEDE UNA DISCUSSIONE MADRE - FIGLIO)",
+   "explode": [
+    1.2430000000000003,
+    -17.9195,
+    -3.75
+   ],
+   "stage": [
+    0.138,
+    0.298
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "14.3 m² [SCALED]",
+    "Altezza pareti": "2.75 m [EST]",
+    "Ordine di visita": "3 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": "2",
+   "flow": 2,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img01.jpg",
+    "L1_img02.jpg"
+   ],
+   "tris": 206,
+   "bbox": [
+    [
+     -6.048,
+     -0.38,
+     3.55
+    ],
+    [
+     -2.18,
+     4.704,
+     6.5
+    ]
+   ]
+  },
+  {
+   "id": "cas_s03",
+   "name": "Stanza 3 – La partenza per l'Italia",
+   "system": "piano_primo",
+   "desc": "STANZA 3 – LA PARTENZA PER L'ITALIA. LA DIVISIONE DOPO 1 ANNO DI ADDESTRAMENTO SI IMBARCA DA SUEZ: È IL NOSTRO MOMENTO! NON SAPPIAMO COSA CI ASPETTA! L'ARRIVO IN ITALIA A TARANTO È STATO POSITIVO, IN GRAN PARTE DEI CASI LE PERSONE CI ACCOLGONO E CI TRATTANO BENE. AVANZIAMO FINO A ROMA IN GRAN PARTE SENZA ESSERE SCHIERATI IN PRIMA LINEA. DOPO LA LIBERAZIONE DI ROMA, LA DIVISIONE AVANZÒ LUNGO LA RIVA OCCIDENTALE DEL TEVERE, COMBATTENDO DURAMENTE A CHIUSI DAL 22 AL 26 GIUGNO 1944. PROSEGUÌ POI NELLA PROVINCIA DI SIENA, LIBERANDO SINALUNGA, RAPOLANO E CASTELNUOVO BERARDENGA. A LUGLIO FU FERMATA PER 15 GIORNI SULLA LINEA HILDE, TRA I MONTI DEL CHIANTI, PRIMA DI RIPRENDERE L'AVANZATA VERSO GREVE, LUNGO LA \"HEART'S ROUTE\". FINO AD ARRIVARE QUI… GREVE IN CHIANTI È AD UN PASSO DA NOI…",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.182,
+    0.342
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "19.0 m² [SCALED]",
+    "Altezza pareti": "3.09 m [DWG]",
+    "Ordine di visita": "4 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "3",
+   "flow": 3,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img03.jpg",
+    "L1_img04.jpg"
+   ],
+   "tris": 258,
+   "bbox": [
+    [
+     -9.344,
+     -2.205,
+     3.55
+    ],
+    [
+     -5.509,
+     4.452,
+     6.84
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_passaggio_2_4",
+   "name": "Passaggio",
+   "system": "piano_primo",
+   "desc": "Passaggio tra le stanze 2-3 e la cucina (riquadro tratteggiato sulla pianta).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Circolazione",
+    "Superficie": "4.8 m² [SCALED]",
+    "Altezza pareti": "2.75 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L1",
+   "images": [],
+   "tris": 164,
+   "bbox": [
+    [
+     -5.542,
+     -2.239,
+     3.55
+    ],
+    [
+     -2.197,
+     -0.317,
+     6.5
+    ]
+   ]
+  },
+  {
+   "id": "cas_s04",
+   "name": "Stanza 4 – Cucina contadina toscana",
+   "system": "piano_primo",
+   "desc": "STANZA 04 – SIAMO IN UNA CUCINA CONTADINA TOSCANA NEL 1944. PIT STOP AND GO. LA CUCINA ERA IL CUORE DELLA CASA, DOVE SI CONSUMAVANO I PASTI. ERA DOTATA DI UN GRANDE FOCOLARE O DI UN FORNO IN MURATURA CHE VENIVA UTILIZZATO PER CUCINARE, SCALDARE L'AMBIENTE E RISCALDARE L'ACQUA. NELLE SERE D'INVERNO, IL FOCOLARE OFFRIVA UN PUNTO DI RITROVO PER TUTTA LA FAMIGLIA.",
+   "explode": [
+    15.262000000000002,
+    -10.8645,
+    -3.75
+   ],
+   "stage": [
+    0.226,
+    0.386
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "39.1 m² [SCALED]",
+    "Altezza pareti": "2.70 m [DWG]",
+    "Ordine di visita": "5 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "4",
+   "flow": 4,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img05.jpg"
+   ],
+   "tris": 492,
+   "bbox": [
+    [
+     -9.564,
+     -7.681,
+     3.55
+    ],
+    [
+     -0.575,
+     -2.105,
+     6.45
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_passaggio_4_5",
+   "name": "Passaggio",
+   "system": "piano_primo",
+   "desc": "Passaggio tra la cucina e la dispensa (riquadro tratteggiato sulla pianta).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Circolazione",
+    "Superficie": "4.1 m² [SCALED]",
+    "Altezza pareti": "2.70 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L1",
+   "images": [],
+   "tris": 236,
+   "bbox": [
+    [
+     -0.623,
+     -3.911,
+     3.55
+    ],
+    [
+     3.329,
+     -2.223,
+     6.45
+    ]
+   ]
+  },
+  {
+   "id": "cas_s05",
+   "name": "Stanza 5 – Dispensa",
+   "system": "piano_primo",
+   "desc": "STANZA 05 – DISPENSA.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.269,
+    0.429
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "11.3 m² [SCALED]",
+    "Altezza pareti": "2.63 m [DWG]",
+    "Ordine di visita": "6 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "5",
+   "flow": 5,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [],
+   "tris": 287,
+   "bbox": [
+    [
+     -0.76,
+     -7.938,
+     3.55
+    ],
+    [
+     3.379,
+     -3.66,
+     6.38
+    ]
+   ]
+  },
+  {
+   "id": "cas_s06",
+   "name": "Stanza 6 – La scuola rurale",
+   "system": "piano_primo",
+   "desc": "STANZA 06 – LA SCUOLA RURALE. DURANTE LA GUERRA LA SCUOLA RURALE ITALIANA ERA SPESSO L'UNICA FORMA DI ISTRUZIONE NELLE CAMPAGNE, CARATTERIZZATA DA PLURICLASSI (PIÙ CLASSI NELLO STESSO AMBIENTE) E MAESTRI UNICI. ERANO STRUTTURE POVERE, A VOLTE UNA SINGOLA STANZA, CHE RISPECCHIAVANO LE DIFFICOLTÀ ECONOMICHE DEL TEMPO. L'ISTRUZIONE UNIVA LE MATERIE BASE (LEGGERE, SCRIVERE, FAR DI CONTO) CON NOZIONI PRATICHE DI VITA CONTADINA.\n\nFOTO DELL'AUTOBUS DELL'EPOCA. BANCHI, SEDIE E CATTEDRA. FOTO MUSSOLINI O RE. LIBRI E MATITE.",
+   "explode": [
+    -15.1365,
+    -20.31,
+    -3.75
+   ],
+   "stage": [
+    0.313,
+    0.473
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "16.3 m² [SCALED]",
+    "Altezza pareti": "2.90 m [EST]",
+    "Ordine di visita": "7 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": "6",
+   "flow": 6,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img06.jpg"
+   ],
+   "tris": 255,
+   "bbox": [
+    [
+     3.312,
+     -7.393,
+     3.55
+    ],
+    [
+     7.541,
+     -2.021,
+     6.65
+    ]
+   ]
+  },
+  {
+   "id": "cas_s07",
+   "name": "Stanza 7 – Stanza del telaio",
+   "system": "piano_primo",
+   "desc": "STANZA 07 – STANZA DEL TELAIO. LA CASA ERA IL LUOGO DOVE LA FAMIGLIA VIVEVA E DORMIVA. SPESSO, GLI SPAZI ERANO LIMITATI E CONDIVISI DA PIÙ GENERAZIONI. DURANTE LA GUERRA, LA CASA POTEVA ANCHE OSPITARE SFOLLATI O FAMILIARI IN FUGA DALLE CITTÀ BOMBARDATE, ED OSPITARE LA SCUOLA RURALE.",
+   "explode": [
+    -13.598499999999998,
+    -19.400499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.357,
+    0.517
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "15.0 m² [SCALED]",
+    "Altezza pareti": "2.85 m [DWG]",
+    "Ordine di visita": "8 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "7",
+   "flow": 7,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [],
+   "tris": 138,
+   "bbox": [
+    [
+     7.403,
+     -7.426,
+     3.55
+    ],
+    [
+     12.943,
+     -3.807,
+     6.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_passaggio_6_8",
+   "name": "Passaggio",
+   "system": "piano_primo",
+   "desc": "Passaggio tra le stanze 6, 7 e 8 (riquadro tratteggiato sulla pianta).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Circolazione",
+    "Superficie": "3.8 m² [SCALED]",
+    "Altezza pareti": "2.85 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L1",
+   "images": [],
+   "tris": 162,
+   "bbox": [
+    [
+     6.931,
+     -3.912,
+     3.55
+    ],
+    [
+     8.786,
+     -0.517,
+     6.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_s08",
+   "name": "Stanza 8 – Camera – vita contadina",
+   "system": "piano_primo",
+   "desc": "STANZA 08 – CAMERA, VITA CONTADINA. DA UNA DELLE FINESTRE POSSIAMO METTERE UN BINOCOLO MILITARE DOVE POTER VEDERE VIGNAMAGGIO… DOVE SONO I TEDESCHI!! IL NOSTRO CARRO SI È GIÀ POSIZIONATO GIÙ, DEVE STARE ATTENTO A QUEL MALEDETTO CANNONE FLAK 88!!!",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.401,
+    0.561
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "11.4 m² [SCALED]",
+    "Altezza pareti": "2.57 m [DWG]",
+    "Ordine di visita": "9 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "8",
+   "flow": 8,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [
+    "L1_img07.jpg"
+   ],
+   "tris": 171,
+   "bbox": [
+    [
+     8.738,
+     -3.894,
+     3.55
+    ],
+    [
+     12.927,
+     -0.415,
+     6.32
+    ]
+   ]
+  },
+  {
+   "id": "cas_s09",
+   "name": "Stanza 9 – Camera – vita contadina",
+   "system": "piano_primo",
+   "desc": "STANZA 09 – CAMERA, VITA CONTADINA.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.445,
+    0.605
+   ],
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "21.9 m² [SCALED]",
+    "Altezza pareti": "2.76 m [DWG]",
+    "Ordine di visita": "10 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "9",
+   "flow": 9,
+   "kind": "exhibit",
+   "floor": "L1",
+   "images": [],
+   "tris": 170,
+   "bbox": [
+    [
+     7.367,
+     -0.515,
+     3.55
+    ],
+    [
+     12.91,
+     4.535,
+     6.51
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_scala",
+   "name": "Scala (piano primo)",
+   "system": "piano_primo",
+   "desc": "Scala e pianerottolo di arrivo al piano primo.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Circolazione",
+    "Superficie": "16.3 m² [SCALED]",
+    "Altezza pareti": "2.60 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L1",
+   "images": [],
+   "tris": 391,
+   "bbox": [
+    [
+     4.242,
+     -2.289,
+     3.55
+    ],
+    [
+     7.826,
+     4.553,
+     6.35
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_ingresso_staff",
+   "name": "Ingresso staff",
+   "system": "piano_primo",
+   "desc": "Ingresso riservato allo staff.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Servizio",
+    "Superficie": "12.7 m² [SCALED]",
+    "Altezza pareti": "2.42 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L1",
+   "images": [],
+   "tris": 238,
+   "bbox": [
+    [
+     -12.892,
+     4.118,
+     3.55
+    ],
+    [
+     -9.106,
+     9.149,
+     6.17
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_locali_staff",
+   "name": "Locali staff",
+   "system": "piano_primo",
+   "desc": "Locali riservati allo staff.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Servizio",
+    "Superficie": "9.0 m² [SCALED]",
+    "Altezza pareti": "2.62 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L1",
+   "images": [],
+   "tris": 206,
+   "bbox": [
+    [
+     -9.307,
+     4.436,
+     3.55
+    ],
+    [
+     -6.794,
+     9.115,
+     6.37
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_bagno_staff",
+   "name": "Bagno staff",
+   "system": "piano_primo",
+   "desc": "Bagno riservato allo staff.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Servizio",
+    "Superficie": "4.5 m² [SCALED]",
+    "Altezza pareti": "2.12 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L1",
+   "images": [],
+   "tris": 158,
+   "bbox": [
+    [
+     -6.792,
+     4.351,
+     3.55
+    ],
+    [
+     -5.139,
+     9.082,
+     5.87
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_legnaia",
+   "name": "Legnaia",
+   "system": "piano_primo",
+   "desc": "Legnaia.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Servizio",
+    "Superficie": "3.7 m² [SCALED]",
+    "Altezza pareti": "1.96 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L1",
+   "images": [],
+   "tris": 156,
+   "bbox": [
+    [
+     -9.665,
+     -9.184,
+     3.55
+    ],
+    [
+     -6.354,
+     -7.123,
+     5.71
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_scala_loggia",
+   "name": "Scala esterna",
+   "system": "piano_primo",
+   "desc": "Rampa di scale verso la loggia.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Circolazione",
+    "Superficie": "4.1 m² [SCALED]",
+    "Altezza pareti": "2.40 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L1",
+   "images": [],
+   "tris": 158,
+   "bbox": [
+    [
+     -6.405,
+     -9.184,
+     3.55
+    ],
+    [
+     -2.874,
+     -7.243,
+     6.15
+    ]
+   ]
+  },
+  {
+   "id": "cas_l1_loggia",
+   "name": "Loggia",
+   "system": "piano_primo",
+   "desc": "Loggia al piano primo.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano primo",
+    "Tipo": "Servizio",
+    "Superficie": "5.2 m² [SCALED]",
+    "Altezza pareti": "2.40 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L1",
+   "images": [],
+   "tris": 289,
+   "bbox": [
+    [
+     -3.195,
+     -9.116,
+     3.55
+    ],
+    [
+     0.98,
+     -7.157,
+     6.15
+    ]
+   ]
+  },
+  {
+   "id": "cas_s18",
+   "name": "Stanza 18 – Hall di ingresso",
+   "system": "piano_terra",
+   "desc": "STANZA 18 – HALL DI INGRESSO. CONSEGNA DELLE AUDIOGUIDE E GUARDAROBA.",
+   "explode": [
+    -27.492000000000004,
+    -17.7,
+    -0.0
+   ],
+   "stage": [
+    0.05,
+    0.21
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "21.9 m² [SCALED]",
+    "Altezza pareti": "3.24 m [DWG]",
+    "Ordine di visita": "1 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "18",
+   "flow": 0,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [],
+   "tris": 171,
+   "bbox": [
+    [
+     7.315,
+     -0.633,
+     -0.2
+    ],
+    [
+     12.859,
+     4.518,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_scala",
+   "name": "Scala (piano terra)",
+   "system": "piano_terra",
+   "desc": "Scala di collegamento tra piano terra e piano primo.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Circolazione",
+    "Superficie": "14.2 m² [SCALED]",
+    "Altezza pareti": "3.24 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L0",
+   "images": [],
+   "tris": 264,
+   "bbox": [
+    [
+     4.31,
+     -2.087,
+     -0.2
+    ],
+    [
+     7.655,
+     4.553,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_ascensore",
+   "name": "Ascensore",
+   "system": "piano_terra",
+   "desc": "Vano ascensore.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "2.0 m² [SCALED]",
+    "Altezza pareti": "3.24 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 86,
+   "bbox": [
+    [
+     4.308,
+     -2.29,
+     -0.2
+    ],
+    [
+     6.109,
+     -0.517,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_disimpegno_wc",
+   "name": "Disimpegno servizi",
+   "system": "piano_terra",
+   "desc": "Corridoio di accesso ai servizi.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Circolazione",
+    "Superficie": "3.5 m² [SCALED]",
+    "Altezza pareti": "3.24 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L0",
+   "images": [],
+   "tris": 185,
+   "bbox": [
+    [
+     5.832,
+     -5.146,
+     -0.2
+    ],
+    [
+     7.385,
+     -2.071,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_wc1",
+   "name": "WC",
+   "system": "piano_terra",
+   "desc": "Servizi igienici.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "2.3 m² [SCALED]",
+    "Altezza pareti": "2.60 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 174,
+   "bbox": [
+    [
+     3.329,
+     -3.641,
+     -0.2
+    ],
+    [
+     5.946,
+     -2.089,
+     2.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_wc2",
+   "name": "WC",
+   "system": "piano_terra",
+   "desc": "Servizi igienici.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "3.0 m² [SCALED]",
+    "Altezza pareti": "2.60 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 141,
+   "bbox": [
+    [
+     3.346,
+     -5.094,
+     -0.2
+    ],
+    [
+     5.931,
+     -3.475,
+     2.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_s10",
+   "name": "Stanza 10 – Il frantoio",
+   "system": "piano_terra",
+   "desc": "STANZA 10 – IL FRANTOIO. RICOSTRUZIONE DEL FRANTOIO ORIGINALE E INSERIMENTO DEGLI ELEMENTI BELLICI. 1 POSTAZIONE RADIO, MAPPE, SPIEGAZIONE DELLA DINAMICA DELLA BATTAGLIA DI GREVE, 1 BANDIERA NAZISTA STRAPPATA A TERRA, EVENTUALI MANICHINI DI 2 FERITI TEDESCHI LASCIATI INDIETRO DOPO ESSERSI RITIRATI A VM? UN AMBIENTE CONTADINO VIVO: PAGLIA A TERRA, OLIVE, FIASCHI DI VINO ETC.\n\nDURANTE LA GUERRA, I FRANTOI RURALI E DI PROPRIETÀ CONTADINA ERANO CENTRALI PER L'ECONOMIA FAMILIARE, ANCHE SE SPESSO DOTATI DI MEZZI ARCAICI E ALIMENTATI DA FORZA UMANA E ANIMALE. DOPO LA MOLITURA, L'OLIO VENIVA IN PARTE CONSUMATO E IN PARTE VENDUTO, RAPPRESENTANDO UN BENE PREZIOSO E UNA RISORSA ECONOMICA VITALE IN UN PERIODO DI PRECARIETÀ. RICOSTRUZIONE FEDELE DEL VECCHIO FRANTOIO.",
+   "explode": [
+    -17.4345,
+    -36.16,
+    -0.0
+   ],
+   "stage": [
+    0.489,
+    0.649
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "37.1 m² [SCALED]",
+    "Altezza pareti": "3.22 m [DWG]",
+    "Ordine di visita": "11 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "10",
+   "flow": 10,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [
+    "L0_img00.jpg"
+   ],
+   "tris": 444,
+   "bbox": [
+    [
+     -2.635,
+     -2.325,
+     -0.2
+    ],
+    [
+     4.556,
+     5.457,
+     3.22
+    ]
+   ]
+  },
+  {
+   "id": "cas_s11",
+   "name": "Stanza 11 – La loggia",
+   "system": "piano_terra",
+   "desc": "STANZA 11 – LA LOGGIA. JEEP WILLYS SUDAFRICANA ARRIVATA COME PATTUGLIA DI AVANGUARDIA CON LE PRIME SCORTE DI MUNIZIONI, TANICHE E CIBO. POSSIBILITÀ DI FARSI UNA FOTO SULLA JEEP? UNA VECCHIA WILLYS POTRÀ ESSERE NASCOSTA ALL'INTERNO DELLA LOGGIA.\n\nLA JEEP ERA STATA USATA DAI SOLDATI SUDAFRICANI, IMPIEGATA COME VEICOLO DA RICOGNIZIONE, TRASPORTO TRUPPE, LEGGERA E PER QUESTO PARTICOLARMENTE ADATTA AI TERRENI SCOSCESI DEL CHIANTI.",
+   "explode": [
+    -8.556499999999998,
+    -41.2345,
+    -0.0
+   ],
+   "stage": [
+    0.533,
+    0.693
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "20.3 m² [SCALED]",
+    "Altezza pareti": "3.20 m [DWG]",
+    "Ordine di visita": "12 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "11",
+   "flow": 11,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [
+    "L0_img01.jpg"
+   ],
+   "tris": 210,
+   "bbox": [
+    [
+     -2.922,
+     4.216,
+     -0.2
+    ],
+    [
+     2.872,
+     9.065,
+     3.2
+    ]
+   ]
+  },
+  {
+   "id": "cas_s12",
+   "name": "Stanza 12 – Stalla e ricovero animali",
+   "system": "piano_terra",
+   "desc": "STALLA E RICOVERO ANIMALI. SPESSO, LA STALLA PER GLI ANIMALI DA LAVORO (BUOI, CAVALLI) E PER IL BESTIAME MINORE ERA COLLOCATA AL PIANO TERRA, TALVOLTA CON UN COLLEGAMENTO DIRETTO CON LA CASA. QUESTA VICINANZA PERMETTEVA DI SORVEGLIARE MEGLIO GLI ANIMALI E SFRUTTARE IL CALORE CHE PRODUCEVANO.\n\nNASCONDIGLI IMPROVVISATI. I DIVERSI SPAZI DELLA CASA, COME SOLAI, CANTINE, FIENILI O PERSINO ANFRATTI NEL TERRENO, VENIVANO UTILIZZATI PER NASCONDERE PERSONE E MATERIALE PREZIOSO COME CIBO E ARMI. IN ALCUNI ANGOLI DELLE STALLE POTREBBERO ESSERE NASCOSTE ARMI, RADIO O MATERIALE MILITARE PREZIOSO.",
+   "explode": [
+    5.076500000000003,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.577,
+    0.737
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "37.0 m² [SCALED]",
+    "Altezza pareti": "2.76 m [DWG]",
+    "Ordine di visita": "13 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "12",
+   "flow": 12,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [
+    "L0_img02.jpg"
+   ],
+   "tris": 294,
+   "bbox": [
+    [
+     -9.361,
+     -2.255,
+     -0.2
+    ],
+    [
+     -2.332,
+     4.451,
+     2.76
+    ]
+   ]
+  },
+  {
+   "id": "cas_s12b",
+   "name": "Stanza 12 – La stanza segreta",
+   "system": "piano_terra",
+   "desc": "STANZA 12 – LA STANZA SEGRETA. PORTA A SCOMPARSA CHE IL VISITATORE DEVE AZIONARE (MOBILE VECCHIO?): SI ENTRA DENTRO LA STANZA DELLA RESISTENZA. PUNTO PER ASCOLTARE LA RADIO, UN SISTEMA DI COMUNICAZIONE SEGRETO CON LE ALTRE BANDE PARTIGIANE, ALCUNI LETTI CON MATERASSI IN PAGLIA.",
+   "explode": [
+    9.600500000000002,
+    -41.378,
+    -0.0
+   ],
+   "stage": [
+    0.621,
+    0.781
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "9.7 m² [SCALED]",
+    "Altezza pareti": "3.00 m [EST]",
+    "Ordine di visita": "14 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": "12",
+   "flow": 13,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [],
+   "tris": 177,
+   "bbox": [
+    [
+     -5.457,
+     4.402,
+     -0.2
+    ],
+    [
+     -2.249,
+     9.166,
+     3.0
+    ]
+   ]
+  },
+  {
+   "id": "cas_s13",
+   "name": "Stanza 13 – Stanza con visori 3D",
+   "system": "piano_terra",
+   "desc": "STANZA 13 – STANZA CON VISORI 3D. ESPERIENZA CON VISORI 3D, PREGHIERA DEI SOLDATI.",
+   "explode": [
+    18.2985,
+    -29.869999999999997,
+    -0.0
+   ],
+   "stage": [
+    0.664,
+    0.824
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "22.1 m² [SCALED]",
+    "Altezza pareti": "2.80 m [DWG]",
+    "Ordine di visita": "15 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "13",
+   "flow": 14,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [
+    "L0_img03.jpg"
+   ],
+   "tris": 242,
+   "bbox": [
+    [
+     -9.547,
+     -7.426,
+     -0.2
+    ],
+    [
+     -3.77,
+     -2.022,
+     2.8
+    ]
+   ]
+  },
+  {
+   "id": "cas_s14",
+   "name": "Stanza 14 – Cantina",
+   "system": "piano_terra",
+   "desc": "STANZA 14 – CANTINA.",
+   "explode": [
+    20.7605,
+    -29.3885,
+    -0.0
+   ],
+   "stage": [
+    0.708,
+    0.868
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "17.7 m² [SCALED]",
+    "Altezza pareti": "2.82 m [DWG]",
+    "Ordine di visita": "16 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "14",
+   "flow": 15,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [],
+   "tris": 417,
+   "bbox": [
+    [
+     -4.832,
+     -9.083,
+     -0.2
+    ],
+    [
+     -0.641,
+     -1.328,
+     2.82
+    ]
+   ]
+  },
+  {
+   "id": "cas_s15",
+   "name": "Stanza 15 – Deposito attrezzi agricoli",
+   "system": "piano_terra",
+   "desc": "STANZA 15 – DEPOSITO ATTREZZI AGRICOLI.",
+   "explode": [
+    -7.7364999999999995,
+    -39.345,
+    -0.0
+   ],
+   "stage": [
+    0.752,
+    0.912
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "16.5 m² [SCALED]",
+    "Altezza pareti": "2.80 m [DWG]",
+    "Ordine di visita": "17 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "15",
+   "flow": 16,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [],
+   "tris": 175,
+   "bbox": [
+    [
+     -0.794,
+     -7.838,
+     -0.2
+    ],
+    [
+     3.362,
+     -2.14,
+     2.8
+    ]
+   ]
+  },
+  {
+   "id": "cas_s16",
+   "name": "Stanza 16 – Uscita al cortile",
+   "system": "piano_terra",
+   "desc": "STANZA 16 – SI ESCE NEL CORTILE ESTERNO PER VISITARE IL CARRARMATO ED IL FORNO.",
+   "explode": [
+    -5.9625,
+    -38.056000000000004,
+    -0.0
+   ],
+   "stage": [
+    0.796,
+    0.956
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "7.3 m² [SCALED]",
+    "Altezza pareti": "2.80 m [EST]",
+    "Ordine di visita": "18 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": "16",
+   "flow": 17,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [],
+   "tris": 168,
+   "bbox": [
+    [
+     2.989,
+     -7.46,
+     -0.2
+    ],
+    [
+     7.333,
+     -5.096,
+     2.8
+    ]
+   ]
+  },
+  {
+   "id": "cas_s17",
+   "name": "Stanza 17 – Filmato finale",
+   "system": "piano_terra",
+   "desc": "STANZA 17 – FILMATO FINALE: LA LIBERAZIONE DI FIRENZE + POSSIBILITÀ DI PARLARE CON IL SOLDATO ADAMSON, IL PRIMO AD ENTRARE A FIRENZE CON LA SUA PATTUGLIA.",
+   "explode": [
+    -4.311500000000002,
+    -38.673,
+    -0.0
+   ],
+   "stage": [
+    0.84,
+    1.0
+   ],
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Stanza del percorso",
+    "Superficie": "15.8 m² [SCALED]",
+    "Altezza pareti": "3.24 m [DWG]",
+    "Ordine di visita": "19 di 19"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": "17",
+   "flow": 18,
+   "kind": "exhibit",
+   "floor": "L0",
+   "images": [
+    "L0_img04.jpg",
+    "L0_img05.jpg"
+   ],
+   "tris": 255,
+   "bbox": [
+    [
+     7.082,
+     -7.477,
+     -0.2
+    ],
+    [
+     12.892,
+     -3.845,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_passaggio",
+   "name": "Passaggio verso la hall",
+   "system": "piano_terra",
+   "desc": "Ambiente di passaggio tra la stanza 17 e la hall di ingresso (non numerato sulla pianta).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Circolazione",
+    "Superficie": "16.5 m² [SCALED]",
+    "Altezza pareti": "3.24 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "circulation",
+   "floor": "L0",
+   "images": [],
+   "tris": 318,
+   "bbox": [
+    [
+     7.385,
+     -4.03,
+     -0.2
+    ],
+    [
+     12.875,
+     0.108,
+     3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_tecnico1",
+   "name": "Locale tecnico",
+   "system": "piano_terra",
+   "desc": "Locale tecnico.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "11.7 m² [SCALED]",
+    "Altezza pareti": "2.58 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 108,
+   "bbox": [
+    [
+     -12.892,
+     4.013,
+     -0.2
+    ],
+    [
+     -8.924,
+     9.082,
+     2.58
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_tecnico2",
+   "name": "Locale tecnico",
+   "system": "piano_terra",
+   "desc": "Locale tecnico.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "13.5 m² [SCALED]",
+    "Altezza pareti": "2.58 m [DWG]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 105,
+   "bbox": [
+    [
+     -9.208,
+     4.386,
+     -0.2
+    ],
+    [
+     -5.443,
+     9.03,
+     2.58
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_ripostiglio1",
+   "name": "Ripostiglio",
+   "system": "piano_terra",
+   "desc": "Piccolo locale di servizio.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "4.6 m² [SCALED]",
+    "Altezza pareti": "2.40 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 123,
+   "bbox": [
+    [
+     -9.597,
+     -9.166,
+     -0.2
+    ],
+    [
+     -5.765,
+     -7.226,
+     2.4
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_ripostiglio2",
+   "name": "Ripostiglio",
+   "system": "piano_terra",
+   "desc": "Piccolo locale di servizio.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "3.0 m² [SCALED]",
+    "Altezza pareti": "2.40 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 180,
+   "bbox": [
+    [
+     -5.931,
+     -9.134,
+     -0.2
+    ],
+    [
+     -3.161,
+     -7.209,
+     2.4
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_ripostiglio3",
+   "name": "Ripostiglio",
+   "system": "piano_terra",
+   "desc": "Piccolo locale di servizio.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Piano": "Piano terra",
+    "Tipo": "Servizio",
+    "Superficie": "2.8 m² [SCALED]",
+    "Altezza pareti": "2.40 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "num": null,
+   "flow": null,
+   "kind": "service",
+   "floor": "L0",
+   "images": [],
+   "tris": 116,
+   "bbox": [
+    [
+     -1.63,
+     -9.065,
+     -0.2
+    ],
+    [
+     0.997,
+     -7.091,
+     2.4
+    ]
+   ]
+  }
+ ],
+ "instances": [],
+ "views": [
+  {
+   "id": "house34",
+   "name": "Casa ¾",
+   "pos": [
+    19.13,
+    -33.12,
+    31.33
+   ],
+   "target": [
+    0.03,
+    -0.01,
+    3.32
+   ],
+   "fov": 32.27
+  },
+  {
+   "id": "house34b",
+   "name": "Casa ¾ (retro)",
+   "pos": [
+    -26.0,
+    34.7,
+    35.13
+   ],
+   "target": [
+    0.03,
+    -0.01,
+    3.32
+   ],
+   "fov": 32.27
+  },
+  {
+   "id": "top",
+   "name": "Pianta",
+   "pos": [
+    0.03,
+    -0.01,
+    39.3
+   ],
+   "target": [
+    0.03,
+    -0.01,
+    3.32
+   ],
+   "ortho": 35.23,
+   "fov": 32.27
+  },
+  {
+   "id": "flow",
+   "name": "Percorso (esploso)",
+   "pos": [
+    0.02,
+    -79.88,
+    91.11
+   ],
+   "target": [
+    0.02,
+    -19.02,
+    3.2
+   ],
+   "fov": 32.27
+  }
+ ],
+ "extras": {
+  "origin_sheet_m": [
+   20.489,
+   -14.65
+  ],
+  "viewer": {
+   "labels": true
+  },
+  "flow": [
+   {
+    "flow": 0,
+    "part": "cas_s18",
+    "num": "18",
+    "name": "Hall di ingresso",
+    "floor": "L0"
+   },
+   {
+    "flow": 1,
+    "part": "cas_s01",
+    "num": "1",
+    "name": "Video introduttivo (Sala video)",
+    "floor": "L1"
+   },
+   {
+    "flow": 2,
+    "part": "cas_s02",
+    "num": "2",
+    "name": "Viaggio in Sudafrica",
+    "floor": "L1"
+   },
+   {
+    "flow": 3,
+    "part": "cas_s03",
+    "num": "3",
+    "name": "La partenza per l'Italia",
+    "floor": "L1"
+   },
+   {
+    "flow": 4,
+    "part": "cas_s04",
+    "num": "4",
+    "name": "Cucina contadina toscana",
+    "floor": "L1"
+   },
+   {
+    "flow": 5,
+    "part": "cas_s05",
+    "num": "5",
+    "name": "Dispensa",
+    "floor": "L1"
+   },
+   {
+    "flow": 6,
+    "part": "cas_s06",
+    "num": "6",
+    "name": "La scuola rurale",
+    "floor": "L1"
+   },
+   {
+    "flow": 7,
+    "part": "cas_s07",
+    "num": "7",
+    "name": "Stanza del telaio",
+    "floor": "L1"
+   },
+   {
+    "flow": 8,
+    "part": "cas_s08",
+    "num": "8",
+    "name": "Camera – vita contadina",
+    "floor": "L1"
+   },
+   {
+    "flow": 9,
+    "part": "cas_s09",
+    "num": "9",
+    "name": "Camera – vita contadina",
+    "floor": "L1"
+   },
+   {
+    "flow": 10,
+    "part": "cas_s10",
+    "num": "10",
+    "name": "Il frantoio",
+    "floor": "L0"
+   },
+   {
+    "flow": 11,
+    "part": "cas_s11",
+    "num": "11",
+    "name": "La loggia",
+    "floor": "L0"
+   },
+   {
+    "flow": 12,
+    "part": "cas_s12",
+    "num": "12",
+    "name": "Stalla e ricovero animali",
+    "floor": "L0"
+   },
+   {
+    "flow": 13,
+    "part": "cas_s12b",
+    "num": "12",
+    "name": "La stanza segreta",
+    "floor": "L0"
+   },
+   {
+    "flow": 14,
+    "part": "cas_s13",
+    "num": "13",
+    "name": "Stanza con visori 3D",
+    "floor": "L0"
+   },
+   {
+    "flow": 15,
+    "part": "cas_s14",
+    "num": "14",
+    "name": "Cantina",
+    "floor": "L0"
+   },
+   {
+    "flow": 16,
+    "part": "cas_s15",
+    "num": "15",
+    "name": "Deposito attrezzi agricoli",
+    "floor": "L0"
+   },
+   {
+    "flow": 17,
+    "part": "cas_s16",
+    "num": "16",
+    "name": "Uscita al cortile",
+    "floor": "L0"
+   },
+   {
+    "flow": 18,
+    "part": "cas_s17",
+    "num": "17",
+    "name": "Filmato finale",
+    "floor": "L0"
+   }
+  ]
+ }
+}
