@@ -2,7 +2,7 @@
  "title": "Casalino – percorso museale",
  "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
  "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
- "generated": "2026-10-15 18:57",
+ "generated": "2026-10-15 21:49",
  "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
  "systems": [
   {
@@ -50,15 +50,15 @@
     -3.75
    ],
    "stage": [
-    0.094,
-    0.254
+    0.092,
+    0.252
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "37.9 m² [SCALED]",
     "Altezza pareti": "2.90 m [EST]",
-    "Ordine di visita": "2 di 19"
+    "Ordine di visita": "2 di 20"
    },
    "facts": [
     "Schermo curvo invertito rispetto alla pianta: il pubblico siede rivolto verso la parete, non verso le finestre. [EST]"
@@ -100,15 +100,15 @@
     -3.75
    ],
    "stage": [
-    0.138,
-    0.298
+    0.133,
+    0.293
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "14.3 m² [SCALED]",
     "Altezza pareti": "2.75 m [EST]",
-    "Ordine di visita": "3 di 19"
+    "Ordine di visita": "3 di 20"
    },
    "facts": [],
    "sources": [
@@ -149,15 +149,15 @@
     -3.75
    ],
    "stage": [
-    0.182,
-    0.342
+    0.175,
+    0.335
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "19.0 m² [SCALED]",
     "Altezza pareti": "3.09 m [DWG]",
-    "Ordine di visita": "4 di 19"
+    "Ordine di visita": "4 di 20"
    },
    "facts": [],
    "sources": [
@@ -239,15 +239,15 @@
     -3.75
    ],
    "stage": [
-    0.226,
-    0.386
+    0.216,
+    0.376
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "39.1 m² [SCALED]",
     "Altezza pareti": "2.70 m [DWG]",
-    "Ordine di visita": "5 di 19"
+    "Ordine di visita": "5 di 20"
    },
    "facts": [],
    "sources": [
@@ -272,6 +272,84 @@
      -0.575,
      -2.105,
      6.45
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s04_0",
+   "name": "Focolare",
+   "system": "piano_primo",
+   "desc": "Grande focolare in muratura con cappa: cucinare, scaldare l'ambiente e l'acqua.",
+   "explode": [
+    15.262000000000002,
+    -10.8645,
+    -3.75
+   ],
+   "stage": [
+    0.216,
+    0.376
+   ],
+   "specs": {
+    "Stanza": "Stanza 4 – Cucina contadina toscana",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s04",
+   "floor": "L1",
+   "tris": 72,
+   "bbox": [
+    [
+     -6.708,
+     -7.145,
+     3.75
+    ],
+    [
+     -4.508,
+     -6.245,
+     5.95
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s04_1",
+   "name": "Tavola e panche",
+   "system": "piano_primo",
+   "desc": "Tavola della famiglia con panche.",
+   "explode": [
+    15.262000000000002,
+    -10.8645,
+    -3.75
+   ],
+   "stage": [
+    0.216,
+    0.376
+   ],
+   "specs": {
+    "Stanza": "Stanza 4 – Cucina contadina toscana",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s04",
+   "floor": "L1",
+   "tris": 180,
+   "bbox": [
+    [
+     -5.653,
+     -5.272,
+     3.75
+    ],
+    [
+     -3.453,
+     -3.422,
+     4.51
     ]
    ]
   },
@@ -328,15 +406,15 @@
     -3.75
    ],
    "stage": [
-    0.269,
-    0.429
+    0.258,
+    0.418
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "11.3 m² [SCALED]",
     "Altezza pareti": "2.63 m [DWG]",
-    "Ordine di visita": "6 di 19"
+    "Ordine di visita": "6 di 20"
    },
    "facts": [],
    "sources": [
@@ -373,15 +451,15 @@
     -3.75
    ],
    "stage": [
-    0.313,
-    0.473
+    0.299,
+    0.459
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "16.3 m² [SCALED]",
     "Altezza pareti": "2.90 m [EST]",
-    "Ordine di visita": "7 di 19"
+    "Ordine di visita": "7 di 20"
    },
    "facts": [],
    "sources": [
@@ -411,25 +489,64 @@
    ]
   },
   {
-   "id": "cas_s07",
-   "name": "Stanza 7 – Stanza del telaio",
+   "id": "cas_obj_s06_0",
+   "name": "Banchi, cattedra e lavagna",
    "system": "piano_primo",
-   "desc": "STANZA 07 – STANZA DEL TELAIO. LA CASA ERA IL LUOGO DOVE LA FAMIGLIA VIVEVA E DORMIVA. SPESSO, GLI SPAZI ERANO LIMITATI E CONDIVISI DA PIÙ GENERAZIONI. DURANTE LA GUERRA, LA CASA POTEVA ANCHE OSPITARE SFOLLATI O FAMILIARI IN FUGA DALLE CITTÀ BOMBARDATE, ED OSPITARE LA SCUOLA RURALE.",
+   "desc": "Pluriclasse: banchi biposto, cattedra su pedana e lavagna. Foto del Re o di Mussolini, libri e matite.",
+   "explode": [
+    -15.1365,
+    -20.31,
+    -3.75
+   ],
+   "stage": [
+    0.299,
+    0.459
+   ],
+   "specs": {
+    "Stanza": "Stanza 6 – La scuola rurale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s06",
+   "floor": "L1",
+   "tris": 804,
+   "bbox": [
+    [
+     4.083,
+     -6.917,
+     3.75
+    ],
+    [
+     6.784,
+     -3.052,
+     5.65
+    ]
+   ]
+  },
+  {
+   "id": "cas_s07",
+   "name": "Stanza 7 – Stanza degli attrezzi e del telaio",
+   "system": "piano_primo",
+   "desc": "STANZA 07 – STANZA DEGLI ATTREZZI E DEL TELAIO. Vita contadina toscana nel '44: tono domestico, con un piccolo sottofondo di guerra.\n\nDalla pianta del 09/10/2026: STANZA 07 – STANZA DEL TELAIO. LA CASA ERA IL LUOGO DOVE LA FAMIGLIA VIVEVA E DORMIVA. SPESSO, GLI SPAZI ERANO LIMITATI E CONDIVISI DA PIÙ GENERAZIONI. DURANTE LA GUERRA, LA CASA POTEVA ANCHE OSPITARE SFOLLATI O FAMILIARI IN FUGA DALLE CITTÀ BOMBARDATE, ED OSPITARE LA SCUOLA RURALE.",
    "explode": [
     -13.598499999999998,
     -19.400499999999997,
     -3.75
    ],
    "stage": [
-    0.357,
-    0.517
+    0.341,
+    0.501
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "15.0 m² [SCALED]",
     "Altezza pareti": "2.85 m [DWG]",
-    "Ordine di visita": "8 di 19"
+    "Ordine di visita": "8 di 20"
    },
    "facts": [],
    "sources": [
@@ -452,6 +569,45 @@
      12.943,
      -3.807,
      6.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s07_0",
+   "name": "Telaio a mano",
+   "system": "piano_primo",
+   "desc": "Telaio a mano (circa 1.6 × 1.8 m).",
+   "explode": [
+    -13.598499999999998,
+    -19.400499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.341,
+    0.501
+   ],
+   "specs": {
+    "Stanza": "Stanza 7 – Stanza degli attrezzi e del telaio",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s07",
+   "floor": "L1",
+   "tris": 156,
+   "bbox": [
+    [
+     8.756,
+     -6.834,
+     3.75
+    ],
+    [
+     10.356,
+     -4.584,
+     5.45
     ]
    ]
   },
@@ -499,24 +655,24 @@
   },
   {
    "id": "cas_s08",
-   "name": "Stanza 8 – Camera – vita contadina",
+   "name": "Stanza 8 – Camera dei tre figli",
    "system": "piano_primo",
-   "desc": "STANZA 08 – CAMERA, VITA CONTADINA. DA UNA DELLE FINESTRE POSSIAMO METTERE UN BINOCOLO MILITARE DOVE POTER VEDERE VIGNAMAGGIO… DOVE SONO I TEDESCHI!! IL NOSTRO CARRO SI È GIÀ POSIZIONATO GIÙ, DEVE STARE ATTENTO A QUEL MALEDETTO CANNONE FLAK 88!!!",
+   "desc": "STANZA 08 – CAMERA DEI TRE FIGLI. Vita contadina toscana nel '44, tono domestico con sottofondo di guerra; ansia crescente verso la discesa.\n\nDalla pianta del 09/10/2026: STANZA 08 – CAMERA, VITA CONTADINA. DA UNA DELLE FINESTRE POSSIAMO METTERE UN BINOCOLO MILITARE DOVE POTER VEDERE VIGNAMAGGIO… DOVE SONO I TEDESCHI!! IL NOSTRO CARRO SI È GIÀ POSIZIONATO GIÙ, DEVE STARE ATTENTO A QUEL MALEDETTO CANNONE FLAK 88!!!",
    "explode": [
     -7.9945,
     -22.862499999999997,
     -3.75
    ],
    "stage": [
-    0.401,
-    0.561
+    0.383,
+    0.543
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "11.4 m² [SCALED]",
     "Altezza pareti": "2.57 m [DWG]",
-    "Ordine di visita": "9 di 19"
+    "Ordine di visita": "9 di 20"
    },
    "facts": [],
    "sources": [
@@ -545,25 +701,142 @@
    ]
   },
   {
-   "id": "cas_s09",
-   "name": "Stanza 9 – Camera – vita contadina",
+   "id": "cas_obj_s08_0",
+   "name": "Letto 1",
    "system": "piano_primo",
-   "desc": "STANZA 09 – CAMERA, VITA CONTADINA.",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "tris": 48,
+   "bbox": [
+    [
+     9.089,
+     -2.613,
+     3.75
+    ],
+    [
+     9.989,
+     -0.713,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s08_1",
+   "name": "Letto 2",
+   "system": "piano_primo",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "tris": 48,
+   "bbox": [
+    [
+     10.179,
+     -2.613,
+     3.75
+    ],
+    [
+     11.079,
+     -0.713,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s08_2",
+   "name": "Letto 3",
+   "system": "piano_primo",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "tris": 48,
+   "bbox": [
+    [
+     11.269,
+     -2.613,
+     3.75
+    ],
+    [
+     12.169,
+     -0.713,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_s09",
+   "name": "Stanza 9 – Camera matrimoniale",
+   "system": "piano_primo",
+   "desc": "STANZA 09 – CAMERA MATRIMONIALE. Deve anticipare la tensione prima della discesa al piano inferiore.\n\nFINESTRA FALSA: la finestra sulla facciata verso i cipressi (hd 91, hf 135) non ha vista reale ed è ideale per uno schermo. Video in bianco e nero, discreto: paesaggio di Vignamaggio con aerei o fumo lontano. Loop orario con cambio della luce solare (solo estate '44). Schermo vero preferito alla finestra a pixel sovrapposti; nessun foro nei muri, integrazione con l'arredo (letto, armadio).\n\nAUDIO: urla e voci tedesche udibili dalle stanze superiori durante il percorso.\n\nDalla pianta del 09/10/2026: STANZA 09 – CAMERA, VITA CONTADINA.",
    "explode": [
     -1.0355000000000025,
     -27.026999999999997,
     -3.75
    ],
    "stage": [
-    0.445,
-    0.605
+    0.424,
+    0.584
    ],
    "specs": {
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "21.9 m² [SCALED]",
     "Altezza pareti": "2.76 m [DWG]",
-    "Ordine di visita": "10 di 19"
+    "Ordine di visita": "10 di 20"
    },
    "facts": [],
    "sources": [
@@ -586,6 +859,123 @@
      12.91,
      4.535,
      6.51
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_0",
+   "name": "Letto matrimoniale",
+   "system": "piano_primo",
+   "desc": "Letto matrimoniale.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "tris": 48,
+   "bbox": [
+    [
+     7.667,
+     1.067,
+     3.75
+    ],
+    [
+     9.717,
+     2.717,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_1",
+   "name": "Armadio",
+   "system": "piano_primo",
+   "desc": "Armadio.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "tris": 24,
+   "bbox": [
+    [
+     8.466,
+     -0.335,
+     3.75
+    ],
+    [
+     9.666,
+     0.275,
+     5.75
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_2",
+   "name": "Finestra falsa (schermo)",
+   "system": "piano_primo",
+   "desc": "Schermo dietro la finestra verso i cipressi: video in bianco e nero, estate '44, luce che cambia nell'arco della giornata.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "tris": 84,
+   "bbox": [
+    [
+     12.299,
+     1.382,
+     4.6
+    ],
+    [
+     12.358,
+     2.402,
+     6.07
     ]
    ]
   },
@@ -881,7 +1271,7 @@
    "id": "cas_s18",
    "name": "Stanza 18 – Hall di ingresso",
    "system": "piano_terra",
-   "desc": "STANZA 18 – HALL DI INGRESSO. CONSEGNA DELLE AUDIOGUIDE E GUARDAROBA.",
+   "desc": "STANZA 18 – HALL DI INGRESSO. CONSEGNA DELLE AUDIOGUIDE E GUARDAROBA.\n\nUltima campata del corridoio finale: le proiezioni della parete ovest continuano fino alla hall, dove si riconsegnano le audioguide.",
    "explode": [
     -27.492000000000004,
     -17.7,
@@ -896,7 +1286,7 @@
     "Tipo": "Stanza del percorso",
     "Superficie": "21.9 m² [SCALED]",
     "Altezza pareti": "3.24 m [DWG]",
-    "Ordine di visita": "1 di 19"
+    "Ordine di visita": "1 di 20"
    },
    "facts": [],
    "sources": [
@@ -919,6 +1309,45 @@
      12.859,
      4.518,
      3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s18_0",
+   "name": "Parete di proiezione",
+   "system": "piano_terra",
+   "desc": "Ultimo tratto della proiezione immersiva (parete ovest).",
+   "explode": [
+    -27.492000000000004,
+    -17.7,
+    -0.0
+   ],
+   "stage": [
+    0.05,
+    0.21
+   ],
+   "specs": {
+    "Stanza": "Stanza 18 – Hall di ingresso",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s18",
+   "floor": "L0",
+   "tris": 12,
+   "bbox": [
+    [
+     7.734,
+     -0.324,
+     0.3
+    ],
+    [
+     7.765,
+     3.888,
+     2.7
     ]
    ]
   },
@@ -1134,24 +1563,24 @@
   },
   {
    "id": "cas_s10",
-   "name": "Stanza 10 – Il frantoio",
+   "name": "Stanza 10 – Il frantoio – i soldati sudafricani",
    "system": "piano_terra",
-   "desc": "STANZA 10 – IL FRANTOIO. RICOSTRUZIONE DEL FRANTOIO ORIGINALE E INSERIMENTO DEGLI ELEMENTI BELLICI. 1 POSTAZIONE RADIO, MAPPE, SPIEGAZIONE DELLA DINAMICA DELLA BATTAGLIA DI GREVE, 1 BANDIERA NAZISTA STRAPPATA A TERRA, EVENTUALI MANICHINI DI 2 FERITI TEDESCHI LASCIATI INDIETRO DOPO ESSERSI RITIRATI A VM? UN AMBIENTE CONTADINO VIVO: PAGLIA A TERRA, OLIVE, FIASCHI DI VINO ETC.\n\nDURANTE LA GUERRA, I FRANTOI RURALI E DI PROPRIETÀ CONTADINA ERANO CENTRALI PER L'ECONOMIA FAMILIARE, ANCHE SE SPESSO DOTATI DI MEZZI ARCAICI E ALIMENTATI DA FORZA UMANA E ANIMALE. DOPO LA MOLITURA, L'OLIO VENIVA IN PARTE CONSUMATO E IN PARTE VENDUTO, RAPPRESENTANDO UN BENE PREZIOSO E UNA RISORSA ECONOMICA VITALE IN UN PERIODO DI PRECARIETÀ. RICOSTRUZIONE FEDELE DEL VECCHIO FRANTOIO.",
+   "desc": "STANZA 10 – IL FRANTOIO: I SOLDATI SUDAFRICANI IN ITALIA. Introduzione alla guerra, non il climax. Il frantoio è occupato dai sudafricani come punto radio: mappa, sigarette, divise; atmosfera di sfrontatezza e sicurezza. La pressa dell'olio originale verrà ricostruita nello spazio (angolo in basso a destra); la macina nella zona circolare.\n\nDalla pianta del 09/10/2026: STANZA 10 – IL FRANTOIO. RICOSTRUZIONE DEL FRANTOIO ORIGINALE E INSERIMENTO DEGLI ELEMENTI BELLICI. 1 POSTAZIONE RADIO, MAPPE, SPIEGAZIONE DELLA DINAMICA DELLA BATTAGLIA DI GREVE, 1 BANDIERA NAZISTA STRAPPATA A TERRA, EVENTUALI MANICHINI DI 2 FERITI TEDESCHI LASCIATI INDIETRO DOPO ESSERSI RITIRATI A VM? UN AMBIENTE CONTADINO VIVO: PAGLIA A TERRA, OLIVE, FIASCHI DI VINO ETC.\n\nDURANTE LA GUERRA, I FRANTOI RURALI E DI PROPRIETÀ CONTADINA ERANO CENTRALI PER L'ECONOMIA FAMILIARE, ANCHE SE SPESSO DOTATI DI MEZZI ARCAICI E ALIMENTATI DA FORZA UMANA E ANIMALE. DOPO LA MOLITURA, L'OLIO VENIVA IN PARTE CONSUMATO E IN PARTE VENDUTO, RAPPRESENTANDO UN BENE PREZIOSO E UNA RISORSA ECONOMICA VITALE IN UN PERIODO DI PRECARIETÀ. RICOSTRUZIONE FEDELE DEL VECCHIO FRANTOIO.",
    "explode": [
     -17.4345,
     -36.16,
     -0.0
    ],
    "stage": [
-    0.489,
-    0.649
+    0.466,
+    0.626
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "37.1 m² [SCALED]",
     "Altezza pareti": "3.22 m [DWG]",
-    "Ordine di visita": "11 di 19"
+    "Ordine di visita": "11 di 20"
    },
    "facts": [],
    "sources": [
@@ -1180,30 +1609,148 @@
    ]
   },
   {
-   "id": "cas_s11",
-   "name": "Stanza 11 – La loggia",
+   "id": "cas_obj_s10_0",
+   "name": "Macina",
    "system": "piano_terra",
-   "desc": "STANZA 11 – LA LOGGIA. JEEP WILLYS SUDAFRICANA ARRIVATA COME PATTUGLIA DI AVANGUARDIA CON LE PRIME SCORTE DI MUNIZIONI, TANICHE E CIBO. POSSIBILITÀ DI FARSI UNA FOTO SULLA JEEP? UNA VECCHIA WILLYS POTRÀ ESSERE NASCOSTA ALL'INTERNO DELLA LOGGIA.\n\nLA JEEP ERA STATA USATA DAI SOLDATI SUDAFRICANI, IMPIEGATA COME VEICOLO DA RICOGNIZIONE, TRASPORTO TRUPPE, LEGGERA E PER QUESTO PARTICOLARMENTE ADATTA AI TERRENI SCOSCESI DEL CHIANTI.",
+   "desc": "Macina in pietra nella zona circolare: vasca di circa 2.4 m con due mole verticali.",
+   "explode": [
+    -17.4345,
+    -36.16,
+    -0.0
+   ],
+   "stage": [
+    0.466,
+    0.626
+   ],
+   "specs": {
+    "Stanza": "Stanza 10 – Il frantoio – i soldati sudafricani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s10",
+   "floor": "L0",
+   "tris": 488,
+   "bbox": [
+    [
+     -0.479,
+     0.03,
+     0.0
+    ],
+    [
+     2.721,
+     2.43,
+     2.92
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s10_1",
+   "name": "Pressa dell'olio",
+   "system": "piano_terra",
+   "desc": "Pressa dell'olio originale, ricostruita nell'angolo in basso a destra, con le pile di fiscoli.",
+   "explode": [
+    -17.4345,
+    -36.16,
+    -0.0
+   ],
+   "stage": [
+    0.466,
+    0.626
+   ],
+   "specs": {
+    "Stanza": "Stanza 10 – Il frantoio – i soldati sudafricani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s10",
+   "floor": "L0",
+   "tris": 864,
+   "bbox": [
+    [
+     2.374,
+     -1.828,
+     0.0
+    ],
+    [
+     3.974,
+     -0.328,
+     2.8
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s10_2",
+   "name": "Punto radio sudafricano",
+   "system": "piano_terra",
+   "desc": "Postazione radio (Wireless Set No. 19), mappa, sigarette e divise dei soldati sudafricani.",
+   "explode": [
+    -17.4345,
+    -36.16,
+    -0.0
+   ],
+   "stage": [
+    0.466,
+    0.626
+   ],
+   "specs": {
+    "Stanza": "Stanza 10 – Il frantoio – i soldati sudafricani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s10",
+   "floor": "L0",
+   "tris": 276,
+   "bbox": [
+    [
+     2.014,
+     2.748,
+     0.0
+    ],
+    [
+     3.814,
+     4.018,
+     2.05
+    ]
+   ]
+  },
+  {
+   "id": "cas_s11",
+   "name": "Stanza 11 – La loggia – i prigionieri tedeschi",
+   "system": "piano_terra",
+   "desc": "STANZA 11 – LA LOGGIA: SOLDATO TEDESCO PRIGIONIERO. Transizione tra il frantoio e la stanza dei partigiani.\n\nDue prigionieri tedeschi scalzi, seduti o sdraiati a terra, sorvegliati (riferimento: il disegno di Donaldo con due prigionieri [ORALE]). Togliere le scarpe era la tecnica per impedire la fuga [ORALE].\n\nProiezione su muro intero, non schermo incorniciato, in una finta rientranza/alcova per dare profondità; personaggio a grandezza reale, luminosità bassa; il soldato sdraiato è preferibile. L'ospite può fare domande al personaggio: narrazione audio di 40 secondi, poi apertura al dialogo (da gestire: moderazione delle risposte AI). Possibile attore reale per girare il materiale video.\n\nIn fondo alla loggia, la porta nascosta verso la stanza dei partigiani.\n\nDalla pianta del 09/10/2026: STANZA 11 – LA LOGGIA. JEEP WILLYS SUDAFRICANA ARRIVATA COME PATTUGLIA DI AVANGUARDIA CON LE PRIME SCORTE DI MUNIZIONI, TANICHE E CIBO. POSSIBILITÀ DI FARSI UNA FOTO SULLA JEEP? UNA VECCHIA WILLYS POTRÀ ESSERE NASCOSTA ALL'INTERNO DELLA LOGGIA.\n\nLA JEEP ERA STATA USATA DAI SOLDATI SUDAFRICANI, IMPIEGATA COME VEICOLO DA RICOGNIZIONE, TRASPORTO TRUPPE, LEGGERA E PER QUESTO PARTICOLARMENTE ADATTA AI TERRENI SCOSCESI DEL CHIANTI.",
    "explode": [
     -8.556499999999998,
     -41.2345,
     -0.0
    ],
    "stage": [
-    0.533,
-    0.693
+    0.507,
+    0.667
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "20.3 m² [SCALED]",
     "Altezza pareti": "3.20 m [DWG]",
-    "Ordine di visita": "12 di 19"
+    "Ordine di visita": "12 di 20"
    },
    "facts": [],
    "sources": [
     "DWG",
-    "SCALED"
+    "SCALED",
+    "ORALE"
    ],
    "num": "11",
    "flow": 11,
@@ -1227,25 +1774,103 @@
    ]
   },
   {
+   "id": "cas_obj_s11_0",
+   "name": "Alcova di proiezione (prigionieri)",
+   "system": "piano_terra",
+   "desc": "Finta rientranza con proiezione a parete intera: due prigionieri tedeschi scalzi, uno sdraiato. Proiettore a ottica ultra-corta, microfono per le domande.",
+   "explode": [
+    -8.556499999999998,
+    -41.2345,
+    -0.0
+   ],
+   "stage": [
+    0.507,
+    0.667
+   ],
+   "specs": {
+    "Stanza": "Stanza 11 – La loggia – i prigionieri tedeschi",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s11",
+   "floor": "L0",
+   "tris": 444,
+   "bbox": [
+    [
+     -2.0,
+     6.912,
+     0.0
+    ],
+    [
+     1.8,
+     8.462,
+     2.7
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s11_1",
+   "name": "Porta nascosta",
+   "system": "piano_terra",
+   "desc": "Porta nascosta (mobile vecchio a scomparsa) in fondo alla loggia: accesso alla stanza dei partigiani. Nuova apertura, oggi c'è solo una finestra.",
+   "explode": [
+    -8.556499999999998,
+    -41.2345,
+    -0.0
+   ],
+   "stage": [
+    0.507,
+    0.667
+   ],
+   "specs": {
+    "Stanza": "Stanza 11 – La loggia – i prigionieri tedeschi",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s11",
+   "floor": "L0",
+   "tris": 36,
+   "bbox": [
+    [
+     -2.506,
+     5.989,
+     0.0
+    ],
+    [
+     -1.985,
+     7.089,
+     2.1
+    ]
+   ]
+  },
+  {
    "id": "cas_s12",
    "name": "Stanza 12 – Stalla e ricovero animali",
    "system": "piano_terra",
    "desc": "STALLA E RICOVERO ANIMALI. SPESSO, LA STALLA PER GLI ANIMALI DA LAVORO (BUOI, CAVALLI) E PER IL BESTIAME MINORE ERA COLLOCATA AL PIANO TERRA, TALVOLTA CON UN COLLEGAMENTO DIRETTO CON LA CASA. QUESTA VICINANZA PERMETTEVA DI SORVEGLIARE MEGLIO GLI ANIMALI E SFRUTTARE IL CALORE CHE PRODUCEVANO.\n\nNASCONDIGLI IMPROVVISATI. I DIVERSI SPAZI DELLA CASA, COME SOLAI, CANTINE, FIENILI O PERSINO ANFRATTI NEL TERRENO, VENIVANO UTILIZZATI PER NASCONDERE PERSONE E MATERIALE PREZIOSO COME CIBO E ARMI. IN ALCUNI ANGOLI DELLE STALLE POTREBBERO ESSERE NASCOSTE ARMI, RADIO O MATERIALE MILITARE PREZIOSO.",
    "explode": [
-    5.076500000000003,
+    9.684500000000002,
     -35.692,
     -0.0
    ],
    "stage": [
-    0.577,
-    0.737
+    0.591,
+    0.751
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "37.0 m² [SCALED]",
     "Altezza pareti": "2.76 m [DWG]",
-    "Ordine di visita": "13 di 19"
+    "Ordine di visita": "14 di 20"
    },
    "facts": [],
    "sources": [
@@ -1253,7 +1878,7 @@
     "SCALED"
    ],
    "num": "12",
-   "flow": 12,
+   "flow": 13,
    "kind": "exhibit",
    "floor": "L0",
    "images": [
@@ -1275,24 +1900,24 @@
   },
   {
    "id": "cas_s12b",
-   "name": "Stanza 12 – La stanza segreta",
+   "name": "Stanza 12 – La stanza dei partigiani",
    "system": "piano_terra",
-   "desc": "STANZA 12 – LA STANZA SEGRETA. PORTA A SCOMPARSA CHE IL VISITATORE DEVE AZIONARE (MOBILE VECCHIO?): SI ENTRA DENTRO LA STANZA DELLA RESISTENZA. PUNTO PER ASCOLTARE LA RADIO, UN SISTEMA DI COMUNICAZIONE SEGRETO CON LE ALTRE BANDE PARTIGIANE, ALCUNI LETTI CON MATERASSI IN PAGLIA.",
+   "desc": "STANZA 12 – LA STANZA SEGRETA DEI PARTIGIANI (stanza della Resistenza). Accesso tramite la porta nascosta in fondo alla loggia.\n\nDalla pianta del 09/10/2026: STANZA 12 – LA STANZA SEGRETA. PORTA A SCOMPARSA CHE IL VISITATORE DEVE AZIONARE (MOBILE VECCHIO?): SI ENTRA DENTRO LA STANZA DELLA RESISTENZA. PUNTO PER ASCOLTARE LA RADIO, UN SISTEMA DI COMUNICAZIONE SEGRETO CON LE ALTRE BANDE PARTIGIANE, ALCUNI LETTI CON MATERASSI IN PAGLIA.",
    "explode": [
-    9.600500000000002,
+    1.172500000000003,
     -41.378,
     -0.0
    ],
    "stage": [
-    0.621,
-    0.781
+    0.549,
+    0.709
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "9.7 m² [SCALED]",
     "Altezza pareti": "3.00 m [EST]",
-    "Ordine di visita": "14 di 19"
+    "Ordine di visita": "13 di 20"
    },
    "facts": [],
    "sources": [
@@ -1301,7 +1926,7 @@
     "EST"
    ],
    "num": "12",
-   "flow": 13,
+   "flow": 12,
    "kind": "exhibit",
    "floor": "L0",
    "images": [],
@@ -1320,30 +1945,148 @@
    ]
   },
   {
-   "id": "cas_s13",
-   "name": "Stanza 13 – Stanza con visori 3D",
+   "id": "cas_obj_s12b_0",
+   "name": "Materasso di paglia 1",
    "system": "piano_terra",
-   "desc": "STANZA 13 – STANZA CON VISORI 3D. ESPERIENZA CON VISORI 3D, PREGHIERA DEI SOLDATI.",
+   "desc": "Letto con materasso di paglia.",
+   "explode": [
+    1.172500000000003,
+    -41.378,
+    -0.0
+   ],
+   "stage": [
+    0.549,
+    0.709
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – La stanza dei partigiani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12b",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     -5.055,
+     6.681,
+     0.0
+    ],
+    [
+     -4.255,
+     8.581,
+     0.26
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s12b_1",
+   "name": "Materasso di paglia 2",
+   "system": "piano_terra",
+   "desc": "Letto con materasso di paglia.",
+   "explode": [
+    1.172500000000003,
+    -41.378,
+    -0.0
+   ],
+   "stage": [
+    0.549,
+    0.709
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – La stanza dei partigiani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12b",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     -4.007,
+     6.681,
+     0.0
+    ],
+    [
+     -3.207,
+     8.581,
+     0.26
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s12b_2",
+   "name": "Radio clandestina",
+   "system": "piano_terra",
+   "desc": "Punto per ascoltare la radio: comunicazione segreta con le altre bande partigiane.",
+   "explode": [
+    1.172500000000003,
+    -41.378,
+    -0.0
+   ],
+   "stage": [
+    0.549,
+    0.709
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – La stanza dei partigiani",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12b",
+   "floor": "L0",
+   "tris": 72,
+   "bbox": [
+    [
+     -5.142,
+     5.424,
+     0.0
+    ],
+    [
+     -4.642,
+     6.024,
+     1.0
+    ]
+   ]
+  },
+  {
+   "id": "cas_s13",
+   "name": "Stanza 13 – Stanza realtà virtuale",
+   "system": "piano_terra",
+   "desc": "STANZA 13 – REALTÀ VIRTUALE. Visori semi-trasparenti ricaricabili senza cavi, senza barre metalliche fisse. Oggetti fisici nella stanza aumentati dalla realtà virtuale e usati come punti di ancoraggio per scegliere la prospettiva (es. botte di vino vicino al muro: avvicinandosi si entra nella scena del vigneto).\n\nProspettive (4-5): 1) soldati sudafricani che pregano durante la messa, scena fotografata a Vignamaggio [ORALE]; 2) bambino che sale sul carro armato, poi vista esterna della casa; 3) trincea nei vigneti con carro armato e jeep in arrivo; 4) seduti nella Linea Gotica; 5) interno del carro armato (stanza separata).\n\nMassimo 6 persone, percorso facoltativo: chi non vuole aspettare può continuare e tornare. Almeno una persona dedicata ai visori.\n\nDalla pianta del 09/10/2026: STANZA 13 – STANZA CON VISORI 3D. ESPERIENZA CON VISORI 3D, PREGHIERA DEI SOLDATI.",
    "explode": [
     18.2985,
     -29.869999999999997,
     -0.0
    ],
    "stage": [
-    0.664,
-    0.824
+    0.632,
+    0.792
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "22.1 m² [SCALED]",
     "Altezza pareti": "2.80 m [DWG]",
-    "Ordine di visita": "15 di 19"
+    "Ordine di visita": "15 di 20"
    },
    "facts": [],
    "sources": [
     "DWG",
-    "SCALED"
+    "SCALED",
+    "ORALE"
    ],
    "num": "13",
    "flow": 14,
@@ -1367,6 +2110,123 @@
    ]
   },
   {
+   "id": "cas_obj_s13_0",
+   "name": "Botte (ancoraggio vigneto)",
+   "system": "piano_terra",
+   "desc": "Botte di vino vicino al muro: avvicinandosi si entra nella scena del vigneto.",
+   "explode": [
+    18.2985,
+    -29.869999999999997,
+    -0.0
+   ],
+   "stage": [
+    0.632,
+    0.792
+   ],
+   "specs": {
+    "Stanza": "Stanza 13 – Stanza realtà virtuale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s13",
+   "floor": "L0",
+   "tris": 260,
+   "bbox": [
+    [
+     -5.841,
+     -3.781,
+     0.0
+    ],
+    [
+     -4.841,
+     -2.521,
+     1.41
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s13_1",
+   "name": "Armadio di ricarica visori",
+   "system": "piano_terra",
+   "desc": "Armadio di ricarica per 8 visori.",
+   "explode": [
+    18.2985,
+    -29.869999999999997,
+    -0.0
+   ],
+   "stage": [
+    0.632,
+    0.792
+   ],
+   "specs": {
+    "Stanza": "Stanza 13 – Stanza realtà virtuale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s13",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     -8.809,
+     -3.648,
+     0.0
+    ],
+    [
+     -8.299,
+     -2.648,
+     1.6
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s13_2",
+   "name": "Postazioni visori (6)",
+   "system": "piano_terra",
+   "desc": "Sei postazioni, circa 2.5-3 m² a persona.",
+   "explode": [
+    18.2985,
+    -29.869999999999997,
+    -0.0
+   ],
+   "stage": [
+    0.632,
+    0.792
+   ],
+   "specs": {
+    "Stanza": "Stanza 13 – Stanza realtà virtuale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s13",
+   "floor": "L0",
+   "tris": 744,
+   "bbox": [
+    [
+     -8.717,
+     -6.489,
+     0.0
+    ],
+    [
+     -5.017,
+     -3.989,
+     1.71
+    ]
+   ]
+  },
+  {
    "id": "cas_s14",
    "name": "Stanza 14 – Cantina",
    "system": "piano_terra",
@@ -1377,15 +2237,15 @@
     -0.0
    ],
    "stage": [
-    0.708,
-    0.868
+    0.674,
+    0.834
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "17.7 m² [SCALED]",
     "Altezza pareti": "2.82 m [DWG]",
-    "Ordine di visita": "16 di 19"
+    "Ordine di visita": "16 di 20"
    },
    "facts": [],
    "sources": [
@@ -1417,20 +2277,20 @@
    "system": "piano_terra",
    "desc": "STANZA 15 – DEPOSITO ATTREZZI AGRICOLI.",
    "explode": [
-    -7.7364999999999995,
+    -11.181499999999998,
     -39.345,
     -0.0
    ],
    "stage": [
-    0.752,
-    0.912
+    0.715,
+    0.875
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "16.5 m² [SCALED]",
     "Altezza pareti": "2.80 m [DWG]",
-    "Ordine di visita": "17 di 19"
+    "Ordine di visita": "17 di 20"
    },
    "facts": [],
    "sources": [
@@ -1462,20 +2322,20 @@
    "system": "piano_terra",
    "desc": "STANZA 16 – SI ESCE NEL CORTILE ESTERNO PER VISITARE IL CARRARMATO ED IL FORNO.",
    "explode": [
-    -5.9625,
+    -9.407499999999999,
     -38.056000000000004,
     -0.0
    ],
    "stage": [
-    0.796,
-    0.956
+    0.757,
+    0.917
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "7.3 m² [SCALED]",
     "Altezza pareti": "2.80 m [EST]",
-    "Ordine di visita": "18 di 19"
+    "Ordine di visita": "18 di 20"
    },
    "facts": [],
    "sources": [
@@ -1504,29 +2364,30 @@
   },
   {
    "id": "cas_s17",
-   "name": "Stanza 17 – Filmato finale",
+   "name": "Stanza 17 – Corridoio finale e archivio",
    "system": "piano_terra",
-   "desc": "STANZA 17 – FILMATO FINALE: LA LIBERAZIONE DI FIRENZE + POSSIBILITÀ DI PARLARE CON IL SOLDATO ADAMSON, IL PRIMO AD ENTRARE A FIRENZE CON LA SUA PATTUGLIA.",
+   "desc": "STANZA 17 – CORRIDOIO FINALE: momento conclusivo, tono di pace e commemorazione. Proiezioni immersive sulla parete sinistra (ovest) per tutta la lunghezza delle tre campate ad arco: sensazione di volo. Velocità delle immagini calibrata sul passo medio dell'ospite (logica del BPM). La porta d'ingresso porta luce naturale: rischio di lavare le proiezioni; alternativa schermi fisici.\n\nLato destro (est): spazio museale a vetrine, archivio con riassunto storico reale per adulti: medaglie, mappe, documentazione vera, per ancorare alla storia dopo la narrazione emotiva.\n\nDalla pianta del 09/10/2026: STANZA 17 – FILMATO FINALE: LA LIBERAZIONE DI FIRENZE + POSSIBILITÀ DI PARLARE CON IL SOLDATO ADAMSON, IL PRIMO AD ENTRARE A FIRENZE CON LA SUA PATTUGLIA [ORALE].",
    "explode": [
-    -4.311500000000002,
+    -7.756500000000001,
     -38.673,
     -0.0
    ],
    "stage": [
-    0.84,
-    1.0
+    0.798,
+    0.958
    ],
    "specs": {
     "Piano": "Piano terra",
     "Tipo": "Stanza del percorso",
     "Superficie": "15.8 m² [SCALED]",
     "Altezza pareti": "3.24 m [DWG]",
-    "Ordine di visita": "19 di 19"
+    "Ordine di visita": "19 di 20"
    },
    "facts": [],
    "sources": [
     "DWG",
-    "SCALED"
+    "SCALED",
+    "ORALE"
    ],
    "num": "17",
    "flow": 18,
@@ -1551,21 +2412,142 @@
    ]
   },
   {
-   "id": "cas_l0_passaggio",
-   "name": "Passaggio verso la hall",
+   "id": "cas_obj_s17_0",
+   "name": "Parete di proiezione",
    "system": "piano_terra",
-   "desc": "Ambiente di passaggio tra la stanza 17 e la hall di ingresso (non numerato sulla pianta).",
+   "desc": "Superficie di proiezione immersiva (parete ovest).",
    "explode": [
-    0.0,
-    0.0,
-    0.0
+    -7.756500000000001,
+    -38.673,
+    -0.0
    ],
-   "stage": null,
+   "stage": [
+    0.798,
+    0.958
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale e archivio",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s17",
+   "floor": "L0",
+   "tris": 12,
+   "bbox": [
+    [
+     7.6,
+     -6.779,
+     0.3
+    ],
+    [
+     7.629,
+     -4.105,
+     2.7
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s17_1",
+   "name": "Vetrina 1",
+   "system": "piano_terra",
+   "desc": "Vetrina dell'archivio: medaglie, mappe, documenti.",
+   "explode": [
+    -7.756500000000001,
+    -38.673,
+    -0.0
+   ],
+   "stage": [
+    0.798,
+    0.958
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale e archivio",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s17",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     11.792,
+     -6.786,
+     0.0
+    ],
+    [
+     12.342,
+     -5.585,
+     1.25
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s17_2",
+   "name": "Vetrina 2",
+   "system": "piano_terra",
+   "desc": "Vetrina dell'archivio: medaglie, mappe, documenti.",
+   "explode": [
+    -7.756500000000001,
+    -38.673,
+    -0.0
+   ],
+   "stage": [
+    0.798,
+    0.958
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale e archivio",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s17",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     11.792,
+     -5.299,
+     0.0
+    ],
+    [
+     12.342,
+     -4.098,
+     1.25
+    ]
+   ]
+  },
+  {
+   "id": "cas_l0_passaggio",
+   "name": "Stanza 17 – Corridoio finale – campata centrale",
+   "system": "piano_terra",
+   "desc": "STANZA 17 – CORRIDOIO FINALE, CAMPATA CENTRALE. Proiezioni immersive sulla parete sinistra (ovest) per tutta la lunghezza delle tre campate ad arco: sensazione di volo. Velocità delle immagini calibrata sul passo medio dell'ospite (logica del BPM). La porta d'ingresso porta luce naturale: rischio di lavare le proiezioni; alternativa schermi fisici. Vetrine dell'archivio sul lato destro (est).",
+   "explode": [
+    -0.849499999999999,
+    -42.373000000000005,
+    -0.0
+   ],
+   "stage": [
+    0.84,
+    1.0
+   ],
    "specs": {
     "Piano": "Piano terra",
-    "Tipo": "Circolazione",
+    "Tipo": "Stanza del percorso",
     "Superficie": "16.5 m² [SCALED]",
-    "Altezza pareti": "3.24 m [EST]"
+    "Altezza pareti": "3.24 m [EST]",
+    "Ordine di visita": "20 di 20"
    },
    "facts": [],
    "sources": [
@@ -1573,9 +2555,9 @@
     "SCALED",
     "EST"
    ],
-   "num": null,
-   "flow": null,
-   "kind": "circulation",
+   "num": "17",
+   "flow": 19,
+   "kind": "exhibit",
    "floor": "L0",
    "images": [],
    "tris": 318,
@@ -1589,6 +2571,123 @@
      12.875,
      0.108,
      3.24
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_l0_passaggio_0",
+   "name": "Parete di proiezione",
+   "system": "piano_terra",
+   "desc": "Superficie di proiezione immersiva (parete ovest).",
+   "explode": [
+    -0.849499999999999,
+    -42.373000000000005,
+    -0.0
+   ],
+   "stage": [
+    0.84,
+    1.0
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale – campata centrale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_l0_passaggio",
+   "floor": "L0",
+   "tris": 12,
+   "bbox": [
+    [
+     7.633,
+     -3.703,
+     0.3
+    ],
+    [
+     7.662,
+     -0.725,
+     2.7
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_l0_passaggio_1",
+   "name": "Vetrina 1",
+   "system": "piano_terra",
+   "desc": "Vetrina dell'archivio: medaglie, mappe, documenti.",
+   "explode": [
+    -0.849499999999999,
+    -42.373000000000005,
+    -0.0
+   ],
+   "stage": [
+    0.84,
+    1.0
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale – campata centrale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_l0_passaggio",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     11.776,
+     -3.634,
+     0.0
+    ],
+    [
+     12.325,
+     -2.434,
+     1.25
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_l0_passaggio_2",
+   "name": "Vetrina 2",
+   "system": "piano_terra",
+   "desc": "Vetrina dell'archivio: medaglie, mappe, documenti.",
+   "explode": [
+    -0.849499999999999,
+    -42.373000000000005,
+    -0.0
+   ],
+   "stage": [
+    0.84,
+    1.0
+   ],
+   "specs": {
+    "Stanza": "Stanza 17 – Corridoio finale – campata centrale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_l0_passaggio",
+   "floor": "L0",
+   "tris": 24,
+   "bbox": [
+    [
+     11.776,
+     -1.995,
+     0.0
+    ],
+    [
+     12.325,
+     -0.794,
+     1.25
     ]
    ]
   },
@@ -1871,7 +2970,13 @@
    -14.65
   ],
   "viewer": {
-   "labels": true
+   "labels": true,
+   "double_sided": [
+    "cas_glass"
+   ]
+  },
+  "source_tags": {
+   "ORALE": "Storia orale: non trovato in fonti pubblicate"
   },
   "flow": [
    {
@@ -1927,56 +3032,56 @@
     "flow": 7,
     "part": "cas_s07",
     "num": "7",
-    "name": "Stanza del telaio",
+    "name": "Stanza degli attrezzi e del telaio",
     "floor": "L1"
    },
    {
     "flow": 8,
     "part": "cas_s08",
     "num": "8",
-    "name": "Camera – vita contadina",
+    "name": "Camera dei tre figli",
     "floor": "L1"
    },
    {
     "flow": 9,
     "part": "cas_s09",
     "num": "9",
-    "name": "Camera – vita contadina",
+    "name": "Camera matrimoniale",
     "floor": "L1"
    },
    {
     "flow": 10,
     "part": "cas_s10",
     "num": "10",
-    "name": "Il frantoio",
+    "name": "Il frantoio – i soldati sudafricani",
     "floor": "L0"
    },
    {
     "flow": 11,
     "part": "cas_s11",
     "num": "11",
-    "name": "La loggia",
+    "name": "La loggia – i prigionieri tedeschi",
     "floor": "L0"
    },
    {
     "flow": 12,
+    "part": "cas_s12b",
+    "num": "12",
+    "name": "La stanza dei partigiani",
+    "floor": "L0"
+   },
+   {
+    "flow": 13,
     "part": "cas_s12",
     "num": "12",
     "name": "Stalla e ricovero animali",
     "floor": "L0"
    },
    {
-    "flow": 13,
-    "part": "cas_s12b",
-    "num": "12",
-    "name": "La stanza segreta",
-    "floor": "L0"
-   },
-   {
     "flow": 14,
     "part": "cas_s13",
     "num": "13",
-    "name": "Stanza con visori 3D",
+    "name": "Stanza realtà virtuale",
     "floor": "L0"
    },
    {
@@ -2004,7 +3109,14 @@
     "flow": 18,
     "part": "cas_s17",
     "num": "17",
-    "name": "Filmato finale",
+    "name": "Corridoio finale e archivio",
+    "floor": "L0"
+   },
+   {
+    "flow": 19,
+    "part": "cas_l0_passaggio",
+    "num": "17",
+    "name": "Corridoio finale – campata centrale",
     "floor": "L0"
    }
   ]
