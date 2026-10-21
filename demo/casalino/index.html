@@ -6,8 +6,8 @@
 <meta name="theme-color" content="#15181d" />
 <title>Model explorer</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3l11 6v14l-11 6-11-6V9z' fill='%23ff7a2f'/%3E%3Cpath d='M16 3l11 6-11 6-11-6z' fill='%23ffb27f'/%3E%3C/svg%3E" />
-  <script type="module" crossorigin src="./assets/index-CqKiz8J5.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-B2RNXNxU.css">
+  <script type="module" crossorigin src="./assets/index-B4MBRMhp.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-CtTblVHA.css">
 </head>
 <body>
 <div id="app"></div>
@@ -31,6 +31,7 @@
   <div id="m-title" class="only-mobile"></div>
   <div class="top-actions">
     <div id="learn" class="learn" aria-label="Learning modes"></div>
+    <button id="btn-walk" class="walkbtn hidden" aria-pressed="false" title="Cammina dentro la casa in prima persona">Cammina</button>
     <button id="btn-labels" class="ibtn" aria-pressed="false" aria-label="Labels" title="Labels (L)"></button>
     <button id="btn-about" class="ibtn" aria-label="About this model" title="About"></button>
     <button id="btn-help" class="ibtn" aria-label="Keyboard shortcuts and settings" title="Shortcuts (?)"></button>
@@ -68,6 +69,7 @@
   </div>
 </footer>
 
+<div id="walkhud" class="hidden"></div>
 <div id="scrim"></div>
 <div id="toast" class="hidden" role="status"></div>
 <pre id="hud" class="hidden"></pre>
@@ -93,6 +95,7 @@
       <div><dt><kbd>Esc</kbd></dt><dd>Clear selection / close</dd></div>
       <div><dt><kbd>D</kbd></dt><dd>Stats overlay</dd></div>
       <div><dt><kbd>?</kbd></dt><dd>This panel</dd></div>
+      <div><dt><kbd>C</kbd></dt><dd>Cammina (walk mode): WASD / arrows, mouse look, Shift run, E stairs, M map, P route, Esc exit</dd></div>
     </dl>
     <p class="muted">Drag to orbit, right-drag or two fingers to pan, scroll or pinch to zoom. Click a part to learn about it; double-click to focus.</p>
     <h3>Display</h3>
@@ -116,6 +119,6 @@
     <p id="load-msg">Starting…</p>
   </div>
 </div>
-
+
 </body>
 </html>
