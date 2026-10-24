@@ -2,7 +2,7 @@
  "title": "Casalino – percorso museale",
  "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
  "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
- "generated": "2026-10-21 20:46",
+ "generated": "2026-10-23 16:48",
  "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
  "systems": [
   {
@@ -73,7 +73,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "37.9 m² [SCALED]",
-    "Altezza pareti": "2.90 m [EST]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "2 di 20"
    },
    "facts": [
@@ -101,7 +101,7 @@
     [
      4.747,
      4.705,
-     6.65
+     7.783
     ]
    ]
   },
@@ -109,7 +109,7 @@
    "id": "cas_ceil_s01",
    "name": "Soffitto – Stanza 1 – Video introduttivo (Sala video)",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -10.952,
     -16.889,
@@ -122,22 +122,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s01",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 45,
    "bbox": [
     [
      -2.28,
      -2.442,
-     6.653
+     6.036
     ],
     [
      4.747,
      4.705,
-     6.653
+     7.786
     ]
    ]
   },
@@ -159,7 +160,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "14.3 m² [SCALED]",
-    "Altezza pareti": "2.75 m [EST]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "3 di 20"
    },
    "facts": [],
@@ -186,7 +187,7 @@
     [
      -2.18,
      4.704,
-     6.5
+     7.667
     ]
    ]
   },
@@ -194,7 +195,7 @@
    "id": "cas_ceil_s02",
    "name": "Soffitto – Stanza 2 – Viaggio in Sudafrica",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     1.2430000000000003,
     -17.9195,
@@ -207,22 +208,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s02",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 27,
    "bbox": [
     [
      -6.048,
      -0.38,
-     6.503
+     6.017
     ],
     [
      -2.18,
      4.704,
-     6.503
+     7.67
     ]
    ]
   },
@@ -244,7 +246,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "19.0 m² [SCALED]",
-    "Altezza pareti": "3.09 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "4 di 20"
    },
    "facts": [],
@@ -270,7 +272,7 @@
     [
      -5.509,
      4.452,
-     6.84
+     7.721
     ]
    ]
   },
@@ -278,7 +280,7 @@
    "id": "cas_ceil_s03",
    "name": "Soffitto – Stanza 3 – La partenza per l'Italia",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     9.807000000000002,
     -16.881,
@@ -291,22 +293,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s03",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 38,
    "bbox": [
     [
      -9.344,
      -2.205,
-     6.843
+     6.128
     ],
     [
      -5.509,
      4.452,
-     6.843
+     7.724
     ]
    ]
   },
@@ -325,7 +328,7 @@
     "Piano": "Piano primo",
     "Tipo": "Circolazione",
     "Superficie": "4.8 m² [SCALED]",
-    "Altezza pareti": "2.75 m [EST]"
+    "Altezza pareti": "3.89 m (sotto il colmo) [BRIEF]"
    },
    "facts": [],
    "sources": [
@@ -348,7 +351,7 @@
     [
      -2.197,
      -0.317,
-     6.5
+     7.64
     ]
    ]
   },
@@ -356,7 +359,7 @@
    "id": "cas_ceil_l1_passaggio_2_4",
    "name": "Soffitto – Passaggio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco) sotto il colmo, a 3.89 m. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -366,22 +369,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_l1_passaggio_2_4",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 21,
    "bbox": [
     [
      -5.542,
      -2.239,
-     6.503
+     7.643
     ],
     [
      -2.197,
      -0.317,
-     6.503
+     7.643
     ]
    ]
   },
@@ -403,7 +407,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "39.1 m² [SCALED]",
-    "Altezza pareti": "2.70 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "5 di 20"
    },
    "facts": [],
@@ -428,7 +432,7 @@
     [
      -0.575,
      -2.105,
-     6.45
+     7.756
     ]
    ]
   },
@@ -514,7 +518,7 @@
    "id": "cas_ceil_s04",
    "name": "Soffitto – Stanza 4 – Cucina contadina toscana",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     15.262000000000002,
     -10.8645,
@@ -527,22 +531,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s04",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 67,
    "bbox": [
     [
      -9.564,
      -7.681,
-     6.453
+     5.97
     ],
     [
      -0.575,
      -2.105,
-     6.453
+     7.759
     ]
    ]
   },
@@ -561,7 +566,7 @@
     "Piano": "Piano primo",
     "Tipo": "Circolazione",
     "Superficie": "4.1 m² [SCALED]",
-    "Altezza pareti": "2.70 m [EST]"
+    "Altezza pareti": "3.89 m (sotto il colmo) [BRIEF]"
    },
    "facts": [],
    "sources": [
@@ -584,7 +589,7 @@
     [
      3.329,
      -2.223,
-     6.45
+     7.64
     ]
    ]
   },
@@ -592,7 +597,7 @@
    "id": "cas_ceil_l1_passaggio_4_5",
    "name": "Soffitto – Passaggio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco) sotto il colmo, a 3.89 m. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -602,22 +607,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_l1_passaggio_4_5",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 34,
    "bbox": [
     [
      -0.623,
      -3.911,
-     6.453
+     7.643
     ],
     [
      3.329,
      -2.223,
-     6.453
+     7.643
     ]
    ]
   },
@@ -639,7 +645,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "11.3 m² [SCALED]",
-    "Altezza pareti": "2.63 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "6 di 20"
    },
    "facts": [],
@@ -662,7 +668,7 @@
     [
      3.379,
      -3.66,
-     6.38
+     7.796
     ]
    ]
   },
@@ -670,7 +676,7 @@
    "id": "cas_ceil_s05",
    "name": "Soffitto – Stanza 5 – Dispensa",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     16.84700000000001,
     -9.958499999999999,
@@ -683,22 +689,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s05",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 38,
    "bbox": [
     [
      -0.76,
      -7.938,
-     6.383
+     5.853
     ],
     [
      3.379,
      -3.66,
-     6.383
+     7.799
     ]
    ]
   },
@@ -720,7 +727,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "16.3 m² [SCALED]",
-    "Altezza pareti": "2.90 m [EST]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "7 di 20"
    },
    "facts": [],
@@ -746,7 +753,7 @@
     [
      7.541,
      -2.021,
-     6.65
+     7.89
     ]
    ]
   },
@@ -754,7 +761,7 @@
    "id": "cas_ceil_s06",
    "name": "Soffitto – Stanza 6 – La scuola rurale",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -15.1365,
     -20.31,
@@ -767,22 +774,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s06",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 32,
    "bbox": [
     [
      3.312,
      -7.393,
-     6.653
+     6.02
     ],
     [
      7.541,
      -2.021,
-     6.653
+     7.893
     ]
    ]
   },
@@ -804,7 +812,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "15.0 m² [SCALED]",
-    "Altezza pareti": "2.85 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "8 di 20"
    },
    "facts": [],
@@ -827,7 +835,7 @@
     [
      12.943,
      -3.807,
-     6.6
+     7.746
     ]
    ]
   },
@@ -874,7 +882,7 @@
    "id": "cas_ceil_s07",
    "name": "Soffitto – Stanza 7 – Stanza degli attrezzi e del telaio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -13.598499999999998,
     -19.400499999999997,
@@ -887,22 +895,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s07",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 11,
    "bbox": [
     [
      7.403,
      -7.426,
-     6.603
+     5.957
     ],
     [
      12.943,
      -3.807,
-     6.603
+     7.749
     ]
    ]
   },
@@ -921,7 +930,7 @@
     "Piano": "Piano primo",
     "Tipo": "Circolazione",
     "Superficie": "3.8 m² [SCALED]",
-    "Altezza pareti": "2.85 m [EST]"
+    "Altezza pareti": "3.89 m (sotto il colmo) [BRIEF]"
    },
    "facts": [],
    "sources": [
@@ -944,7 +953,7 @@
     [
      8.786,
      -0.517,
-     6.6
+     7.64
     ]
    ]
   },
@@ -952,7 +961,7 @@
    "id": "cas_ceil_l1_passaggio_6_8",
    "name": "Soffitto – Passaggio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco) sotto il colmo, a 3.89 m. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -962,22 +971,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_l1_passaggio_6_8",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 25,
    "bbox": [
     [
      6.931,
      -3.912,
-     6.603
+     7.643
     ],
     [
      8.786,
      -0.517,
-     6.603
+     7.643
     ]
    ]
   },
@@ -999,7 +1009,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "11.4 m² [SCALED]",
-    "Altezza pareti": "2.57 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "9 di 20"
    },
    "facts": [],
@@ -1024,7 +1034,7 @@
     [
      12.927,
      -0.415,
-     6.32
+     7.67
     ]
    ]
   },
@@ -1149,7 +1159,7 @@
    "id": "cas_ceil_s08",
    "name": "Soffitto – Stanza 8 – Camera dei tre figli",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -7.9945,
     -22.862499999999997,
@@ -1162,22 +1172,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s08",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 24,
    "bbox": [
     [
      8.738,
      -3.894,
-     6.323
+     5.989
     ],
     [
      12.927,
      -0.415,
-     6.323
+     7.673
     ]
    ]
   },
@@ -1199,7 +1210,7 @@
     "Piano": "Piano primo",
     "Tipo": "Stanza del percorso",
     "Superficie": "21.9 m² [SCALED]",
-    "Altezza pareti": "2.76 m [DWG]",
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]",
     "Ordine di visita": "10 di 20"
    },
    "facts": [],
@@ -1222,7 +1233,7 @@
     [
      12.91,
      4.535,
-     6.51
+     7.694
     ]
    ]
   },
@@ -1269,7 +1280,7 @@
    "id": "cas_obj_s09_1",
    "name": "Armadio",
    "system": "piano_primo",
-   "desc": "Armadio.",
+   "desc": "Armadio contro la parete sud, nel tratto lontano dalla porta del passaggio: lascia libera l'apertura della porta (brief 2026-10-23).",
    "explode": [
     -1.0355000000000025,
     -27.026999999999997,
@@ -1290,15 +1301,16 @@
    "kind": "object",
    "room": "cas_s09",
    "floor": "L1",
+   "task": "T4_matrimoniale",
    "tris": 24,
    "bbox": [
     [
-     8.466,
+     11.102,
      -0.335,
      3.75
     ],
     [
-     9.666,
+     12.302,
      0.275,
      5.75
     ]
@@ -1347,7 +1359,7 @@
    "id": "cas_ceil_s09",
    "name": "Soffitto – Stanza 9 – Camera matrimoniale",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -1.0355000000000025,
     -27.026999999999997,
@@ -1360,22 +1372,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_s09",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 17,
    "bbox": [
     [
      7.367,
      -0.515,
-     6.513
+     6.076
     ],
     [
      12.91,
      4.535,
-     6.513
+     7.697
     ]
    ]
   },
@@ -1394,7 +1407,7 @@
     "Piano": "Piano primo",
     "Tipo": "Circolazione",
     "Superficie": "16.3 m² [SCALED]",
-    "Altezza pareti": "2.60 m [DWG]"
+    "Altezza pareti": "2.45 m alla parete esterna → 3.89 m alla parete interna (soffitto inclinato) [BRIEF]"
    },
    "facts": [],
    "sources": [
@@ -1416,7 +1429,7 @@
     [
      7.826,
      4.553,
-     6.35
+     7.704
     ]
    ]
   },
@@ -1424,7 +1437,7 @@
    "id": "cas_ceil_l1_scala",
    "name": "Soffitto – Scala (piano primo)",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto inclinato (intonaco) che segue il tetto: 2.45 m alla parete delle finestre, 3.89 m alla parete interna. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1434,22 +1447,23 @@
    "specs": {},
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "ceiling",
    "room": "cas_l1_scala",
    "floor": "L1",
+   "task": "T1_ceilings",
    "tris": 54,
    "bbox": [
     [
      4.242,
      -2.289,
-     6.353
+     6.085
     ],
     [
      7.826,
      4.553,
-     6.353
+     7.707
     ]
    ]
   },
@@ -1498,7 +1512,7 @@
    "id": "cas_ceil_l1_ingresso_staff",
    "name": "Soffitto – Ingresso staff",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1572,7 +1586,7 @@
    "id": "cas_ceil_l1_locali_staff",
    "name": "Soffitto – Locali staff",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1646,7 +1660,7 @@
    "id": "cas_ceil_l1_bagno_staff",
    "name": "Soffitto – Bagno staff",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1720,7 +1734,7 @@
    "id": "cas_ceil_l1_legnaia",
    "name": "Soffitto – Legnaia",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1795,7 +1809,7 @@
    "id": "cas_ceil_l1_scala_loggia",
    "name": "Soffitto – Scala esterna",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1869,7 +1883,7 @@
    "id": "cas_ceil_l1_loggia",
    "name": "Soffitto – Loggia",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -1986,7 +2000,7 @@
    "id": "cas_ceil_s18",
    "name": "Soffitto – Stanza 18 – Hall di ingresso",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -27.492000000000004,
     -17.7,
@@ -2064,7 +2078,7 @@
    "id": "cas_ceil_l0_scala",
    "name": "Soffitto – Scala (piano terra)",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -2139,7 +2153,7 @@
    "id": "cas_ceil_l0_ascensore",
    "name": "Soffitto – Ascensore",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -2214,7 +2228,7 @@
    "id": "cas_ceil_l0_disimpegno_wc",
    "name": "Soffitto – Disimpegno servizi",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -2289,7 +2303,7 @@
    "id": "cas_ceil_l0_wc1",
    "name": "Soffitto – WC",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -2364,7 +2378,7 @@
    "id": "cas_ceil_l0_wc2",
    "name": "Soffitto – WC",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -2426,7 +2440,7 @@
    "images": [
     "L0_img00.jpg"
    ],
-   "tris": 444,
+   "tris": 576,
    "bbox": [
     [
      -2.635,
@@ -2483,7 +2497,7 @@
    "id": "cas_ceil_s10",
    "name": "Soffitto – Stanza 10 – Il frantoio – i soldati sudafricani",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -17.4345,
     -36.16,
@@ -2501,7 +2515,7 @@
    "kind": "ceiling",
    "room": "cas_s10",
    "floor": "L0",
-   "tris": 57,
+   "tris": 58,
    "bbox": [
     [
      -2.635,
@@ -2549,7 +2563,7 @@
    "images": [
     "L0_img01.jpg"
    ],
-   "tris": 210,
+   "tris": 220,
    "bbox": [
     [
      -2.922,
@@ -2606,7 +2620,7 @@
    "id": "cas_ceil_s11",
    "name": "Soffitto – Stanza 11 – La loggia – i prigionieri tedeschi",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -8.556499999999998,
     -41.2345,
@@ -2642,7 +2656,7 @@
    "id": "cas_s12",
    "name": "Stanza 12 – Stalla e ricovero animali",
    "system": "piano_terra",
-   "desc": "STALLA E RICOVERO ANIMALI. SPESSO, LA STALLA PER GLI ANIMALI DA LAVORO (BUOI, CAVALLI) E PER IL BESTIAME MINORE ERA COLLOCATA AL PIANO TERRA, TALVOLTA CON UN COLLEGAMENTO DIRETTO CON LA CASA. QUESTA VICINANZA PERMETTEVA DI SORVEGLIARE MEGLIO GLI ANIMALI E SFRUTTARE IL CALORE CHE PRODUCEVANO.\n\nNASCONDIGLI IMPROVVISATI. I DIVERSI SPAZI DELLA CASA, COME SOLAI, CANTINE, FIENILI O PERSINO ANFRATTI NEL TERRENO, VENIVANO UTILIZZATI PER NASCONDERE PERSONE E MATERIALE PREZIOSO COME CIBO E ARMI. IN ALCUNI ANGOLI DELLE STALLE POTREBBERO ESSERE NASCOSTE ARMI, RADIO O MATERIALE MILITARE PREZIOSO.",
+   "desc": "STALLA E RICOVERO ANIMALI. SPESSO, LA STALLA PER GLI ANIMALI DA LAVORO (BUOI, CAVALLI) E PER IL BESTIAME MINORE ERA COLLOCATA AL PIANO TERRA, TALVOLTA CON UN COLLEGAMENTO DIRETTO CON LA CASA. QUESTA VICINANZA PERMETTEVA DI SORVEGLIARE MEGLIO GLI ANIMALI E SFRUTTARE IL CALORE CHE PRODUCEVANO.\n\nNASCONDIGLI IMPROVVISATI. I DIVERSI SPAZI DELLA CASA, COME SOLAI, CANTINE, FIENILI O PERSINO ANFRATTI NEL TERRENO, VENIVANO UTILIZZATI PER NASCONDERE PERSONE E MATERIALE PREZIOSO COME CIBO E ARMI. IN ALCUNI ANGOLI DELLE STALLE POTREBBERO ESSERE NASCOSTE ARMI, RADIO O MATERIALE MILITARE PREZIOSO.\n\nBrief 2026-10-23: è questa la vera stanza dei partigiani. Un muretto in mattoni forati alto 1 m sporge dalla parete esterna sotto la finestra centrale fino a metà stanza; due archi in mattoni attraversano la stanza con il pilastro centrale sulla testa del muretto; soffitto a travi di legno con pianelle in cotto, muri in pietra a vista. Letti con materassi di paglia, radio clandestina e scorte dei partigiani.",
    "explode": [
     9.684500000000002,
     -35.692,
@@ -2689,7 +2703,7 @@
    "id": "cas_ceil_s12",
    "name": "Soffitto – Stanza 12 – Stalla e ricovero animali",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     9.684500000000002,
     -35.692,
@@ -2723,9 +2737,9 @@
   },
   {
    "id": "cas_s12b",
-   "name": "Stanza 12 – La stanza dei partigiani",
+   "name": "Stanza di passaggio",
    "system": "piano_terra",
-   "desc": "STANZA 12 – LA STANZA SEGRETA DEI PARTIGIANI (stanza della Resistenza). Accesso tramite la porta nascosta in fondo alla loggia.\n\nDalla pianta del 09/10/2026: STANZA 12 – LA STANZA SEGRETA. PORTA A SCOMPARSA CHE IL VISITATORE DEVE AZIONARE (MOBILE VECCHIO?): SI ENTRA DENTRO LA STANZA DELLA RESISTENZA. PUNTO PER ASCOLTARE LA RADIO, UN SISTEMA DI COMUNICAZIONE SEGRETO CON LE ALTRE BANDE PARTIGIANE, ALCUNI LETTI CON MATERASSI IN PAGLIA.",
+   "desc": "STANZA DI PASSAGGIO. Piccolo ambiente vuoto tra la loggia (porta nascosta) e la stalla: il visitatore lo attraversa per raggiungere il rifugio dei partigiani nella stalla. (Brief 2026-10-23: stanza svuotata e rinominata; gli oggetti dei partigiani sono nella stalla.)",
    "explode": [
     1.172500000000003,
     -41.378,
@@ -2748,7 +2762,7 @@
     "SCALED",
     "EST"
    ],
-   "num": "12",
+   "num": null,
    "flow": 12,
    "kind": "exhibit",
    "floor": "L0",
@@ -2768,127 +2782,10 @@
    ]
   },
   {
-   "id": "cas_obj_s12b_0",
-   "name": "Materasso di paglia 1",
-   "system": "piano_terra",
-   "desc": "Letto con materasso di paglia.",
-   "explode": [
-    1.172500000000003,
-    -41.378,
-    -0.0
-   ],
-   "stage": [
-    0.549,
-    0.709
-   ],
-   "specs": {
-    "Stanza": "Stanza 12 – La stanza dei partigiani",
-    "Tipo": "Segnaposto (oggetto / installazione)"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_s12b",
-   "floor": "L0",
-   "tris": 24,
-   "bbox": [
-    [
-     -5.055,
-     6.681,
-     0.0
-    ],
-    [
-     -4.255,
-     8.581,
-     0.26
-    ]
-   ]
-  },
-  {
-   "id": "cas_obj_s12b_1",
-   "name": "Materasso di paglia 2",
-   "system": "piano_terra",
-   "desc": "Letto con materasso di paglia.",
-   "explode": [
-    1.172500000000003,
-    -41.378,
-    -0.0
-   ],
-   "stage": [
-    0.549,
-    0.709
-   ],
-   "specs": {
-    "Stanza": "Stanza 12 – La stanza dei partigiani",
-    "Tipo": "Segnaposto (oggetto / installazione)"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_s12b",
-   "floor": "L0",
-   "tris": 24,
-   "bbox": [
-    [
-     -4.007,
-     6.681,
-     0.0
-    ],
-    [
-     -3.207,
-     8.581,
-     0.26
-    ]
-   ]
-  },
-  {
-   "id": "cas_obj_s12b_2",
-   "name": "Radio clandestina",
-   "system": "piano_terra",
-   "desc": "Punto per ascoltare la radio: comunicazione segreta con le altre bande partigiane.",
-   "explode": [
-    1.172500000000003,
-    -41.378,
-    -0.0
-   ],
-   "stage": [
-    0.549,
-    0.709
-   ],
-   "specs": {
-    "Stanza": "Stanza 12 – La stanza dei partigiani",
-    "Tipo": "Segnaposto (oggetto / installazione)"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_s12b",
-   "floor": "L0",
-   "tris": 72,
-   "bbox": [
-    [
-     -5.142,
-     5.424,
-     0.0
-    ],
-    [
-     -4.642,
-     6.024,
-     1.0
-    ]
-   ]
-  },
-  {
    "id": "cas_ceil_s12b",
-   "name": "Soffitto – Stanza 12 – La stanza dei partigiani",
+   "name": "Soffitto – Stanza di passaggio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     1.172500000000003,
     -41.378,
@@ -2972,7 +2869,7 @@
    "id": "cas_ceil_s13",
    "name": "Soffitto – Stanza 13 – Stanza realtà virtuale",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     18.2985,
     -29.869999999999997,
@@ -3053,7 +2950,7 @@
    "id": "cas_ceil_s14",
    "name": "Soffitto – Stanza 14 – Cantina",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     20.7605,
     -29.3885,
@@ -3134,7 +3031,7 @@
    "id": "cas_ceil_s15",
    "name": "Soffitto – Stanza 15 – Deposito attrezzi agricoli",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -11.181499999999998,
     -39.345,
@@ -3216,7 +3113,7 @@
    "id": "cas_ceil_s16",
    "name": "Soffitto – Stanza 16 – Uscita al cortile",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -9.407499999999999,
     -38.056000000000004,
@@ -3294,45 +3191,6 @@
      12.892,
      -3.845,
      3.24
-    ]
-   ]
-  },
-  {
-   "id": "cas_obj_s17_0",
-   "name": "Parete di proiezione",
-   "system": "piano_terra",
-   "desc": "Superficie di proiezione immersiva (parete ovest).",
-   "explode": [
-    -7.756500000000001,
-    -38.673,
-    -0.0
-   ],
-   "stage": [
-    0.798,
-    0.958
-   ],
-   "specs": {
-    "Stanza": "Stanza 17 – Corridoio finale e archivio",
-    "Tipo": "Segnaposto (oggetto / installazione)"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_s17",
-   "floor": "L0",
-   "tris": 12,
-   "bbox": [
-    [
-     7.6,
-     -6.779,
-     0.3
-    ],
-    [
-     7.629,
-     -4.105,
-     2.7
     ]
    ]
   },
@@ -3418,7 +3276,7 @@
    "id": "cas_ceil_s17",
    "name": "Soffitto – Stanza 17 – Corridoio finale e archivio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -7.756500000000001,
     -38.673,
@@ -3493,45 +3351,6 @@
      12.875,
      0.108,
      3.24
-    ]
-   ]
-  },
-  {
-   "id": "cas_obj_l0_passaggio_0",
-   "name": "Parete di proiezione",
-   "system": "piano_terra",
-   "desc": "Superficie di proiezione immersiva (parete ovest).",
-   "explode": [
-    -0.849499999999999,
-    -42.373000000000005,
-    -0.0
-   ],
-   "stage": [
-    0.84,
-    1.0
-   ],
-   "specs": {
-    "Stanza": "Stanza 17 – Corridoio finale – campata centrale",
-    "Tipo": "Segnaposto (oggetto / installazione)"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_l0_passaggio",
-   "floor": "L0",
-   "tris": 12,
-   "bbox": [
-    [
-     7.633,
-     -3.703,
-     0.3
-    ],
-    [
-     7.662,
-     -0.725,
-     2.7
     ]
    ]
   },
@@ -3617,7 +3436,7 @@
    "id": "cas_ceil_l0_passaggio",
    "name": "Soffitto – Stanza 17 – Corridoio finale – campata centrale",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     -0.849499999999999,
     -42.373000000000005,
@@ -3694,7 +3513,7 @@
    "id": "cas_ceil_l0_tecnico1",
    "name": "Soffitto – Locale tecnico",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -3768,7 +3587,7 @@
    "id": "cas_ceil_l0_tecnico2",
    "name": "Soffitto – Locale tecnico",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -3843,7 +3662,7 @@
    "id": "cas_ceil_l0_ripostiglio1",
    "name": "Soffitto – Ripostiglio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -3918,7 +3737,7 @@
    "id": "cas_ceil_l0_ripostiglio2",
    "name": "Soffitto – Ripostiglio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -3993,7 +3812,7 @@
    "id": "cas_ceil_l0_ripostiglio3",
    "name": "Soffitto – Ripostiglio",
    "system": "soffitti",
-   "desc": "Soffitto piano (intonaco). Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze. [EST] altezza = altezza pareti.",
+   "desc": "Soffitto piano (intonaco). [EST] altezza = altezza pareti. Livello nascosto nella vista esplosa; acceso in modalità Cammina e nei render delle stanze.",
    "explode": [
     0.0,
     0.0,
@@ -4150,7 +3969,7 @@
    "id": "video_screen",
    "name": "Schermo curvo",
    "system": "piano_primo",
-   "desc": "Schermo curvo staccato dalle pareti: ciascun bordo laterale è a 80 cm dalla parete. Proietta in loop il filmato d'azione di guerra (segnaposto).",
+   "desc": "Schermo curvo in pianta e con il bordo superiore curvo che segue la pendenza del soffitto: alto 3.5 m al centro (lato interno, soffitto più alto) e 2.0 m alle estremità. Ciascun bordo laterale è a 80 cm dalla parete. Proietta in loop il filmato d'azione di guerra.",
    "explode": [
     -10.952,
     -16.889,
@@ -4164,20 +3983,22 @@
     "Stanza": "Stanza 1 – Video introduttivo (Sala video)",
     "Tipo": "Allestimento",
     "Raggio": "2.96 m",
-    "Sviluppo immagine": "4.73 m × 1.95 m",
+    "Sviluppo immagine": "4.59 m",
+    "Altezza": "3.50 m al centro → 2.00 m ai lati [BRIEF]",
     "Distanza dai muri laterali": "0.80 m / 0.80 m",
-    "Video": "assets/media/video/video_screen.mp4 (segnaposto)"
+    "Video": "assets/media/video/video_screen.mp4"
    },
    "facts": [],
    "sources": [
     "SCALED",
-    "EST"
+    "BRIEF"
    ],
    "kind": "object",
    "room": "cas_s01",
    "floor": "L1",
    "room_prefix": "video",
-   "tris": 1188,
+   "task": "T1_video_screen",
+   "tris": 5380,
    "bbox": [
     [
      -1.082,
@@ -4187,7 +4008,7 @@
     [
      3.23,
      0.02,
-     6.15
+     7.298
     ]
    ]
   },
@@ -4264,12 +4085,12 @@
     [
      0.93,
      2.23,
-     6.185
+     6.13
     ],
     [
      1.27,
      2.57,
-     6.648
+     6.595
     ]
    ]
   },
@@ -4290,7 +4111,7 @@
    "specs": {
     "Stanza": "Stanza 2 – Viaggio in Sudafrica",
     "Tipo": "Allestimento",
-    "Volantini": "160"
+    "Volantini": "152"
    },
    "facts": [],
    "sources": [
@@ -4300,7 +4121,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "sudafrica",
-   "tris": 14536,
+   "tris": 13896,
    "bbox": [
     [
      -2.628,
@@ -4331,7 +4152,7 @@
    "specs": {
     "Stanza": "Stanza 2 – Viaggio in Sudafrica",
     "Tipo": "Allestimento",
-    "Volantini": "43"
+    "Volantini": "51"
    },
    "facts": [],
    "sources": [
@@ -4341,7 +4162,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "sudafrica",
-   "tris": 4000,
+   "tris": 5004,
    "bbox": [
     [
      -5.37,
@@ -4349,8 +4170,8 @@
      3.82
     ],
     [
-     -3.414,
-     -0.213,
+     -3.415,
+     -0.227,
      6.44
     ]
    ]
@@ -4429,12 +4250,12 @@
     [
      -4.15,
      1.7,
-     5.955
+     6.105
     ],
     [
      -3.75,
      2.1,
-     6.498
+     6.924
     ]
    ]
   },
@@ -4481,9 +4302,9 @@
   },
   {
    "id": "partenza_foto_n",
-   "name": "Fotografia (parete nord)",
+   "name": "Fotografia a parete intera (parete nord)",
    "system": "piano_primo",
-   "desc": "Ingrandimento fotografico in bianco e nero di soldati che salgono a bordo della nave, montato su pannello. SEGNAPOSTO: sostituire l'immagine assets/media/partenza_photo_n.png (3:2) con la foto d'archivio.",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_n.png (3:2) scalata e ritagliata, mai deformata.",
    "explode": [
     9.807000000000002,
     -16.881,
@@ -4496,78 +4317,39 @@
    "specs": {
     "Stanza": "Stanza 3 – La partenza per l'Italia",
     "Tipo": "Allestimento",
-    "Formato": "1.80 × 1.20 m",
+    "Superficie": "7.0 m²",
+    "Parete": "3.75 m, fino a 3.61 m",
+    "Ritaglio immagine": "72% × 100%",
     "Slot": "partenza_photo_n"
    },
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "object",
    "room": "cas_s03",
    "floor": "L1",
    "room_prefix": "partenza",
-   "tris": 14,
+   "task": "T2_partenza",
+   "tris": 24,
    "bbox": [
     [
-     -7.997,
-     4.111,
-     4.75
+     -9.282,
+     -0.827,
+     3.759
     ],
     [
-     -6.097,
-     4.146,
-     6.05
-    ]
-   ]
-  },
-  {
-   "id": "partenza_foto_e",
-   "name": "Fotografia (parete est)",
-   "system": "piano_primo",
-   "desc": "Ingrandimento fotografico in bianco e nero di soldati che salgono a bordo della nave, montato su pannello. SEGNAPOSTO: sostituire l'immagine assets/media/partenza_photo_e.png (3:2) con la foto d'archivio.",
-   "explode": [
-    9.807000000000002,
-    -16.881,
-    -3.75
-   ],
-   "stage": [
-    0.175,
-    0.335
-   ],
-   "specs": {
-    "Stanza": "Stanza 3 – La partenza per l'Italia",
-    "Tipo": "Allestimento",
-    "Formato": "1.50 × 1.00 m",
-    "Slot": "partenza_photo_e"
-   },
-   "facts": [],
-   "sources": [
-    "EST"
-   ],
-   "kind": "object",
-   "room": "cas_s03",
-   "floor": "L1",
-   "room_prefix": "partenza",
-   "tris": 14,
-   "bbox": [
-    [
-     -5.763,
-     -0.724,
-     4.85
-    ],
-    [
-     -5.697,
-     0.876,
-     5.95
+     -5.558,
+     4.143,
+     7.355
     ]
    ]
   },
   {
    "id": "partenza_foto_s",
-   "name": "Fotografia (parete sud)",
+   "name": "Fotografia a parete intera (parete sud)",
    "system": "piano_primo",
-   "desc": "Ingrandimento fotografico in bianco e nero di soldati che salgono a bordo della nave, montato su pannello. SEGNAPOSTO: sostituire l'immagine assets/media/partenza_photo_s.png (3:2) con la foto d'archivio.",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_s.png (3:2) scalata e ritagliata, mai deformata.",
    "explode": [
     9.807000000000002,
     -16.881,
@@ -4580,36 +4362,84 @@
    "specs": {
     "Stanza": "Stanza 3 – La partenza per l'Italia",
     "Tipo": "Allestimento",
-    "Formato": "1.80 × 1.20 m",
+    "Superficie": "11.1 m²",
+    "Parete": "3.78 m, fino a 3.86 m",
+    "Ritaglio immagine": "67% × 100%",
     "Slot": "partenza_photo_s"
    },
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "object",
    "room": "cas_s03",
    "floor": "L1",
    "room_prefix": "partenza",
-   "tris": 14,
+   "task": "T2_partenza",
+   "tris": 36,
    "bbox": [
     [
-     -7.727,
-     -1.867,
-     4.75
+     -9.281,
+     -1.864,
+     3.759
     ],
     [
-     -5.826,
-     -1.845,
-     6.05
+     -5.523,
+     1.005,
+     7.61
+    ]
+   ]
+  },
+  {
+   "id": "partenza_foto_e",
+   "name": "Fotografia a parete intera (parete est)",
+   "system": "piano_primo",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_e.png (3:2) scalata e ritagliata, mai deformata.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Superficie": "11.2 m²",
+    "Parete": "6.61 m, fino a 3.86 m",
+    "Ritaglio immagine": "100% × 85%",
+    "Slot": "partenza_photo_e"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "task": "T2_partenza",
+   "tris": 30,
+   "bbox": [
+    [
+     -8.202,
+     -2.139,
+     3.759
+    ],
+    [
+     -5.678,
+     4.438,
+     7.61
     ]
    ]
   },
   {
    "id": "partenza_foto_w",
-   "name": "Fotografia (parete ovest)",
+   "name": "Fotografia a parete intera (parete ovest)",
    "system": "piano_primo",
-   "desc": "Ingrandimento fotografico in bianco e nero di soldati che salgono a bordo della nave, montato su pannello. SEGNAPOSTO: sostituire l'immagine assets/media/partenza_photo_w.png (3:2) con la foto d'archivio.",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_w.png (3:2) scalata e ritagliata, mai deformata.",
    "explode": [
     9.807000000000002,
     -16.881,
@@ -4622,28 +4452,31 @@
    "specs": {
     "Stanza": "Stanza 3 – La partenza per l'Italia",
     "Tipo": "Allestimento",
-    "Formato": "1.80 × 1.20 m",
+    "Superficie": "15.6 m²",
+    "Parete": "6.55 m, fino a 3.86 m",
+    "Ritaglio immagine": "100% × 86%",
     "Slot": "partenza_photo_w"
    },
    "facts": [],
    "sources": [
-    "EST"
+    "BRIEF"
    ],
    "kind": "object",
    "room": "cas_s03",
    "floor": "L1",
    "room_prefix": "partenza",
-   "tris": 14,
+   "task": "T2_partenza",
+   "tris": 24,
    "bbox": [
     [
-     -8.918,
-     2.405,
-     4.75
+     -8.919,
+     -2.108,
+     3.759
     ],
     [
-     -8.822,
-     4.304,
-     6.05
+     -8.623,
+     4.422,
+     7.61
     ]
    ]
   },
@@ -4677,12 +4510,12 @@
    "bbox": [
     [
      -7.132,
-     -1.866,
-     6.385
+     -1.862,
+     5.715
     ],
     [
      -6.692,
-     4.139,
+     4.135,
      6.555
     ]
    ]
@@ -4704,7 +4537,7 @@
    "specs": {
     "Stanza": "Stanza 4 – Cucina contadina toscana",
     "Tipo": "Allestimento",
-    "Pietre": "1689",
+    "Pietre": "1975",
     "Sporgenza": "1–4 cm sulla malta"
    },
    "facts": [],
@@ -4715,7 +4548,7 @@
    "room": "cas_s04",
    "floor": "L1",
    "room_prefix": "cucina",
-   "tris": 39531,
+   "tris": 46308,
    "bbox": [
     [
      -9.45,
@@ -4725,7 +4558,7 @@
     [
      -0.697,
      -2.123,
-     6.44
+     7.63
     ]
    ]
   },
@@ -4801,12 +4634,12 @@
     [
      -4.715,
      -4.509,
-     5.6
+     6.15
     ],
     [
      -4.392,
      -4.185,
-     6.453
+     7.04
     ]
    ]
   },
@@ -4839,14 +4672,231 @@
    "tris": 552,
    "bbox": [
     [
-     -5.749,
+     -5.728,
      -6.52,
      4.151
     ],
     [
-     -5.487,
+     -5.484,
      -6.28,
      4.198
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_scaffali",
+   "name": "Scaffali e nicchie della dispensa",
+   "system": "piano_primo",
+   "desc": "Scaffalature in legno dal pavimento al soffitto inclinato su tre pareti (nord, est, ovest), con nicchie in basso per i cesti di vimini e ripiani pieni di barattoli di cereali, legumi e conserve, bottiglie e fiaschi impagliati. La parete della finestra resta libera.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Sviluppo": "5.98 m su 3 pareti",
+    "Campate": "9",
+    "Profondità": "0.30 m",
+    "Ripiani": "85",
+    "Oggetti": "329 (barattoli, bottiglie, fiaschi, cesti)"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "tris": 131348,
+   "bbox": [
+    [
+     -0.482,
+     -6.985,
+     3.75
+    ],
+    [
+     3.033,
+     -4.006,
+     7.474
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_tavolo",
+   "name": "Tavolo da laboratorio con sgabelli",
+   "system": "piano_primo",
+   "desc": "Grande tavolo da lavoro in stile laboratorio (piano scuro spesso, telaio in ferro) al centro della dispensa, con quattro sgabelli infilati sotto: qui si preparavano conserve e pane.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Tavolo": "1.20 × 0.80 × 0.90 m",
+    "Passaggi": "ovest 0.79 m, est 0.79 m, nord 0.85 m, sud 0.99 m"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "tris": 1476,
+   "bbox": [
+    [
+     0.728,
+     -5.956,
+     3.749
+    ],
+    [
+     1.928,
+     -5.156,
+     4.65
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_paiolo",
+   "name": "Paiolo di rame (vuoto)",
+   "system": "piano_primo",
+   "desc": "Grande paiolo di rame battuto, vuoto, con i due manici e il manico ad arco in ferro: serviva per le conserve e per bollire i barattoli.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Diametro": "0.46 m",
+    "Altezza": "0.25 m"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "tris": 1336,
+   "bbox": [
+    [
+     0.862,
+     -5.775,
+     4.65
+    ],
+    [
+     1.434,
+     -5.297,
+     5.029
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_ricette",
+   "name": "Pila di ricette",
+   "system": "piano_primo",
+   "desc": "Una pila di fogli di ricette scritte a mano (castagnaccio, pappa al pomodoro, conserva), accanto al paiolo.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Fogli": "28"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "tris": 306,
+   "bbox": [
+    [
+     1.582,
+     -5.783,
+     4.65
+    ],
+    [
+     1.798,
+     -5.522,
+     4.67
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_lampada",
+   "name": "Lampada a sospensione",
+   "system": "piano_primo",
+   "desc": "Lampadina con piatto smaltato sopra il tavolo.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "tris": 280,
+   "bbox": [
+    [
+     1.148,
+     -5.736,
+     6.058
+    ],
+    [
+     1.508,
+     -5.376,
+     6.873
     ]
    ]
   },
@@ -4909,7 +4959,7 @@
     "Tipo": "Allestimento",
     "Superficie": "2.56 × 1.60 m",
     "Margine ai lati": "0.48 m",
-    "Margine al soffitto": "0.34 m"
+    "Margine al soffitto": "1.33 m"
    },
    "facts": [],
    "sources": [
@@ -4964,12 +5014,12 @@
     [
      5.23,
      -5.19,
-     5.958
+     6.151
     ],
     [
      5.61,
      -4.81,
-     6.648
+     6.841
     ]
    ]
   },
@@ -5045,12 +5095,12 @@
     [
      10.67,
      -2.33,
-     5.84
+     6.12
     ],
     [
      10.93,
      -2.07,
-     6.318
+     6.839
     ]
    ]
   },
@@ -5071,8 +5121,8 @@
    "specs": {
     "Stanza": "Stanza 10 – Il frantoio – i soldati sudafricani",
     "Tipo": "Allestimento",
-    "Centro": "x -1.24 m, y 2.45 m [EST]",
-    "Distanza dal muro curvo": "2 cm (vasca), 7 cm (stanga)",
+    "Centro": "x -1.13 m, y 1.82 m [EST]",
+    "Distanza dal muro curvo": "2 cm (vasca), 65 cm (stanga)",
     "Vasca": "Ø 2,40 m × 0,70 m [EST]"
    },
    "facts": [],
@@ -5084,29 +5134,29 @@
    "floor": "L0",
    "room_prefix": "frantoio",
    "mill_centre": [
-    -1.238,
-    2.446
+    -1.131,
+    1.82
    ],
-   "mill_yaw": 110,
+   "mill_yaw": 95,
    "tris": 488,
    "bbox": [
     [
-     -2.437,
-     0.922,
+     -2.327,
+     0.221,
      0.0
     ],
     [
-     -0.039,
-     3.97,
+     0.064,
+     3.42,
      2.92
     ]
    ]
   },
   {
-   "id": "frantoio_schermo_prigioniero",
-   "name": "Schermo verticale del prigioniero (IA)",
+   "id": "frantoio_nicchia",
+   "name": "Nicchia curva con lo schermo del prigioniero",
    "system": "piano_terra",
-   "desc": "Schermo verticale a grandezza naturale con cornice in legno, sulla parete sud accanto alla pressa: qui il prigioniero ricostruito con l'IA risponde alle domande dei visitatori. Contenuto segnaposto scuro (assets/media/video/frantoio_prisoner.mp4).",
+   "desc": "Dove il rilievo segnava una nicchia (e il modello aveva per errore un varco), una nicchia curva ricavata nel muro: dentro, incassato, lo schermo verticale del soldato tedesco prigioniero (ricostruito con l'IA) che risponde alle domande dei visitatori. Alto al massimo 2 m.",
    "explode": [
     -17.4345,
     -36.16,
@@ -5119,12 +5169,15 @@
    "specs": {
     "Stanza": "Stanza 10 – Il frantoio – i soldati sudafricani",
     "Tipo": "Allestimento",
-    "Immagine visibile": "0.95 × 1.95 m (verticale)",
-    "Base": "0.15 m da terra",
-    "Contenuto": "SEGNAPOSTO (video)"
+    "Nicchia": "1.60 m × 0.36 m, h 2.25 m",
+    "Immagine visibile": "0.86 × 1.72 m (verticale)",
+    "Altezza schermo": "1.96 m (max 2.00)",
+    "Incasso": "10 cm dietro il filo del muro"
    },
    "facts": [],
    "sources": [
+    "SCALED",
+    "BRIEF",
     "EST"
    ],
    "kind": "object",
@@ -5134,17 +5187,18 @@
    "media": [
     "frantoio_prisoner"
    ],
-   "tris": 122,
+   "task": "T5_frantoio",
+   "tris": 270,
    "bbox": [
     [
-     0.924,
-     -1.834,
-     0.05
+     0.71,
+     3.99,
+     0.1
     ],
     [
-     2.074,
-     -1.732,
-     2.2
+     2.31,
+     4.35,
+     3.22
     ]
    ]
   },
@@ -5275,6 +5329,226 @@
    ]
   },
   {
+   "id": "stalla_muretto",
+   "name": "Muretto in mattoni forati",
+   "system": "piano_terra",
+   "desc": "Muretto alto 1 m in mattoni forati con coronamento in mattoni pieni: parte dalla parete esterna, proprio sotto la finestra centrale, e arriva a metà stanza, dove regge il pilastro degli archi.",
+   "explode": [
+    9.684500000000002,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.591,
+    0.751
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – Stalla e ricovero animali",
+    "Tipo": "Allestimento",
+    "Lunghezza": "3.63 m",
+    "Altezza": "1.00 m [BRIEF]",
+    "Spessore": "0.30 m"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "PHOTO"
+   ],
+   "kind": "object",
+   "room": "cas_s12",
+   "floor": "L0",
+   "room_prefix": "stalla",
+   "task": "T7_stalla",
+   "tris": 24,
+   "bbox": [
+    [
+     -9.27,
+     0.992,
+     0.0
+    ],
+    [
+     -5.624,
+     1.322,
+     1.0
+    ]
+   ]
+  },
+  {
+   "id": "stalla_archi",
+   "name": "Archi in mattoni e pilastro",
+   "system": "piano_terra",
+   "desc": "Due archi ribassati in mattoni rossi attraversano la stanza sulla linea del muretto; il pilastro centrale, in mattoni con angolari d'acciaio, poggia sulla testa del muretto. Sopra gli archi poggiano i travetti del soffitto.",
+   "explode": [
+    9.684500000000002,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.591,
+    0.751
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – Stalla e ricovero animali",
+    "Tipo": "Allestimento",
+    "Luci": "2.88 m + 2.88 m",
+    "Imposta": "1.85 m",
+    "Freccia": "0.61 m (profilo condiviso con il tunnel del corridoio)",
+    "Pilastro": "0.30 × 0.30 m su muretto a 1.00 m"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "PHOTO",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12",
+   "floor": "L0",
+   "room_prefix": "stalla",
+   "task": "T7_stalla",
+   "tris": 924,
+   "bbox": [
+    [
+     -8.82,
+     0.977,
+     1.0
+    ],
+    [
+     -2.758,
+     1.337,
+     2.76
+    ]
+   ]
+  },
+  {
+   "id": "stalla_travetti",
+   "name": "Soffitto a travetti e pianelle",
+   "system": "piano_terra",
+   "desc": "Travetti di legno scuro che poggiano sugli archi e sui muri, con le pianelle di cotto in mezzo (il soffitto a vista della foto).",
+   "explode": [
+    9.684500000000002,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.591,
+    0.751
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – Stalla e ricovero animali",
+    "Tipo": "Allestimento",
+    "Travetti": "12 × 16 cm ogni 0.55 m"
+   },
+   "facts": [],
+   "sources": [
+    "PHOTO",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12",
+   "floor": "L0",
+   "room_prefix": "stalla",
+   "task": "T7_stalla",
+   "tris": 264,
+   "bbox": [
+    [
+     -8.53,
+     -1.824,
+     2.6
+    ],
+    [
+     -2.91,
+     4.07,
+     2.76
+    ]
+   ]
+  },
+  {
+   "id": "stalla_letti",
+   "name": "Letti con materassi di paglia",
+   "system": "piano_terra",
+   "desc": "Due giacigli dei partigiani: tavole su cavalletti, materasso imbottito di paglia, coperta militare piegata e cuscino di tela. Spostati qui dalla stanza di passaggio (brief 2026-10-23).",
+   "explode": [
+    9.684500000000002,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.591,
+    0.751
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – Stalla e ricovero animali",
+    "Tipo": "Allestimento",
+    "Letti": "2 × 1,95 × 0,82 m"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12",
+   "floor": "L0",
+   "room_prefix": "stalla",
+   "task": "T7_stalla",
+   "tris": 904,
+   "bbox": [
+    [
+     -8.74,
+     -1.736,
+     0.0
+    ],
+    [
+     -6.75,
+     0.991,
+     0.54
+    ]
+   ]
+  },
+  {
+   "id": "stalla_scorte",
+   "name": "Scorte dei partigiani",
+   "system": "piano_terra",
+   "desc": "Casse di legno, cassette di munizioni, taniche e sacchi di farina e di patate: le scorte nascoste dai partigiani nella stalla.",
+   "explode": [
+    9.684500000000002,
+    -35.692,
+    -0.0
+   ],
+   "stage": [
+    0.591,
+    0.751
+   ],
+   "specs": {
+    "Stanza": "Stanza 12 – Stalla e ricovero animali",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s12",
+   "floor": "L0",
+   "room_prefix": "stalla",
+   "task": "T7_stalla",
+   "tris": 1820,
+   "bbox": [
+    [
+     -8.7,
+     1.322,
+     0.0
+    ],
+    [
+     -2.798,
+     3.533,
+     0.851
+    ]
+   ]
+  },
+  {
    "id": "stalla_tavolo_mappe",
    "name": "Tavolo delle carte",
    "system": "piano_terra",
@@ -5345,8 +5619,8 @@
    "tris": 1560,
    "bbox": [
     [
-     -9.5,
-     -0.748,
+     -9.24,
+     1.438,
      0.0
     ],
     [
@@ -5855,10 +6129,10 @@
    ]
   },
   {
-   "id": "corridoio_lampada_s17",
-   "name": "Lampada a sospensione",
+   "id": "corridoio_tunnel",
+   "name": "Tunnel di tessuto con proiezione a 360°",
    "system": "piano_terra",
-   "desc": "Lampadina nuda sotto un piatto smaltato: luce calda e bassa lungo il corridoio.",
+   "desc": "Tunnel continuo lungo tutto il corridoio, dall'inizio (porta del cortile e ingresso dalla stanza 16) fino alla reception, con il profilo degli archi della stalla (pareti diritte e volta ribassata). Fuori tessuto nero opaco con pieghe; dentro, su pareti e volta, la proiezione a 360° del sorvolo della mappa (il percorso dei carri armati verso Firenze) che scorre lungo il tunnel.",
    "explode": [
     -7.756500000000001,
     -38.673,
@@ -5870,35 +6144,44 @@
    ],
    "specs": {
     "Stanza": "Stanza 17 – Corridoio finale e archivio",
-    "Tipo": "Allestimento"
+    "Tipo": "Allestimento",
+    "Lunghezza": "6.26 m",
+    "Larghezza interna": "1.68 m",
+    "Altezza": "2.18 m all'imposta, 2.53 m in chiave",
+    "Video": "assets/media/video/corridoio_tunnel.mp4 (u intorno, v lungo il tunnel)"
    },
    "facts": [],
    "sources": [
+    "BRIEF",
     "EST"
    ],
    "kind": "object",
    "room": "cas_s17",
    "floor": "L0",
    "room_prefix": "corridoio",
-   "tris": 620,
+   "media": [
+    "corridoio_tunnel"
+   ],
+   "task": "T8_corridoio",
+   "tris": 12796,
    "bbox": [
     [
-     8.61,
-     -5.74,
-     2.448
+     7.58,
+     -6.882,
+     0.0
     ],
     [
-     8.99,
-     -5.36,
-     3.238
+     10.22,
+     -0.6,
+     2.551
     ]
    ]
   },
   {
-   "id": "corridoio_lampada_campata",
-   "name": "Lampada a sospensione",
+   "id": "corridoio_portoni",
+   "name": "Due porte pesanti verso la reception",
    "system": "piano_terra",
-   "desc": "Lampadina nuda sotto un piatto smaltato: luce calda e bassa lungo il corridoio.",
+   "desc": "Due ante pesanti in tavole di rovere con bandelle e borchie di ferro e grandi maniglie ad anello: chiudono il tunnel verso la reception. Mostrate aperte verso il tunnel.",
    "explode": [
     -0.849499999999999,
     -42.373000000000005,
@@ -5910,27 +6193,31 @@
    ],
    "specs": {
     "Stanza": "Stanza 17 – Corridoio finale – campata centrale",
-    "Tipo": "Allestimento"
+    "Tipo": "Allestimento",
+    "Ante": "2 × 0.78 × 2.04 m",
+    "Spessore": "7 cm"
    },
    "facts": [],
    "sources": [
+    "BRIEF",
     "EST"
    ],
    "kind": "object",
    "room": "cas_l0_passaggio",
    "floor": "L0",
    "room_prefix": "corridoio",
-   "tris": 620,
+   "task": "T8_corridoio",
+   "tris": 2632,
    "bbox": [
     [
-     8.61,
-     -2.49,
-     2.448
+     7.827,
+     -1.466,
+     0.02
     ],
     [
-     8.99,
-     -2.11,
-     3.238
+     9.553,
+     -0.692,
+     2.06
     ]
    ]
   }
@@ -6075,6 +6362,266 @@
    "stride": 8,
    "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
    "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_uova",
+   "part": "dispensa_scaffali",
+   "count": 8,
+   "template": "tpl_dispensa_cesto_uova.glb",
+   "file": "inst_dispensa_cesto_uova.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_olio",
+   "part": "dispensa_scaffali",
+   "count": 1,
+   "template": "tpl_dispensa_bottiglia_olio.glb",
+   "file": "inst_dispensa_bottiglia_olio.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_fiasco",
+   "part": "dispensa_scaffali",
+   "count": 4,
+   "template": "tpl_dispensa_fiasco.glb",
+   "file": "inst_dispensa_fiasco.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_pomodori",
+   "part": "dispensa_scaffali",
+   "count": 14,
+   "template": "tpl_dispensa_vaso_l_pomodori.glb",
+   "file": "inst_dispensa_vaso_l_pomodori.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_olive",
+   "part": "dispensa_scaffali",
+   "count": 25,
+   "template": "tpl_dispensa_vaso_l_olive.glb",
+   "file": "inst_dispensa_vaso_l_olive.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_farro",
+   "part": "dispensa_scaffali",
+   "count": 10,
+   "template": "tpl_dispensa_vaso_s_farro.glb",
+   "file": "inst_dispensa_vaso_s_farro.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_ceci",
+   "part": "dispensa_scaffali",
+   "count": 26,
+   "template": "tpl_dispensa_vaso_l_ceci.glb",
+   "file": "inst_dispensa_vaso_l_ceci.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_fagioli",
+   "part": "dispensa_scaffali",
+   "count": 8,
+   "template": "tpl_dispensa_vaso_s_fagioli.glb",
+   "file": "inst_dispensa_vaso_s_fagioli.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_ceci",
+   "part": "dispensa_scaffali",
+   "count": 15,
+   "template": "tpl_dispensa_vaso_s_ceci.glb",
+   "file": "inst_dispensa_vaso_s_ceci.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_pomodori",
+   "part": "dispensa_scaffali",
+   "count": 5,
+   "template": "tpl_dispensa_vaso_s_pomodori.glb",
+   "file": "inst_dispensa_vaso_s_pomodori.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_miele",
+   "part": "dispensa_scaffali",
+   "count": 4,
+   "template": "tpl_dispensa_vaso_s_miele.glb",
+   "file": "inst_dispensa_vaso_s_miele.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_noci",
+   "part": "dispensa_scaffali",
+   "count": 4,
+   "template": "tpl_dispensa_cesto_noci.glb",
+   "file": "inst_dispensa_cesto_noci.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_cipolle",
+   "part": "dispensa_scaffali",
+   "count": 9,
+   "template": "tpl_dispensa_cesto_cipolle.glb",
+   "file": "inst_dispensa_cesto_cipolle.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_farro",
+   "part": "dispensa_scaffali",
+   "count": 21,
+   "template": "tpl_dispensa_vaso_l_farro.glb",
+   "file": "inst_dispensa_vaso_l_farro.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_miele",
+   "part": "dispensa_scaffali",
+   "count": 22,
+   "template": "tpl_dispensa_vaso_l_miele.glb",
+   "file": "inst_dispensa_vaso_l_miele.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_olive",
+   "part": "dispensa_scaffali",
+   "count": 6,
+   "template": "tpl_dispensa_vaso_s_olive.glb",
+   "file": "inst_dispensa_vaso_s_olive.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_fagioli",
+   "part": "dispensa_scaffali",
+   "count": 24,
+   "template": "tpl_dispensa_vaso_l_fagioli.glb",
+   "file": "inst_dispensa_vaso_l_fagioli.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_fagioli",
+   "part": "dispensa_scaffali",
+   "count": 19,
+   "template": "tpl_dispensa_vaso_m_fagioli.glb",
+   "file": "inst_dispensa_vaso_m_fagioli.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_farro",
+   "part": "dispensa_scaffali",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_farro.glb",
+   "file": "inst_dispensa_vaso_m_farro.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_olive",
+   "part": "dispensa_scaffali",
+   "count": 20,
+   "template": "tpl_dispensa_vaso_m_olive.glb",
+   "file": "inst_dispensa_vaso_m_olive.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_pomodori",
+   "part": "dispensa_scaffali",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_pomodori.glb",
+   "file": "inst_dispensa_vaso_m_pomodori.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_ceci",
+   "part": "dispensa_scaffali",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_ceci.glb",
+   "file": "inst_dispensa_vaso_m_ceci.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_vino",
+   "part": "dispensa_scaffali",
+   "count": 4,
+   "template": "tpl_dispensa_bottiglia_vino.glb",
+   "file": "inst_dispensa_bottiglia_vino.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_miele",
+   "part": "dispensa_scaffali",
+   "count": 21,
+   "template": "tpl_dispensa_vaso_m_miele.glb",
+   "file": "inst_dispensa_vaso_m_miele.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_patate",
+   "part": "dispensa_scaffali",
+   "count": 3,
+   "template": "tpl_dispensa_cesto_patate.glb",
+   "file": "inst_dispensa_cesto_patate.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_aceto",
+   "part": "dispensa_scaffali",
+   "count": 5,
+   "template": "tpl_dispensa_bottiglia_aceto.glb",
+   "file": "inst_dispensa_bottiglia_aceto.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
   }
  ],
  "views": [
@@ -6082,14 +6629,14 @@
    "id": "house34",
    "name": "Casa ¾",
    "pos": [
-    19.13,
-    -33.12,
-    31.34
+    19.64,
+    -34.01,
+    32.61
    ],
    "target": [
     0.03,
     -0.01,
-    3.32
+    3.85
    ],
    "fov": 32.27
   },
@@ -6097,14 +6644,14 @@
    "id": "house34b",
    "name": "Casa ¾ (retro)",
    "pos": [
-    -26.01,
-    34.7,
-    35.14
+    -26.62,
+    35.52,
+    36.41
    ],
    "target": [
     0.03,
     -0.01,
-    3.32
+    3.85
    ],
    "fov": 32.27
   },
@@ -6114,12 +6661,12 @@
    "pos": [
     0.03,
     -0.01,
-    39.31
+    40.6
    ],
    "target": [
     0.03,
     -0.01,
-    3.32
+    3.85
    ],
    "ortho": 35.23,
    "fov": 32.27
@@ -6129,13 +6676,13 @@
    "name": "Percorso (esploso)",
    "pos": [
     0.02,
-    -79.88,
-    91.11
+    -80.29,
+    92.25
    ],
    "target": [
     0.02,
     -19.02,
-    3.2
+    3.75
    ],
    "fov": 32.27
   }
@@ -6242,8 +6789,8 @@
    {
     "flow": 12,
     "part": "cas_s12b",
-    "num": "12",
-    "name": "La stanza dei partigiani",
+    "num": null,
+    "name": "Stanza di passaggio",
     "floor": "L0"
    },
    {
@@ -6383,6 +6930,23 @@
     "lens": 20.0
    },
    {
+    "id": "dispensa",
+    "room": "cas_s05",
+    "rid": "s05",
+    "level": "L1",
+    "pos": [
+     1.33,
+     -6.78,
+     5.35
+    ],
+    "target": [
+     1.2,
+     -3.9,
+     5.0
+    ],
+    "lens": 15.0
+   },
+   {
     "id": "scuola",
     "room": "cas_s06",
     "rid": "s06",
@@ -6417,21 +6981,55 @@
     "lens": 18.0
    },
    {
+    "id": "matrimoniale",
+    "room": "cas_s09",
+    "rid": "s09",
+    "level": "L1",
+    "pos": [
+     8.3,
+     3.7,
+     5.35
+    ],
+    "target": [
+     11.6,
+     -0.1,
+     4.75
+    ],
+    "lens": 18.0
+   },
+   {
     "id": "frantoio",
     "room": "cas_s10",
     "rid": "s10",
     "level": "L0",
     "pos": [
-     2.6,
-     3.4,
+     0.9,
+     -1.3,
      1.6
     ],
     "target": [
-     -0.42,
-     0.78,
-     1.0
+     -1.3,
+     3.9,
+     1.1
     ],
     "lens": 16.0
+   },
+   {
+    "id": "frantoio_nicchia",
+    "room": "cas_s10",
+    "rid": "s10",
+    "level": "L0",
+    "pos": [
+     1.51,
+     2.2,
+     1.6
+    ],
+    "target": [
+     1.51,
+     4.3,
+     1.05
+    ],
+    "lens": 20.0
    },
    {
     "id": "loggia",
@@ -6456,16 +7054,33 @@
     "rid": "s12",
     "level": "L0",
     "pos": [
-     -5.7,
-     1.25,
+     -3.25,
+     3.45,
      1.6
     ],
     "target": [
-     -8.3,
-     3.55,
-     0.95
+     -7.9,
+     -0.4,
+     1.15
     ],
-    "lens": 20.0
+    "lens": 16.0
+   },
+   {
+    "id": "passaggio",
+    "room": "cas_s12b",
+    "rid": "s12b",
+    "level": "L0",
+    "pos": [
+     -4.0,
+     8.25,
+     1.6
+    ],
+    "target": [
+     -4.1,
+     4.4,
+     1.0
+    ],
+    "lens": 16.0
    },
    {
     "id": "vr",
@@ -6546,7 +7161,7 @@
     "pos": [
      1.1,
      2.4,
-     6.19
+     6.135
     ],
     "watts": 50.0,
     "kelvin": 2500,
@@ -6564,7 +7179,7 @@
     "pos": [
      -3.95,
      1.9,
-     5.94
+     6.09
     ],
     "watts": 24.0,
     "kelvin": 2500,
@@ -6581,8 +7196,8 @@
     "level": "L1",
     "pos": [
      -7.048,
-     4.038,
-     6.47
+     4.034,
+     5.8
     ],
     "watts": 35.0,
     "kelvin": 2600,
@@ -6599,7 +7214,7 @@
     "level": "L1",
     "pos": [
      -6.777,
-     -1.766,
+     -1.762,
      6.47
     ],
     "watts": 35.0,
@@ -6618,7 +7233,7 @@
     "pos": [
      -4.553,
      -4.347,
-     5.61
+     6.16
     ],
     "watts": 60.0,
     "kelvin": 2700,
@@ -6648,13 +7263,31 @@
     "kind": "POINT"
    },
    {
+    "id": "dispensa_lampada",
+    "room": "cas_s05",
+    "level": "L1",
+    "pos": [
+     1.328,
+     -5.556,
+     6.04
+    ],
+    "watts": 45.0,
+    "kelvin": 2600,
+    "color": [
+     1.0,
+     0.639,
+     0.31
+    ],
+    "kind": "POINT"
+   },
+   {
     "id": "scuola_pendant",
     "room": "cas_s06",
     "level": "L1",
     "pos": [
      5.42,
      -5.0,
-     5.973
+     6.166
     ],
     "watts": 50,
     "kelvin": 2700,
@@ -6672,7 +7305,7 @@
     "pos": [
      10.8,
      -2.2,
-     5.82
+     6.1
     ],
     "watts": 20.0,
     "kelvin": 2400,
@@ -6682,6 +7315,29 @@
      0.237
     ],
     "kind": "POINT"
+   },
+   {
+    "id": "frantoio_nicchia",
+    "room": "cas_s10",
+    "level": "L0",
+    "pos": [
+     1.51,
+     3.94,
+     2.19
+    ],
+    "watts": 25.0,
+    "kelvin": 2600,
+    "color": [
+     1.0,
+     0.639,
+     0.31
+    ],
+    "kind": "SPOT",
+    "target": [
+     1.51,
+     4.14,
+     1.0
+    ]
    },
    {
     "id": "frantoio_lamp_macina",
@@ -6792,38 +7448,20 @@
     "kind": "POINT"
    },
    {
-    "id": "corridoio_s17",
-    "room": "cas_s17",
-    "level": "L0",
-    "pos": [
-     8.8,
-     -5.55,
-     2.463
-    ],
-    "watts": 45,
-    "kelvin": 2700,
-    "color": [
-     1.0,
-     0.654,
-     0.343
-    ],
-    "kind": "POINT"
-   },
-   {
-    "id": "corridoio_campata",
+    "id": "corridoio_tunnel",
     "room": "cas_l0_passaggio",
     "level": "L0",
     "pos": [
-     8.8,
-     -2.3,
-     2.463
+     8.69,
+     -3.73,
+     1.744
     ],
-    "watts": 45,
-    "kelvin": 2700,
+    "watts": 12.0,
+    "kelvin": 5200,
     "color": [
      1.0,
-     0.654,
-     0.343
+     0.909,
+     0.834
     ],
     "kind": "POINT"
    }
@@ -6834,7 +7472,7 @@
     "kind": "video",
     "label": "Filmato di guerra in loop (Sala video)",
     "material": "media_video_screen",
-    "aspect": 2.4256,
+    "aspect": 1.4344,
     "still": "assets/media/video_screen.png",
     "src": "media/video/video_screen.mp4",
     "source_file": "assets/media/video/video_screen.mp4",
@@ -6854,34 +7492,34 @@
    "partenza_photo_n": {
     "slot": "partenza_photo_n",
     "kind": "photo",
-    "label": "Foto: soldati che si imbarcano (parete nord)",
+    "label": "Foto: la partenza (parete nord)",
     "material": "media_partenza_photo_n",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_n.png",
     "room": "cas_s03"
    },
-   "partenza_photo_e": {
-    "slot": "partenza_photo_e",
-    "kind": "photo",
-    "label": "Foto: soldati che si imbarcano (parete est)",
-    "material": "media_partenza_photo_e",
-    "aspect": 1.5,
-    "still": "assets/media/partenza_photo_e.png",
-    "room": "cas_s03"
-   },
    "partenza_photo_s": {
     "slot": "partenza_photo_s",
     "kind": "photo",
-    "label": "Foto: soldati che si imbarcano (parete sud)",
+    "label": "Foto: la partenza (parete sud)",
     "material": "media_partenza_photo_s",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_s.png",
     "room": "cas_s03"
    },
+   "partenza_photo_e": {
+    "slot": "partenza_photo_e",
+    "kind": "photo",
+    "label": "Foto: la partenza (parete est)",
+    "material": "media_partenza_photo_e",
+    "aspect": 1.5,
+    "still": "assets/media/partenza_photo_e.png",
+    "room": "cas_s03"
+   },
    "partenza_photo_w": {
     "slot": "partenza_photo_w",
     "kind": "photo",
-    "label": "Foto: soldati che si imbarcano (parete ovest)",
+    "label": "Foto: la partenza (parete ovest)",
     "material": "media_partenza_photo_w",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_w.png",
@@ -6890,7 +7528,7 @@
    "frantoio_prisoner": {
     "slot": "frantoio_prisoner",
     "kind": "video",
-    "label": "Prigioniero (IA) a grandezza naturale",
+    "label": "Prigioniero tedesco (IA) a grandezza naturale",
     "material": "media_frantoio_prisoner",
     "aspect": 0.5,
     "still": "assets/media/frantoio_prisoner.png",
@@ -6907,6 +7545,17 @@
     "still": "assets/media/corridoio_floor.png",
     "src": "media/video/corridoio_floor.mp4",
     "source_file": "assets/media/video/corridoio_floor.mp4",
+    "room": "cas_s17"
+   },
+   "corridoio_tunnel": {
+    "slot": "corridoio_tunnel",
+    "kind": "video",
+    "label": "Proiezione a 360° nel tunnel (sorvolo della mappa)",
+    "material": "media_corridoio_tunnel",
+    "aspect": 0.9946,
+    "still": "assets/media/corridoio_tunnel.png",
+    "src": "media/video/corridoio_tunnel.mp4",
+    "source_file": "assets/media/video/corridoio_tunnel.mp4",
     "room": "cas_s17"
    }
   },
