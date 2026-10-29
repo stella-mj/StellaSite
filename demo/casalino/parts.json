@@ -2,7 +2,7 @@
  "title": "Casalino – percorso museale",
  "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
  "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
- "generated": "2026-10-28 16:55",
+ "generated": "2026-10-29 10:14",
  "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
  "systems": [
   {
@@ -190,6 +190,21 @@
    "kind": "exhibit",
    "floor": "L1",
    "images": [],
+   "versions": {
+    "stella": {
+     "name": "Stanza 2 – La stanza politica",
+     "desc": "STANZA 02 – LA STANZA POLITICA. Lo studio di casa dove, tra il 1943 e il 1944, si seguono la guerra e la politica: la radio per ascoltare di nascosto Radio Londra, la carta d'Europa con i fronti, giornali e ritagli incorniciati, ritratti di famiglia, una scrivania con la macchina da scrivere e due poltrone su un tappeto. Sulla parete verso la sala video un filmato d'archivio dei leader alleati, in una cornice di legno. (Brief 2026-10-28: arredi e atmosfera dal render di riferimento; testo da confermare.)",
+     "images": []
+    },
+    "giuseppe": {
+     "name": "Stanza 2 – Viaggio in Sudafrica",
+     "desc": "STANZA 02 – VIAGGIO IN SUDAFRICA, COSA SPINSE A PARTIRE? CON UN PASSAGGIO STUDIATO CON SUONI ARMONIOSI FACCIAMO UN SALTO IN SUDAFRICA DOVE SPIEGARE:\n– L'ASPETTO UMANO DEL RECLUTAMENTO VOLONTARI E IL CLIMA (GIORNALI + MANIFESTI DI RECLUTAMENTO)\n– LE MOTIVAZIONI CHE HANNO SPINTO I GIOVANI A PARTIRE PER UNA GUERRA COSÌ LONTANA\n– LE DISCUSSIONI IN CASA (REALIZZARE UNA FINESTRA SU UNA FARM DOVE TRAMITE VIDEO SI VEDE UNA DISCUSSIONE MADRE - FIGLIO)",
+     "images": [
+      "L1_img01.jpg",
+      "L1_img02.jpg"
+     ]
+    }
+   },
    "tris": 206,
    "bbox": [
     [
@@ -272,6 +287,21 @@
    "kind": "exhibit",
    "floor": "L1",
    "images": [],
+   "versions": {
+    "stella": {
+     "name": "Stanza 3 – Dispensa",
+     "desc": "STANZA 03 – DISPENSA.",
+     "images": []
+    },
+    "giuseppe": {
+     "name": "Stanza 3 – La partenza per l'Italia",
+     "desc": "STANZA 3 – LA PARTENZA PER L'ITALIA. LA DIVISIONE DOPO 1 ANNO DI ADDESTRAMENTO SI IMBARCA DA SUEZ: È IL NOSTRO MOMENTO! NON SAPPIAMO COSA CI ASPETTA! L'ARRIVO IN ITALIA A TARANTO È STATO POSITIVO, IN GRAN PARTE DEI CASI LE PERSONE CI ACCOLGONO E CI TRATTANO BENE. AVANZIAMO FINO A ROMA IN GRAN PARTE SENZA ESSERE SCHIERATI IN PRIMA LINEA. DOPO LA LIBERAZIONE DI ROMA, LA DIVISIONE AVANZÒ LUNGO LA RIVA OCCIDENTALE DEL TEVERE, COMBATTENDO DURAMENTE A CHIUSI DAL 22 AL 26 GIUGNO 1944. PROSEGUÌ POI NELLA PROVINCIA DI SIENA, LIBERANDO SINALUNGA, RAPOLANO E CASTELNUOVO BERARDENGA. A LUGLIO FU FERMATA PER 15 GIORNI SULLA LINEA HILDE, TRA I MONTI DEL CHIANTI, PRIMA DI RIPRENDERE L'AVANZATA VERSO GREVE, LUNGO LA \"HEART'S ROUTE\". FINO AD ARRIVARE QUI… GREVE IN CHIANTI È AD UN PASSO DA NOI…",
+     "images": [
+      "L1_img03.jpg",
+      "L1_img04.jpg"
+     ]
+    }
+   },
    "tris": 258,
    "bbox": [
     [
@@ -668,6 +698,18 @@
    "kind": "exhibit",
    "floor": "L1",
    "images": [],
+   "versions": {
+    "stella": {
+     "name": "Stanza 5 – Camera matrimoniale",
+     "desc": "STANZA 05 – CAMERA MATRIMONIALE. Deve anticipare la tensione prima della discesa al piano inferiore.\n\nFINESTRA FALSA: la finestra sulla facciata verso i cipressi (hd 91, hf 135) non ha vista reale ed è ideale per uno schermo. Video in bianco e nero, discreto: paesaggio di Vignamaggio con aerei o fumo lontano. Loop orario con cambio della luce solare (solo estate '44). Schermo vero preferito alla finestra a pixel sovrapposti; nessun foro nei muri, integrazione con l'arredo (letto, armadio).\n\nAUDIO: urla e voci tedesche udibili dalle stanze superiori durante il percorso.\n\nDalla pianta del 09/10/2026: STANZA 09 – CAMERA, VITA CONTADINA.",
+     "images": []
+    },
+    "giuseppe": {
+     "name": "Stanza 5 – Dispensa",
+     "desc": "STANZA 05 – DISPENSA.",
+     "images": []
+    }
+   },
    "tris": 287,
    "bbox": [
     [
@@ -708,6 +750,7 @@
    "room": "cas_s05",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 48,
    "bbox": [
     [
@@ -748,6 +791,7 @@
    "room": "cas_s05",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 24,
    "bbox": [
     [
@@ -788,6 +832,7 @@
    "room": "cas_s05",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 84,
    "bbox": [
     [
@@ -873,6 +918,22 @@
    "images": [
     "L1_img07.jpg"
    ],
+   "versions": {
+    "stella": {
+     "name": "Stanza 6 – Camera dei tre figli",
+     "desc": "STANZA 06 – CAMERA DEI TRE FIGLI. Vita contadina toscana nel '44, tono domestico con sottofondo di guerra; ansia crescente verso la discesa.\n\nDalla pianta del 09/10/2026: STANZA 08 – CAMERA, VITA CONTADINA. DA UNA DELLE FINESTRE POSSIAMO METTERE UN BINOCOLO MILITARE DOVE POTER VEDERE VIGNAMAGGIO… DOVE SONO I TEDESCHI!! IL NOSTRO CARRO SI È GIÀ POSIZIONATO GIÙ, DEVE STARE ATTENTO A QUEL MALEDETTO CANNONE FLAK 88!!!",
+     "images": [
+      "L1_img07.jpg"
+     ]
+    },
+    "giuseppe": {
+     "name": "Stanza 6 – La scuola rurale",
+     "desc": "STANZA 06 – LA SCUOLA RURALE. DURANTE LA GUERRA LA SCUOLA RURALE ITALIANA ERA SPESSO L'UNICA FORMA DI ISTRUZIONE NELLE CAMPAGNE, CARATTERIZZATA DA PLURICLASSI (PIÙ CLASSI NELLO STESSO AMBIENTE) E MAESTRI UNICI. ERANO STRUTTURE POVERE, A VOLTE UNA SINGOLA STANZA, CHE RISPECCHIAVANO LE DIFFICOLTÀ ECONOMICHE DEL TEMPO. L'ISTRUZIONE UNIVA LE MATERIE BASE (LEGGERE, SCRIVERE, FAR DI CONTO) CON NOZIONI PRATICHE DI VITA CONTADINA.\n\nFOTO DELL'AUTOBUS DELL'EPOCA. BANCHI, SEDIE E CATTEDRA. FOTO MUSSOLINI O RE. LIBRI E MATITE.",
+     "images": [
+      "L1_img06.jpg"
+     ]
+    }
+   },
    "tris": 255,
    "bbox": [
     [
@@ -913,6 +974,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 48,
    "bbox": [
     [
@@ -953,6 +1015,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 48,
    "bbox": [
     [
@@ -993,6 +1056,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 48,
    "bbox": [
     [
@@ -1033,6 +1097,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "task": "brief_2026_10_28",
+   "version": "stella",
    "tris": 184,
    "bbox": [
     [
@@ -1117,6 +1182,20 @@
    "images": [
     "L1_img06.jpg"
    ],
+   "versions": {
+    "stella": {
+     "name": "Stanza 7 – La scuola rurale",
+     "desc": "STANZA 07 – LA SCUOLA RURALE. DURANTE LA GUERRA LA SCUOLA RURALE ITALIANA ERA SPESSO L'UNICA FORMA DI ISTRUZIONE NELLE CAMPAGNE, CARATTERIZZATA DA PLURICLASSI (PIÙ CLASSI NELLO STESSO AMBIENTE) E MAESTRI UNICI. ERANO STRUTTURE POVERE, A VOLTE UNA SINGOLA STANZA, CHE RISPECCHIAVANO LE DIFFICOLTÀ ECONOMICHE DEL TEMPO. L'ISTRUZIONE UNIVA LE MATERIE BASE (LEGGERE, SCRIVERE, FAR DI CONTO) CON NOZIONI PRATICHE DI VITA CONTADINA.\n\nFOTO DELL'AUTOBUS DELL'EPOCA. BANCHI, SEDIE E CATTEDRA. FOTO MUSSOLINI O RE. LIBRI E MATITE.",
+     "images": [
+      "L1_img06.jpg"
+     ]
+    },
+    "giuseppe": {
+     "name": "Stanza 7 – Stanza degli attrezzi e del telaio",
+     "desc": "STANZA 07 – STANZA DEGLI ATTREZZI E DEL TELAIO. Vita contadina toscana nel '44: tono domestico, con un piccolo sottofondo di guerra.\n\nDalla pianta del 09/10/2026: STANZA 07 – STANZA DEL TELAIO. LA CASA ERA IL LUOGO DOVE LA FAMIGLIA VIVEVA E DORMIVA. SPESSO, GLI SPAZI ERANO LIMITATI E CONDIVISI DA PIÙ GENERAZIONI. DURANTE LA GUERRA, LA CASA POTEVA ANCHE OSPITARE SFOLLATI O FAMILIARI IN FUGA DALLE CITTÀ BOMBARDATE, ED OSPITARE LA SCUOLA RURALE.",
+     "images": []
+    }
+   },
    "tris": 138,
    "bbox": [
     [
@@ -1128,6 +1207,46 @@
      12.943,
      -3.807,
      7.746
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s07_0_giuseppe",
+   "name": "Telaio a mano",
+   "system": "piano_primo",
+   "desc": "Telaio a mano (circa 1.6 × 1.8 m).",
+   "explode": [
+    -13.598499999999998,
+    -19.400499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.341,
+    0.501
+   ],
+   "specs": {
+    "Stanza": "Stanza 7 – Stanza degli attrezzi e del telaio",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s07",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 156,
+   "bbox": [
+    [
+     8.756,
+     -6.834,
+     3.75
+    ],
+    [
+     10.356,
+     -4.584,
+     5.45
     ]
    ]
   },
@@ -1278,6 +1397,23 @@
     "L1_img01.jpg",
     "L1_img02.jpg"
    ],
+   "versions": {
+    "stella": {
+     "name": "Stanza 8 – Viaggio in Sudafrica",
+     "desc": "STANZA 08 – VIAGGIO IN SUDAFRICA, COSA SPINSE A PARTIRE? CON UN PASSAGGIO STUDIATO CON SUONI ARMONIOSI FACCIAMO UN SALTO IN SUDAFRICA DOVE SPIEGARE:\n– L'ASPETTO UMANO DEL RECLUTAMENTO VOLONTARI E IL CLIMA (GIORNALI + MANIFESTI DI RECLUTAMENTO)\n– LE MOTIVAZIONI CHE HANNO SPINTO I GIOVANI A PARTIRE PER UNA GUERRA COSÌ LONTANA\n– LE DISCUSSIONI IN CASA (REALIZZARE UNA FINESTRA SU UNA FARM DOVE TRAMITE VIDEO SI VEDE UNA DISCUSSIONE MADRE - FIGLIO)",
+     "images": [
+      "L1_img01.jpg",
+      "L1_img02.jpg"
+     ]
+    },
+    "giuseppe": {
+     "name": "Stanza 8 – Camera dei tre figli",
+     "desc": "STANZA 08 – CAMERA DEI TRE FIGLI. Vita contadina toscana nel '44, tono domestico con sottofondo di guerra; ansia crescente verso la discesa.\n\nDalla pianta del 09/10/2026: STANZA 08 – CAMERA, VITA CONTADINA. DA UNA DELLE FINESTRE POSSIAMO METTERE UN BINOCOLO MILITARE DOVE POTER VEDERE VIGNAMAGGIO… DOVE SONO I TEDESCHI!! IL NOSTRO CARRO SI È GIÀ POSIZIONATO GIÙ, DEVE STARE ATTENTO A QUEL MALEDETTO CANNONE FLAK 88!!!",
+     "images": [
+      "L1_img07.jpg"
+     ]
+    }
+   },
    "tris": 171,
    "bbox": [
     [
@@ -1289,6 +1425,126 @@
      12.927,
      -0.415,
      7.67
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s08_0_giuseppe",
+   "name": "Letto 1",
+   "system": "piano_primo",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 48,
+   "bbox": [
+    [
+     9.089,
+     -2.613,
+     3.75
+    ],
+    [
+     9.989,
+     -0.713,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s08_1_giuseppe",
+   "name": "Letto 2",
+   "system": "piano_primo",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 48,
+   "bbox": [
+    [
+     10.179,
+     -2.613,
+     3.75
+    ],
+    [
+     11.079,
+     -0.713,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s08_2_giuseppe",
+   "name": "Letto 3",
+   "system": "piano_primo",
+   "desc": "Letto dei figli.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 48,
+   "bbox": [
+    [
+     11.269,
+     -2.613,
+     3.75
+    ],
+    [
+     12.169,
+     -0.713,
+     4.85
     ]
    ]
   },
@@ -1363,6 +1619,21 @@
     "L1_img03.jpg",
     "L1_img04.jpg"
    ],
+   "versions": {
+    "stella": {
+     "name": "Stanza 9 – La partenza per l'Italia",
+     "desc": "STANZA 09 – LA PARTENZA PER L'ITALIA. LA DIVISIONE DOPO 1 ANNO DI ADDESTRAMENTO SI IMBARCA DA SUEZ: È IL NOSTRO MOMENTO! NON SAPPIAMO COSA CI ASPETTA! L'ARRIVO IN ITALIA A TARANTO È STATO POSITIVO, IN GRAN PARTE DEI CASI LE PERSONE CI ACCOLGONO E CI TRATTANO BENE. AVANZIAMO FINO A ROMA IN GRAN PARTE SENZA ESSERE SCHIERATI IN PRIMA LINEA. DOPO LA LIBERAZIONE DI ROMA, LA DIVISIONE AVANZÒ LUNGO LA RIVA OCCIDENTALE DEL TEVERE, COMBATTENDO DURAMENTE A CHIUSI DAL 22 AL 26 GIUGNO 1944. PROSEGUÌ POI NELLA PROVINCIA DI SIENA, LIBERANDO SINALUNGA, RAPOLANO E CASTELNUOVO BERARDENGA. A LUGLIO FU FERMATA PER 15 GIORNI SULLA LINEA HILDE, TRA I MONTI DEL CHIANTI, PRIMA DI RIPRENDERE L'AVANZATA VERSO GREVE, LUNGO LA \"HEART'S ROUTE\". FINO AD ARRIVARE QUI… GREVE IN CHIANTI È AD UN PASSO DA NOI…",
+     "images": [
+      "L1_img03.jpg",
+      "L1_img04.jpg"
+     ]
+    },
+    "giuseppe": {
+     "name": "Stanza 9 – Camera matrimoniale",
+     "desc": "STANZA 09 – CAMERA MATRIMONIALE. Deve anticipare la tensione prima della discesa al piano inferiore.\n\nFINESTRA FALSA: la finestra sulla facciata verso i cipressi (hd 91, hf 135) non ha vista reale ed è ideale per uno schermo. Video in bianco e nero, discreto: paesaggio di Vignamaggio con aerei o fumo lontano. Loop orario con cambio della luce solare (solo estate '44). Schermo vero preferito alla finestra a pixel sovrapposti; nessun foro nei muri, integrazione con l'arredo (letto, armadio).\n\nAUDIO: urla e voci tedesche udibili dalle stanze superiori durante il percorso.\n\nDalla pianta del 09/10/2026: STANZA 09 – CAMERA, VITA CONTADINA.",
+     "images": []
+    }
+   },
    "tris": 170,
    "bbox": [
     [
@@ -1374,6 +1645,127 @@
      12.91,
      4.535,
      7.694
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_0_giuseppe",
+   "name": "Letto matrimoniale",
+   "system": "piano_primo",
+   "desc": "Letto matrimoniale.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 48,
+   "bbox": [
+    [
+     7.667,
+     1.067,
+     3.75
+    ],
+    [
+     9.717,
+     2.717,
+     4.85
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_1_giuseppe",
+   "name": "Armadio",
+   "system": "piano_primo",
+   "desc": "Armadio contro la parete sud, nel tratto lontano dalla porta del passaggio: lascia libera l'apertura della porta (brief 2026-10-23).",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "task": "T4_matrimoniale",
+   "version": "giuseppe",
+   "tris": 24,
+   "bbox": [
+    [
+     11.102,
+     -0.335,
+     3.75
+    ],
+    [
+     12.302,
+     0.275,
+     5.75
+    ]
+   ]
+  },
+  {
+   "id": "cas_obj_s09_2_giuseppe",
+   "name": "Finestra falsa (schermo)",
+   "system": "piano_primo",
+   "desc": "Schermo dietro la finestra verso i cipressi: video in bianco e nero, estate '44, luce che cambia nell'arco della giornata.",
+   "explode": [
+    -1.0355000000000025,
+    -27.026999999999997,
+    -3.75
+   ],
+   "stage": [
+    0.424,
+    0.584
+   ],
+   "specs": {
+    "Stanza": "Stanza 9 – Camera matrimoniale",
+    "Tipo": "Segnaposto (oggetto / installazione)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s09",
+   "floor": "L1",
+   "version": "giuseppe",
+   "tris": 84,
+   "bbox": [
+    [
+     12.299,
+     1.382,
+     4.6
+    ],
+    [
+     12.358,
+     2.402,
+     6.07
     ]
    ]
   },
@@ -4226,6 +4618,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 330,
    "bbox": [
     [
@@ -4269,6 +4662,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 372,
    "bbox": [
     [
@@ -4312,6 +4706,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 74,
    "bbox": [
     [
@@ -4353,6 +4748,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 310,
    "bbox": [
     [
@@ -4394,6 +4790,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 430,
    "bbox": [
     [
@@ -4435,6 +4832,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 400,
    "bbox": [
     [
@@ -4475,6 +4873,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 10,
    "bbox": [
     [
@@ -4516,6 +4915,7 @@
    "room": "cas_s02",
    "floor": "L1",
    "room_prefix": "politica",
+   "version": "stella",
    "tris": 300,
    "bbox": [
     [
@@ -4557,6 +4957,7 @@
    "room": "cas_s08",
    "floor": "L1",
    "room_prefix": "sudafrica",
+   "version": "stella",
    "tris": 15832,
    "bbox": [
     [
@@ -4598,6 +4999,7 @@
    "room": "cas_s08",
    "floor": "L1",
    "room_prefix": "sudafrica",
+   "version": "stella",
    "tris": 13184,
    "bbox": [
     [
@@ -4641,6 +5043,7 @@
    "room": "cas_s08",
    "floor": "L1",
    "room_prefix": "sudafrica",
+   "version": "stella",
    "tris": 350,
    "bbox": [
     [
@@ -4681,6 +5084,7 @@
    "room": "cas_s08",
    "floor": "L1",
    "room_prefix": "sudafrica",
+   "version": "stella",
    "tris": 280,
    "bbox": [
     [
@@ -4692,6 +5096,175 @@
      10.8,
      -2.0,
      6.92
+    ]
+   ]
+  },
+  {
+   "id": "sudafrica_volantini_a_giuseppe",
+   "name": "Volantini di propaganda – parete lunga",
+   "system": "piano_primo",
+   "desc": "La parete interna è coperta da bordo a bordo da volantini di propaganda e reclutamento sovrapposti (testi originali in stile d'epoca, inglese e afrikaans); gli angoli non fissati si arricciano.",
+   "explode": [
+    1.2430000000000003,
+    -17.9195,
+    -3.75
+   ],
+   "stage": [
+    0.133,
+    0.293
+   ],
+   "specs": {
+    "Stanza": "Stanza 2 – Viaggio in Sudafrica",
+    "Tipo": "Allestimento",
+    "Volantini": "167"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s02",
+   "floor": "L1",
+   "room_prefix": "sudafrica",
+   "version": "giuseppe",
+   "tris": 15404,
+   "bbox": [
+    [
+     -2.627,
+     -0.258,
+     3.82
+    ],
+    [
+     -2.553,
+     4.093,
+     7.04
+    ]
+   ]
+  },
+  {
+   "id": "sudafrica_volantini_b_giuseppe",
+   "name": "Volantini di propaganda – parete della finestra",
+   "system": "piano_primo",
+   "desc": "La parete di fronte riceve lo stesso trattamento: volantini sovrapposti attorno alla finestra olandese.",
+   "explode": [
+    1.2430000000000003,
+    -17.9195,
+    -3.75
+   ],
+   "stage": [
+    0.133,
+    0.293
+   ],
+   "specs": {
+    "Stanza": "Stanza 2 – Viaggio in Sudafrica",
+    "Tipo": "Allestimento",
+    "Volantini": "65"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s02",
+   "floor": "L1",
+   "room_prefix": "sudafrica",
+   "version": "giuseppe",
+   "tris": 6180,
+   "bbox": [
+    [
+     -5.37,
+     -0.273,
+     3.82
+    ],
+    [
+     -3.41,
+     -0.209,
+     7.04
+    ]
+   ]
+  },
+  {
+   "id": "sudafrica_finestra_giuseppe",
+   "name": "Finestra olandese (schermo)",
+   "system": "piano_primo",
+   "desc": "Finta finestra in stile olandese del Capo: telaio verde, imbotte profonda, saliscendi a 9+9 vetri. Dietro il vetro uno schermo mostra il video di una madre con il figlio (segnaposto).",
+   "explode": [
+    1.2430000000000003,
+    -17.9195,
+    -3.75
+   ],
+   "stage": [
+    0.133,
+    0.293
+   ],
+   "specs": {
+    "Stanza": "Stanza 2 – Viaggio in Sudafrica",
+    "Tipo": "Allestimento",
+    "Luce": "0.80 × 1.40 m",
+    "Davanzale": "0.95 m",
+    "Video": "assets/media/video/sudafrica_window.mp4 (segnaposto)"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s02",
+   "floor": "L1",
+   "room_prefix": "sudafrica",
+   "version": "giuseppe",
+   "tris": 350,
+   "bbox": [
+    [
+     -4.914,
+     -0.271,
+     4.64
+    ],
+    [
+     -3.854,
+     -0.005,
+     6.25
+    ]
+   ]
+  },
+  {
+   "id": "sudafrica_lampada_giuseppe",
+   "name": "Lampada a sospensione",
+   "system": "piano_primo",
+   "desc": "Lampadina con piatto smaltato bianco: luce calda e radente sui volantini.",
+   "explode": [
+    1.2430000000000003,
+    -17.9195,
+    -3.75
+   ],
+   "stage": [
+    0.133,
+    0.293
+   ],
+   "specs": {
+    "Stanza": "Stanza 2 – Viaggio in Sudafrica",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s02",
+   "floor": "L1",
+   "room_prefix": "sudafrica",
+   "version": "giuseppe",
+   "tris": 280,
+   "bbox": [
+    [
+     -4.15,
+     1.7,
+     6.105
+    ],
+    [
+     -3.75,
+     2.1,
+     6.924
     ]
    ]
   },
@@ -4722,6 +5295,7 @@
    "room": "cas_s09",
    "floor": "L1",
    "room_prefix": "partenza",
+   "version": "stella",
    "tris": 18375,
    "bbox": [
     [
@@ -4767,6 +5341,7 @@
    "floor": "L1",
    "room_prefix": "partenza",
    "task": "T2_partenza",
+   "version": "stella",
    "tris": 24,
    "bbox": [
     [
@@ -4812,6 +5387,7 @@
    "floor": "L1",
    "room_prefix": "partenza",
    "task": "T2_partenza",
+   "version": "stella",
    "tris": 36,
    "bbox": [
     [
@@ -4857,6 +5433,7 @@
    "floor": "L1",
    "room_prefix": "partenza",
    "task": "T2_partenza",
+   "version": "stella",
    "tris": 30,
    "bbox": [
     [
@@ -4902,6 +5479,7 @@
    "floor": "L1",
    "room_prefix": "partenza",
    "task": "T2_partenza",
+   "version": "stella",
    "tris": 30,
    "bbox": [
     [
@@ -4942,6 +5520,7 @@
    "room": "cas_s09",
    "floor": "L1",
    "room_prefix": "partenza",
+   "version": "stella",
    "tris": 1440,
    "bbox": [
     [
@@ -4952,6 +5531,273 @@
     [
      10.477,
      4.136,
+     6.555
+    ]
+   ]
+  },
+  {
+   "id": "partenza_ponte_giuseppe",
+   "name": "Pavimento a ponte di nave",
+   "system": "piano_primo",
+   "desc": "Il pavimento della stanza è rivestito come il ponte di una nave: lamiera striata in acciaio verniciato e consumato, con giunti saldati, file di rivetti, segni di scarponi e ruggine.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Lamiera": "8 mm, pannelli 1.25 × 2.2 m"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "version": "giuseppe",
+   "tris": 14832,
+   "bbox": [
+    [
+     -9.293,
+     -2.177,
+     3.75
+    ],
+    [
+     -5.487,
+     4.475,
+     3.764
+    ]
+   ]
+  },
+  {
+   "id": "partenza_foto_n_giuseppe",
+   "name": "Fotografia a parete intera (parete nord)",
+   "system": "piano_primo",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_n.png (3:2) scalata e ritagliata, mai deformata.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Superficie": "7.0 m²",
+    "Parete": "3.75 m, fino a 3.61 m",
+    "Ritaglio immagine": "72% × 100%",
+    "Slot": "partenza_photo_n"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "task": "T2_partenza",
+   "version": "giuseppe",
+   "tris": 24,
+   "bbox": [
+    [
+     -9.282,
+     -0.827,
+     3.759
+    ],
+    [
+     -5.558,
+     4.143,
+     7.355
+    ]
+   ]
+  },
+  {
+   "id": "partenza_foto_s_giuseppe",
+   "name": "Fotografia a parete intera (parete sud)",
+   "system": "piano_primo",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_s.png (3:2) scalata e ritagliata, mai deformata.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Superficie": "11.1 m²",
+    "Parete": "3.78 m, fino a 3.86 m",
+    "Ritaglio immagine": "67% × 100%",
+    "Slot": "partenza_photo_s"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "task": "T2_partenza",
+   "version": "giuseppe",
+   "tris": 36,
+   "bbox": [
+    [
+     -9.281,
+     -1.864,
+     3.759
+    ],
+    [
+     -5.523,
+     1.005,
+     7.61
+    ]
+   ]
+  },
+  {
+   "id": "partenza_foto_e_giuseppe",
+   "name": "Fotografia a parete intera (parete est)",
+   "system": "piano_primo",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_e.png (3:2) scalata e ritagliata, mai deformata.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Superficie": "11.2 m²",
+    "Parete": "6.61 m, fino a 3.86 m",
+    "Ritaglio immagine": "100% × 85%",
+    "Slot": "partenza_photo_e"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "task": "T2_partenza",
+   "version": "giuseppe",
+   "tris": 30,
+   "bbox": [
+    [
+     -8.202,
+     -2.139,
+     3.759
+    ],
+    [
+     -5.678,
+     4.438,
+     7.61
+    ]
+   ]
+  },
+  {
+   "id": "partenza_foto_w_giuseppe",
+   "name": "Fotografia a parete intera (parete ovest)",
+   "system": "piano_primo",
+   "desc": "Ingrandimento fotografico in bianco e nero della partenza che riveste tutta la parete, dallo zoccolo al soffitto inclinato, lasciando libere porte e finestre. Immagine assets/media/partenza_photo_w.png (3:2) scalata e ritagliata, mai deformata.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento",
+    "Superficie": "15.6 m²",
+    "Parete": "6.55 m, fino a 3.86 m",
+    "Ritaglio immagine": "100% × 86%",
+    "Slot": "partenza_photo_w"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "task": "T2_partenza",
+   "version": "giuseppe",
+   "tris": 24,
+   "bbox": [
+    [
+     -8.919,
+     -2.108,
+     3.759
+    ],
+    [
+     -8.623,
+     4.422,
+     7.61
+    ]
+   ]
+  },
+  {
+   "id": "partenza_lampade_giuseppe",
+   "name": "Plafoniere stagne da nave",
+   "system": "piano_primo",
+   "desc": "Due plafoniere stagne con gabbia, come nei corridoi di una nave da trasporto truppe: luce calda a incandescenza.",
+   "explode": [
+    9.807000000000002,
+    -16.881,
+    -3.75
+   ],
+   "stage": [
+    0.175,
+    0.335
+   ],
+   "specs": {
+    "Stanza": "Stanza 3 – La partenza per l'Italia",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s03",
+   "floor": "L1",
+   "room_prefix": "partenza",
+   "version": "giuseppe",
+   "tris": 1440,
+   "bbox": [
+    [
+     -7.132,
+     -1.862,
+     5.715
+    ],
+    [
+     -6.692,
+     4.135,
      6.555
     ]
    ]
@@ -5152,6 +5998,7 @@
    "floor": "L1",
    "room_prefix": "dispensa",
    "task": "T3_dispensa",
+   "version": "stella",
    "tris": 227488,
    "bbox": [
     [
@@ -5196,6 +6043,7 @@
    "floor": "L1",
    "room_prefix": "dispensa",
    "task": "T3_dispensa",
+   "version": "stella",
    "tris": 1476,
    "bbox": [
     [
@@ -5239,6 +6087,7 @@
    "floor": "L1",
    "room_prefix": "dispensa",
    "task": "T3_dispensa",
+   "version": "stella",
    "tris": 1336,
    "bbox": [
     [
@@ -5281,6 +6130,7 @@
    "floor": "L1",
    "room_prefix": "dispensa",
    "task": "T3_dispensa",
+   "version": "stella",
    "tris": 306,
    "bbox": [
     [
@@ -5322,6 +6172,7 @@
    "floor": "L1",
    "room_prefix": "dispensa",
    "task": "T3_dispensa",
+   "version": "stella",
    "tris": 280,
    "bbox": [
     [
@@ -5333,6 +6184,228 @@
      -7.056,
      0.28,
      7.166
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_scaffali_giuseppe",
+   "name": "Scaffali e nicchie della dispensa",
+   "system": "piano_primo",
+   "desc": "Scaffalature in legno dal pavimento al soffitto inclinato su tre pareti (nord, est, ovest), con nicchie in basso per i cesti di vimini e ripiani pieni di barattoli di cereali, legumi e conserve, bottiglie e fiaschi impagliati. La parete della finestra resta libera.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Sviluppo": "5.98 m su 3 pareti",
+    "Campate": "9",
+    "Profondità": "0.30 m",
+    "Ripiani": "85",
+    "Oggetti": "329 (barattoli, bottiglie, fiaschi, cesti)"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "version": "giuseppe",
+   "tris": 131348,
+   "bbox": [
+    [
+     -0.482,
+     -6.985,
+     3.75
+    ],
+    [
+     3.033,
+     -4.006,
+     7.474
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_tavolo_giuseppe",
+   "name": "Tavolo da laboratorio con sgabelli",
+   "system": "piano_primo",
+   "desc": "Grande tavolo da lavoro in stile laboratorio (piano scuro spesso, telaio in ferro) al centro della dispensa, con quattro sgabelli infilati sotto: qui si preparavano conserve e pane.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Tavolo": "1.20 × 0.80 × 0.90 m",
+    "Passaggi": "ovest 0.79 m, est 0.79 m, nord 0.85 m, sud 0.99 m"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "version": "giuseppe",
+   "tris": 1476,
+   "bbox": [
+    [
+     0.728,
+     -5.956,
+     3.749
+    ],
+    [
+     1.928,
+     -5.156,
+     4.65
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_paiolo_giuseppe",
+   "name": "Paiolo di rame (vuoto)",
+   "system": "piano_primo",
+   "desc": "Grande paiolo di rame battuto, vuoto, con i due manici e il manico ad arco in ferro: serviva per le conserve e per bollire i barattoli.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Diametro": "0.46 m",
+    "Altezza": "0.25 m"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "version": "giuseppe",
+   "tris": 1336,
+   "bbox": [
+    [
+     0.862,
+     -5.775,
+     4.65
+    ],
+    [
+     1.434,
+     -5.297,
+     5.029
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_ricette_giuseppe",
+   "name": "Pila di ricette",
+   "system": "piano_primo",
+   "desc": "Una pila di fogli di ricette scritte a mano (castagnaccio, pappa al pomodoro, conserva), accanto al paiolo.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento",
+    "Fogli": "28"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "version": "giuseppe",
+   "tris": 306,
+   "bbox": [
+    [
+     1.582,
+     -5.783,
+     4.65
+    ],
+    [
+     1.798,
+     -5.522,
+     4.67
+    ]
+   ]
+  },
+  {
+   "id": "dispensa_lampada_giuseppe",
+   "name": "Lampada a sospensione",
+   "system": "piano_primo",
+   "desc": "Lampadina con piatto smaltato sopra il tavolo.",
+   "explode": [
+    16.84700000000001,
+    -9.958499999999999,
+    -3.75
+   ],
+   "stage": [
+    0.258,
+    0.418
+   ],
+   "specs": {
+    "Stanza": "Stanza 5 – Dispensa",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s05",
+   "floor": "L1",
+   "room_prefix": "dispensa",
+   "task": "T3_dispensa",
+   "version": "giuseppe",
+   "tris": 280,
+   "bbox": [
+    [
+     1.148,
+     -5.736,
+     6.058
+    ],
+    [
+     1.508,
+     -5.376,
+     6.873
     ]
    ]
   },
@@ -5362,6 +6435,7 @@
    "room": "cas_s07",
    "floor": "L1",
    "room_prefix": "scuola",
+   "version": "stella",
    "tris": 792,
    "bbox": [
     [
@@ -5405,6 +6479,7 @@
    "room": "cas_s07",
    "floor": "L1",
    "room_prefix": "scuola",
+   "version": "stella",
    "tris": 302,
    "bbox": [
     [
@@ -5445,6 +6520,7 @@
    "room": "cas_s07",
    "floor": "L1",
    "room_prefix": "scuola",
+   "version": "stella",
    "tris": 620,
    "bbox": [
     [
@@ -5456,6 +6532,132 @@
      10.09,
      -5.28,
      6.911
+    ]
+   ]
+  },
+  {
+   "id": "scuola_banchi_giuseppe",
+   "name": "Banchi, cattedra e pedana",
+   "system": "piano_primo",
+   "desc": "Pluriclasse: banchi biposto con panche, cattedra sulla pedana. Foto del Re o di Mussolini, libri e matite. (Arredo segnaposto, come prima; la lavagna è ora appesa alla parete.)",
+   "explode": [
+    -15.1365,
+    -20.31,
+    -3.75
+   ],
+   "stage": [
+    0.299,
+    0.459
+   ],
+   "specs": {
+    "Stanza": "Stanza 6 – La scuola rurale",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s06",
+   "floor": "L1",
+   "room_prefix": "scuola",
+   "version": "giuseppe",
+   "tris": 792,
+   "bbox": [
+    [
+     4.083,
+     -6.847,
+     3.75
+    ],
+    [
+     6.783,
+     -3.042,
+     4.71
+    ]
+   ]
+  },
+  {
+   "id": "scuola_lavagna_giuseppe",
+   "name": "Lavagna",
+   "system": "piano_primo",
+   "desc": "Lavagna d'ardesia ingrandita (×1.6: 2.56 × 1.60 m) appesa al centro della parete nord, con cornice in legno e mensola per il gesso; scritte a gesso di una mattina di scuola del luglio 1944.",
+   "explode": [
+    -15.1365,
+    -20.31,
+    -3.75
+   ],
+   "stage": [
+    0.299,
+    0.459
+   ],
+   "specs": {
+    "Stanza": "Stanza 6 – La scuola rurale",
+    "Tipo": "Allestimento",
+    "Superficie": "2.56 × 1.60 m",
+    "Margine ai lati": "0.48 m",
+    "Margine al soffitto": "1.32 m"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s06",
+   "floor": "L1",
+   "room_prefix": "scuola",
+   "version": "giuseppe",
+   "tris": 302,
+   "bbox": [
+    [
+     4.077,
+     -2.914,
+     4.445
+    ],
+    [
+     6.759,
+     -2.729,
+     6.348
+    ]
+   ]
+  },
+  {
+   "id": "scuola_lampada_giuseppe",
+   "name": "Lampada a sospensione",
+   "system": "piano_primo",
+   "desc": "Lampadina sotto un piatto smaltato sopra i banchi.",
+   "explode": [
+    -15.1365,
+    -20.31,
+    -3.75
+   ],
+   "stage": [
+    0.299,
+    0.459
+   ],
+   "specs": {
+    "Stanza": "Stanza 6 – La scuola rurale",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s06",
+   "floor": "L1",
+   "room_prefix": "scuola",
+   "version": "giuseppe",
+   "tris": 620,
+   "bbox": [
+    [
+     5.23,
+     -5.19,
+     6.151
+    ],
+    [
+     5.61,
+     -4.81,
+     6.841
     ]
    ]
   },
@@ -5486,6 +6688,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "room_prefix": "figli",
+   "version": "stella",
    "tris": 54840,
    "bbox": [
     [
@@ -5526,6 +6729,7 @@
    "room": "cas_s06",
    "floor": "L1",
    "room_prefix": "figli",
+   "version": "stella",
    "tris": 264,
    "bbox": [
     [
@@ -5537,6 +6741,89 @@
      5.55,
      -4.57,
      6.956
+    ]
+   ]
+  },
+  {
+   "id": "figli_carte_giuseppe",
+   "name": "Manifesti, mappe e lettere",
+   "system": "piano_primo",
+   "desc": "Le pareti della camera dei tre fratelli sono piene di carte appuntate: manifesti (fiere, Giro, cinema, calcio), mappe con i fronti segnati a matita e spilli colorati, lettere e un telegramma. Restano alcuni tratti di muro nudo.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Allestimento",
+    "Fogli": "335"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "room_prefix": "figli",
+   "version": "giuseppe",
+   "tris": 49108,
+   "bbox": [
+    [
+     8.8,
+     -3.725,
+     4.31
+    ],
+    [
+     12.436,
+     -0.687,
+     6.132
+    ]
+   ]
+  },
+  {
+   "id": "figli_lampada_giuseppe",
+   "name": "Lampada a sospensione",
+   "system": "piano_primo",
+   "desc": "Lampadina con piccolo paralume di latta: luce fioca e calda nella camera.",
+   "explode": [
+    -7.9945,
+    -22.862499999999997,
+    -3.75
+   ],
+   "stage": [
+    0.383,
+    0.543
+   ],
+   "specs": {
+    "Stanza": "Stanza 8 – Camera dei tre figli",
+    "Tipo": "Allestimento"
+   },
+   "facts": [],
+   "sources": [
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s08",
+   "floor": "L1",
+   "room_prefix": "figli",
+   "version": "giuseppe",
+   "tris": 264,
+   "bbox": [
+    [
+     10.67,
+     -2.33,
+     6.12
+    ],
+    [
+     10.93,
+     -2.07,
+     6.839
     ]
    ]
   },
@@ -6693,6 +7980,363 @@
      -0.012
     ]
    ]
+  },
+  {
+   "id": "esterni_alberi",
+   "name": "Alberi",
+   "system": "esterni",
+   "desc": "Un albero per ogni cerchio della planimetria (197): olivi e querce, chioma larga quanto il cerchio disegnato, tronco in proporzione; leggere differenze di altezza, colore e rotazione. Nessun cerchio della tavola è diverso dagli altri (stretto o tratteggiato): nessun cipresso.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Alberi": "197",
+    "Querce / olivi": "83 / 114",
+    "Chioma": "1.0–8.6 m"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 53700,
+   "bbox": [
+    [
+     -106.528,
+     -51.255,
+     -0.012
+    ],
+    [
+     58.467,
+     61.795,
+     9.091
+    ]
+   ]
+  },
+  {
+   "id": "esterni_tenda",
+   "name": "Tenda militare con carro Sherman",
+   "system": "esterni",
+   "desc": "ACCAMPAMENTO MILITARE: tenda da campo in tela verde oliva, aperta sul fronte, sull'impronta segnata in planimetria a sud della casa; dentro un carro armato M4 Sherman (scafo, torretta, cannone, cingoli e ruote semplificati).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Tenda": "9.7 × 8.5 m, colmo 3.6 m",
+    "Carro": "M4 Sherman, 5,9 × 2,6 × 2,7 m"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 1228,
+   "bbox": [
+    [
+     1.711,
+     -17.475,
+     -0.012
+    ],
+    [
+     11.792,
+     -8.294,
+     3.62
+    ]
+   ]
+  },
+  {
+   "id": "esterni_strade",
+   "name": "Strade e cortili",
+   "system": "esterni",
+   "desc": "Strade sterrate (tra le due linee di bordo disegnate) e le aree pavimentate tratteggiate della tavola: il cortile a sud della casa, la legnaia e il pollaio.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Strade": "7",
+    "Aree pavimentate": "3"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 1315,
+   "bbox": [
+    [
+     -104.674,
+     -35.552,
+     -0.012
+    ],
+    [
+     44.672,
+     24.863,
+     0.02
+    ]
+   ]
+  },
+  {
+   "id": "esterni_muri",
+   "name": "Muri a secco",
+   "system": "esterni",
+   "desc": "I muri della tavola (in rosso): muretti in pietra a secco, alti circa 1 m [EST].",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Altezza": "1.0 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 220,
+   "bbox": [
+    [
+     -39.545,
+     -35.837,
+     -0.012
+    ],
+    [
+     67.255,
+     73.99,
+     1.0
+    ]
+   ]
+  },
+  {
+   "id": "esterni_siepi",
+   "name": "Siepi",
+   "system": "esterni",
+   "desc": "Siepi lungo i bordi segnati in verde (recinti e confine verso il campo da tennis).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Altezza": "1.2 m [EST]"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 52,
+   "bbox": [
+    [
+     -16.215,
+     13.506,
+     -0.012
+    ],
+    [
+     16.929,
+     50.285,
+     1.2
+    ]
+   ]
+  },
+  {
+   "id": "esterni_vigneto",
+   "name": "Vigneto",
+   "system": "esterni",
+   "desc": "I campi tratteggiati in verde sono vigneti a filari: un filare ogni 2,5 m nella direzione del tratteggio, con pali di testata e intermedi.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Campi": "5",
+    "Filari": "58"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 3076,
+   "bbox": [
+    [
+     -60.63,
+     -6.352,
+     -0.012
+    ],
+    [
+     -6.198,
+     57.593,
+     1.588
+    ]
+   ]
+  },
+  {
+   "id": "esterni_edifici",
+   "name": "Annessi",
+   "system": "esterni",
+   "desc": "Gli altri edifici della tavola, come volumi semplici: il capanno accanto all'accampamento (forse il forno, da confermare), l'annesso a sud e il fabbricato più a sud.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Edifici": "3"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 36,
+   "bbox": [
+    [
+     -8.248,
+     -18.51,
+     -0.012
+    ],
+    [
+     64.658,
+     33.832,
+     4.5
+    ]
+   ]
+  },
+  {
+   "id": "esterni_piscina",
+   "name": "Piscina",
+   "system": "esterni",
+   "desc": "La piscina della tavola: specchio d'acqua con bordo in pietra.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {},
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 26,
+   "bbox": [
+    [
+     42.652,
+     -19.219,
+     -0.012
+    ],
+    [
+     55.939,
+     -5.046,
+     0.06
+    ]
+   ]
+  },
+  {
+   "id": "esterni_stagno",
+   "name": "Stagno",
+   "system": "esterni",
+   "desc": "Lo stagno (STAGNO nella tavola): acqua con un bordo di sassi. Disegnato con lo stesso cerchio degli alberi, ma la scritta lo indica come stagno.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {},
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 166,
+   "bbox": [
+    [
+     -20.275,
+     -15.715,
+     -0.012
+    ],
+    [
+     -13.827,
+     -9.267,
+     0.12
+    ]
+   ]
+  },
+  {
+   "id": "esterni_tennis",
+   "name": "Campo da tennis",
+   "system": "esterni",
+   "desc": "Il campo da tennis della tavola: superficie in terra rossa, rete e recinzione.",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Recinto": "33.7 × 16.2 m"
+   },
+   "facts": [],
+   "sources": [
+    "DWG",
+    "SCALED"
+   ],
+   "kind": "site",
+   "frame": false,
+   "tris": 742,
+   "bbox": [
+    [
+     3.588,
+     25.513,
+     -0.012
+    ],
+    [
+     38.962,
+     45.529,
+     3.022
+    ]
+   ]
   }
  ],
  "instances": [
@@ -7095,6 +8739,306 @@
    "stride": 8,
    "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
    "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_uova_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 8,
+   "template": "tpl_dispensa_cesto_uova_giuseppe.glb",
+   "file": "inst_dispensa_cesto_uova_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_olio_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 1,
+   "template": "tpl_dispensa_bottiglia_olio_giuseppe.glb",
+   "file": "inst_dispensa_bottiglia_olio_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_fiasco_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 4,
+   "template": "tpl_dispensa_fiasco_giuseppe.glb",
+   "file": "inst_dispensa_fiasco_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_pomodori_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 14,
+   "template": "tpl_dispensa_vaso_l_pomodori_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_pomodori_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_olive_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 25,
+   "template": "tpl_dispensa_vaso_l_olive_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_olive_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_farro_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 10,
+   "template": "tpl_dispensa_vaso_s_farro_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_farro_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_ceci_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 26,
+   "template": "tpl_dispensa_vaso_l_ceci_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_ceci_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_fagioli_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 8,
+   "template": "tpl_dispensa_vaso_s_fagioli_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_fagioli_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_ceci_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 15,
+   "template": "tpl_dispensa_vaso_s_ceci_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_ceci_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_pomodori_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 5,
+   "template": "tpl_dispensa_vaso_s_pomodori_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_pomodori_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_miele_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 4,
+   "template": "tpl_dispensa_vaso_s_miele_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_miele_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_noci_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 4,
+   "template": "tpl_dispensa_cesto_noci_giuseppe.glb",
+   "file": "inst_dispensa_cesto_noci_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_cipolle_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 9,
+   "template": "tpl_dispensa_cesto_cipolle_giuseppe.glb",
+   "file": "inst_dispensa_cesto_cipolle_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_farro_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 21,
+   "template": "tpl_dispensa_vaso_l_farro_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_farro_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_miele_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 22,
+   "template": "tpl_dispensa_vaso_l_miele_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_miele_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_s_olive_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 6,
+   "template": "tpl_dispensa_vaso_s_olive_giuseppe.glb",
+   "file": "inst_dispensa_vaso_s_olive_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_l_fagioli_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 24,
+   "template": "tpl_dispensa_vaso_l_fagioli_giuseppe.glb",
+   "file": "inst_dispensa_vaso_l_fagioli_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_fagioli_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 19,
+   "template": "tpl_dispensa_vaso_m_fagioli_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_fagioli_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_farro_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_farro_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_farro_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_olive_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 20,
+   "template": "tpl_dispensa_vaso_m_olive_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_olive_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_pomodori_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_pomodori_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_pomodori_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_ceci_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 17,
+   "template": "tpl_dispensa_vaso_m_ceci_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_ceci_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_vino_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 4,
+   "template": "tpl_dispensa_bottiglia_vino_giuseppe.glb",
+   "file": "inst_dispensa_bottiglia_vino_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_vaso_m_miele_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 21,
+   "template": "tpl_dispensa_vaso_m_miele_giuseppe.glb",
+   "file": "inst_dispensa_vaso_m_miele_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_cesto_patate_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 3,
+   "template": "tpl_dispensa_cesto_patate_giuseppe.glb",
+   "file": "inst_dispensa_cesto_patate_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "dispensa_bottiglia_aceto_giuseppe",
+   "part": "dispensa_scaffali_giuseppe",
+   "count": 5,
+   "template": "tpl_dispensa_bottiglia_aceto_giuseppe.glb",
+   "file": "inst_dispensa_bottiglia_aceto_giuseppe.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "esterni_olivo_0",
+   "part": "esterni_alberi",
+   "count": 54,
+   "template": "tpl_esterni_olivo_0.glb",
+   "file": "inst_esterni_olivo_0.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "esterni_olivo_1",
+   "part": "esterni_alberi",
+   "count": 60,
+   "template": "tpl_esterni_olivo_1.glb",
+   "file": "inst_esterni_olivo_1.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "esterni_quercia_0",
+   "part": "esterni_alberi",
+   "count": 35,
+   "template": "tpl_esterni_quercia_0.glb",
+   "file": "inst_esterni_quercia_0.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
+  },
+  {
+   "id": "esterni_quercia_1",
+   "part": "esterni_alberi",
+   "count": 48,
+   "template": "tpl_esterni_quercia_1.glb",
+   "file": "inst_esterni_quercia_1.bin",
+   "stride": 8,
+   "layout": "x,y,z,yaw,sx,sy,sz,tilt (blender axes, float32)",
+   "lod_dist": null
   }
  ],
  "views": [
@@ -7194,14 +9138,22 @@
     "part": "cas_s02",
     "num": "2",
     "name": "La stanza politica",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "La stanza politica",
+     "giuseppe": "Viaggio in Sudafrica"
+    }
    },
    {
     "flow": 3,
     "part": "cas_s03",
     "num": "3",
     "name": "Dispensa",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "Dispensa",
+     "giuseppe": "La partenza per l'Italia"
+    }
    },
    {
     "flow": 4,
@@ -7215,35 +9167,55 @@
     "part": "cas_s05",
     "num": "5",
     "name": "Camera matrimoniale",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "Camera matrimoniale",
+     "giuseppe": "Dispensa"
+    }
    },
    {
     "flow": 6,
     "part": "cas_s06",
     "num": "6",
     "name": "Camera dei tre figli",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "Camera dei tre figli",
+     "giuseppe": "La scuola rurale"
+    }
    },
    {
     "flow": 7,
     "part": "cas_s07",
     "num": "7",
     "name": "La scuola rurale",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "La scuola rurale",
+     "giuseppe": "Stanza degli attrezzi e del telaio"
+    }
    },
    {
     "flow": 8,
     "part": "cas_s08",
     "num": "8",
     "name": "Viaggio in Sudafrica",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "Viaggio in Sudafrica",
+     "giuseppe": "Camera dei tre figli"
+    }
    },
    {
     "flow": 9,
     "part": "cas_s09",
     "num": "9",
     "name": "La partenza per l'Italia",
-    "floor": "L1"
+    "floor": "L1",
+    "names": {
+     "stella": "La partenza per l'Italia",
+     "giuseppe": "Camera matrimoniale"
+    }
    },
    {
     "flow": 10,
@@ -7316,6 +9288,39 @@
     "floor": "L0"
    }
   ],
+  "versions": {
+   "default": "stella",
+   "list": [
+    {
+     "id": "stella",
+     "name": "Stella"
+    },
+    {
+     "id": "giuseppe",
+     "name": "Giuseppe"
+    }
+   ],
+   "rooms": {
+    "stella": {
+     "s02": "politica",
+     "s03": "dispensa",
+     "s05": "matrimoniale",
+     "s06": "figli",
+     "s07": "scuola",
+     "s08": "sudafrica",
+     "s09": "partenza"
+    },
+    "giuseppe": {
+     "s02": "sudafrica",
+     "s03": "partenza",
+     "s05": "dispensa",
+     "s06": "scuola",
+     "s07": "telaio",
+     "s08": "figli",
+     "s09": "matrimoniale"
+    }
+   }
+  },
   "room_cameras": [
    {
     "id": "hall",
@@ -7366,7 +9371,8 @@
      3.7,
      4.9
     ],
-    "lens": 16.0
+    "lens": 16.0,
+    "version": "stella"
    },
    {
     "id": "sudafrica",
@@ -7383,7 +9389,26 @@
      -0.8,
      5.0
     ],
-    "lens": 18.0
+    "lens": 18.0,
+    "version": "stella"
+   },
+   {
+    "id": "sudafrica_giuseppe",
+    "room": "cas_s02",
+    "rid": "s02",
+    "level": "L1",
+    "pos": [
+     -4.95,
+     3.7,
+     5.35
+    ],
+    "target": [
+     -2.9,
+     -0.05,
+     5.0
+    ],
+    "lens": 18.0,
+    "version": "giuseppe"
    },
    {
     "id": "partenza",
@@ -7400,7 +9425,26 @@
      -0.1,
      4.9
     ],
-    "lens": 18.0
+    "lens": 18.0,
+    "version": "stella"
+   },
+   {
+    "id": "partenza_giuseppe",
+    "room": "cas_s03",
+    "rid": "s03",
+    "level": "L1",
+    "pos": [
+     -7.15,
+     3.65,
+     5.35
+    ],
+    "target": [
+     -7.0,
+     -1.9,
+     4.9
+    ],
+    "lens": 18.0,
+    "version": "giuseppe"
    },
    {
     "id": "cucina",
@@ -7434,7 +9478,26 @@
      3.9,
      5.0
     ],
-    "lens": 15.0
+    "lens": 15.0,
+    "version": "stella"
+   },
+   {
+    "id": "dispensa_giuseppe",
+    "room": "cas_s05",
+    "rid": "s05",
+    "level": "L1",
+    "pos": [
+     1.33,
+     -6.78,
+     5.35
+    ],
+    "target": [
+     1.2,
+     -3.9,
+     5.0
+    ],
+    "lens": 15.0,
+    "version": "giuseppe"
    },
    {
     "id": "scuola",
@@ -7451,7 +9514,26 @@
      -5.47,
      5.2
     ],
-    "lens": 18.0
+    "lens": 18.0,
+    "version": "stella"
+   },
+   {
+    "id": "scuola_giuseppe",
+    "room": "cas_s06",
+    "rid": "s06",
+    "level": "L1",
+    "pos": [
+     5.35,
+     -6.7,
+     5.35
+    ],
+    "target": [
+     5.42,
+     -2.75,
+     5.2
+    ],
+    "lens": 20.0,
+    "version": "giuseppe"
    },
    {
     "id": "figli",
@@ -7468,7 +9550,26 @@
      -3.0,
      5.05
     ],
-    "lens": 18.0
+    "lens": 18.0,
+    "version": "stella"
+   },
+   {
+    "id": "figli_giuseppe",
+    "room": "cas_s08",
+    "rid": "s08",
+    "level": "L1",
+    "pos": [
+     9.25,
+     -3.3,
+     5.35
+    ],
+    "target": [
+     12.2,
+     -0.95,
+     5.2
+    ],
+    "lens": 18.0,
+    "version": "giuseppe"
    },
    {
     "id": "matrimoniale",
@@ -7485,7 +9586,26 @@
      -4.4,
      4.65
     ],
-    "lens": 16.0
+    "lens": 16.0,
+    "version": "stella"
+   },
+   {
+    "id": "matrimoniale_giuseppe",
+    "room": "cas_s09",
+    "rid": "s09",
+    "level": "L1",
+    "pos": [
+     8.3,
+     3.7,
+     5.35
+    ],
+    "target": [
+     11.6,
+     -0.1,
+     4.75
+    ],
+    "lens": 18.0,
+    "version": "giuseppe"
    },
    {
     "id": "frantoio",
@@ -7678,7 +9798,8 @@
      0.639,
      0.31
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
    },
    {
     "id": "politica_lampada",
@@ -7696,7 +9817,8 @@
      0.624,
      0.275
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
    },
    {
     "id": "sudafrica_lampada",
@@ -7714,7 +9836,27 @@
      0.624,
      0.275
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
+   },
+   {
+    "id": "sudafrica_lampada_giuseppe",
+    "room": "cas_s02",
+    "level": "L1",
+    "pos": [
+     -3.95,
+     1.9,
+     6.09
+    ],
+    "watts": 24.0,
+    "kelvin": 2500,
+    "color": [
+     1.0,
+     0.624,
+     0.275
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
    },
    {
     "id": "partenza_lamp_n",
@@ -7732,7 +9874,8 @@
      0.639,
      0.31
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
    },
    {
     "id": "partenza_lamp_s",
@@ -7750,7 +9893,46 @@
      0.639,
      0.31
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
+   },
+   {
+    "id": "partenza_lamp_n_giuseppe",
+    "room": "cas_s03",
+    "level": "L1",
+    "pos": [
+     -7.048,
+     4.034,
+     5.8
+    ],
+    "watts": 35.0,
+    "kelvin": 2600,
+    "color": [
+     1.0,
+     0.639,
+     0.31
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
+   },
+   {
+    "id": "partenza_lamp_s_giuseppe",
+    "room": "cas_s03",
+    "level": "L1",
+    "pos": [
+     -6.777,
+     -1.762,
+     6.47
+    ],
+    "watts": 35.0,
+    "kelvin": 2600,
+    "color": [
+     1.0,
+     0.639,
+     0.31
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
    },
    {
     "id": "cucina_bulb",
@@ -7804,7 +9986,27 @@
      0.639,
      0.31
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
+   },
+   {
+    "id": "dispensa_lampada_giuseppe",
+    "room": "cas_s05",
+    "level": "L1",
+    "pos": [
+     1.328,
+     -5.556,
+     6.04
+    ],
+    "watts": 45.0,
+    "kelvin": 2600,
+    "color": [
+     1.0,
+     0.639,
+     0.31
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
    },
    {
     "id": "scuola_pendant",
@@ -7822,7 +10024,27 @@
      0.654,
      0.343
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
+   },
+   {
+    "id": "scuola_pendant_giuseppe",
+    "room": "cas_s06",
+    "level": "L1",
+    "pos": [
+     5.42,
+     -5.0,
+     6.166
+    ],
+    "watts": 50,
+    "kelvin": 2700,
+    "color": [
+     1.0,
+     0.654,
+     0.343
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
    },
    {
     "id": "figli_lampada",
@@ -7840,7 +10062,27 @@
      0.608,
      0.237
     ],
-    "kind": "POINT"
+    "kind": "POINT",
+    "version": "stella"
+   },
+   {
+    "id": "figli_lampada_giuseppe",
+    "room": "cas_s08",
+    "level": "L1",
+    "pos": [
+     10.8,
+     -2.2,
+     6.1
+    ],
+    "watts": 20.0,
+    "kelvin": 2400,
+    "color": [
+     1.0,
+     0.608,
+     0.237
+    ],
+    "kind": "POINT",
+    "version": "giuseppe"
    },
    {
     "id": "frantoio_nicchia",
@@ -8042,7 +10284,7 @@
     "still": "assets/media/sudafrica_window.png",
     "src": "media/video/sudafrica_window.mp4",
     "source_file": "assets/media/video/sudafrica_window.mp4",
-    "room": "cas_s08"
+    "room": "cas_s02"
    },
    "partenza_photo_n": {
     "slot": "partenza_photo_n",
@@ -8051,7 +10293,7 @@
     "material": "media_partenza_photo_n",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_n.png",
-    "room": "cas_s09"
+    "room": "cas_s03"
    },
    "partenza_photo_s": {
     "slot": "partenza_photo_s",
@@ -8060,7 +10302,7 @@
     "material": "media_partenza_photo_s",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_s.png",
-    "room": "cas_s09"
+    "room": "cas_s03"
    },
    "partenza_photo_e": {
     "slot": "partenza_photo_e",
@@ -8069,7 +10311,7 @@
     "material": "media_partenza_photo_e",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_e.png",
-    "room": "cas_s09"
+    "room": "cas_s03"
    },
    "partenza_photo_w": {
     "slot": "partenza_photo_w",
@@ -8078,7 +10320,7 @@
     "material": "media_partenza_photo_w",
     "aspect": 1.5,
     "still": "assets/media/partenza_photo_w.png",
-    "room": "cas_s09"
+    "room": "cas_s03"
    },
    "frantoio_prisoner": {
     "slot": "frantoio_prisoner",
