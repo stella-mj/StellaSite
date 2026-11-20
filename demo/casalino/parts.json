@@ -2,7 +2,7 @@
  "title": "Casalino – percorso museale",
  "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
  "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
- "generated": "2026-11-20 16:10",
+ "generated": "2026-11-20 19:21",
  "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
  "systems": [
   {
@@ -7199,6 +7199,7 @@
    "floor": "L0",
    "room_prefix": "stalla",
    "task": "T7_stalla",
+   "keep_empty": true,
    "tris": 24,
    "bbox": [
     [
@@ -7217,7 +7218,7 @@
    "id": "stalla_archi",
    "name": "Archi in mattoni e pilastro",
    "system": "piano_terra",
-   "desc": "Due archi ribassati in mattoni rossi attraversano la stanza sulla linea del muretto; il pilastro centrale, in mattoni con angolari d'acciaio, poggia sulla testa del muretto. Sopra gli archi poggiano i travetti del soffitto.",
+   "desc": "Due archi ribassati in mattoni rossi attraversano la stanza da sud a nord, di traverso al muretto; il pilastro centrale, in mattoni con angolari d'acciaio, poggia sulla testa del muretto. Sopra gli archi poggiano i travetti del soffitto.",
    "explode": [
     9.684500000000002,
     -35.692,
@@ -7230,9 +7231,9 @@
    "specs": {
     "Stanza": "Stanza 12 – Stalla e ricovero animali",
     "Tipo": "Allestimento",
-    "Luci": "2.88 m + 2.88 m",
+    "Luci": "2.78 m + 2.73 m",
     "Imposta": "1.85 m",
-    "Freccia": "0.61 m (profilo condiviso con il tunnel del corridoio)",
+    "Freccia": "0.58 m (profilo condiviso con il tunnel del corridoio)",
     "Pilastro": "0.30 × 0.30 m su muretto a 1.00 m"
    },
    "facts": [],
@@ -7250,13 +7251,13 @@
    "tris": 924,
    "bbox": [
     [
-     -8.82,
-     0.977,
+     -5.969,
+     -1.77,
      1.0
     ],
     [
-     -2.758,
-     1.337,
+     -5.609,
+     4.04,
      2.76
     ]
    ]
@@ -7290,16 +7291,16 @@
    "floor": "L0",
    "room_prefix": "stalla",
    "task": "T7_stalla",
-   "tris": 264,
+   "tris": 240,
    "bbox": [
     [
-     -8.53,
-     -1.824,
+     -8.887,
+     -1.48,
      2.6
     ],
     [
-     -2.91,
-     4.07,
+     -2.704,
+     3.59,
      2.76
     ]
    ]
