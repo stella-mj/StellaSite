@@ -2,7 +2,7 @@
  "title": "Casalino – percorso museale",
  "subtitle": "Piano terra e piano primo · stanze nell'ordine di visita",
  "notice": "Visualizzazione MVP tracciata dalle piante 1:50 del 09/10/2026. Non per costruzione: valgono le quote delle tavole. Valori [EST] stimati.",
- "generated": "2026-10-30 12:26",
+ "generated": "2026-11-20 16:10",
  "coords": "Blender metres, +X = right of the plan sheet, +Y = top of the sheet (no north arrow), +Z up; origin = centre of the piano terra; three.js (x, y, z) -> (x, z, -y)",
  "systems": [
   {
@@ -501,6 +501,7 @@
    "kind": "object",
    "room": "cas_s04",
    "floor": "L1",
+   "keep_empty": true,
    "tris": 72,
    "bbox": [
     [
@@ -2909,6 +2910,7 @@
    "kind": "object",
    "room": "cas_s10",
    "floor": "L0",
+   "keep_empty": true,
    "tris": 864,
    "bbox": [
     [
@@ -6928,6 +6930,7 @@
     1.82
    ],
    "mill_yaw": 95,
+   "keep_empty": true,
    "tris": 488,
    "bbox": [
     [
@@ -7024,6 +7027,7 @@
    "floor": "L0",
    "room_prefix": "frantoio",
    "version": "stella",
+   "keep_empty": true,
    "tris": 904,
    "bbox": [
     [
@@ -7242,6 +7246,7 @@
    "floor": "L0",
    "room_prefix": "stalla",
    "task": "T7_stalla",
+   "keep_empty": true,
    "tris": 924,
    "bbox": [
     [
@@ -8175,6 +8180,7 @@
    "room": "cas_s17",
    "floor": "L0",
    "room_prefix": "corridoio",
+   "keep_empty": true,
    "tris": 984,
    "bbox": [
     [
@@ -8216,6 +8222,7 @@
    "room": "cas_l0_passaggio",
    "floor": "L0",
    "room_prefix": "corridoio",
+   "keep_empty": true,
    "tris": 492,
    "bbox": [
     [
@@ -9035,6 +9042,140 @@
      6.386,
      -4.211,
      2.05
+    ]
+   ]
+  },
+  {
+   "id": "vuota_video_schermo",
+   "name": "Schermo curvo a tutta altezza",
+   "system": "piano_primo",
+   "desc": "Edificio vuoto: lo schermo della Sala video corre da parete a parete, con le estremità a filo dei muri laterali, e va dal pavimento al soffitto inclinato. È una superficie unica, curva, senza porte: copre il varco sud verso il passaggio 4-5 (l'apertura nel muro resta dietro lo schermo).",
+   "explode": [
+    -10.952,
+    -16.889,
+    -3.75
+   ],
+   "stage": [
+    0.092,
+    0.252
+   ],
+   "specs": {
+    "Stanza": "Stanza 1 – Video introduttivo (Sala video)",
+    "Tipo": "Allestimento",
+    "Sviluppo": "6.15 m",
+    "Corda": "6.13 m (da parete a parete)",
+    "Freccia": "0.25 m [EST]",
+    "Altezza": "dal pavimento al soffitto inclinato",
+    "Estremità": "y = -1.55 m, a filo dei muri ovest ed est"
+   },
+   "facts": [],
+   "sources": [
+    "BRIEF",
+    "SCALED",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_s01",
+   "floor": "L1",
+   "room_prefix": "vuota",
+   "version": "vuota",
+   "tris": 772,
+   "bbox": [
+    [
+     -1.969,
+     -1.826,
+     3.755
+    ],
+    [
+     4.169,
+     -1.546,
+     7.619
+    ]
+   ]
+  },
+  {
+   "id": "vuota_rack_pt",
+   "name": "Rack dati piano terra (centro stella)",
+   "system": "piano_terra",
+   "desc": "Quadro distribuzione rete LAN interna, piano terra, centro stella: armadio a terra in lamiera su ruote. Dall'alto: ventilazione, cassetto ottico SMF, due switch 24 porte, tre patch panel 24 porte con i pannelli passacavi, un pannello vuoto, 13U libere, blocco prese con SPD e UPS (Schema_RACK-PT, foglio 02).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Stanza": "Locale tecnico",
+    "Tipo": "Allestimento",
+    "Dimensioni": "1707 × 600 × 800 mm (h × l × p) [SPEC]",
+    "Posa": "a terra su ruote [SPEC]",
+    "Posizione": "parete sud del locale tecnico, centro x -11.97 y 5.36 m [DWG]",
+    "Unità occupate": "30U"
+   },
+   "facts": [],
+   "sources": [
+    "SPEC",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_l0_tecnico1",
+   "floor": "L0",
+   "room_prefix": "vuota",
+   "version": "vuota",
+   "tris": 3336,
+   "bbox": [
+    [
+     -12.268,
+     4.956,
+     0.0
+    ],
+    [
+     -11.668,
+     5.776,
+     1.707
+    ]
+   ]
+  },
+  {
+   "id": "vuota_rack_p1",
+   "name": "Rack dati piano primo",
+   "system": "piano_primo",
+   "desc": "Rack dati del piano primo: armadio a parete. Dall'alto: ventilazione, pannello vuoto, cassetto ottico, pannello vuoto, passacavi 2U, switch 24 porte, passacavi, patch panel 24 porte, passacavi 2U, tre spazi liberi da 2U, blocco prese con SPD e UPS (Schema_RACK-P1, foglio 02).",
+   "explode": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "stage": null,
+   "specs": {
+    "Stanza": "Passaggio",
+    "Tipo": "Allestimento",
+    "Dimensioni": "994 × 600 × 600 mm (h × l × p) [SPEC]",
+    "Posa": "a parete, base a 1.00 m [EST]",
+    "Posizione": "locale accanto alla dispensa, parete sud (TAVOLA 09: RACK Rete LAN) [DWG]",
+    "Unità occupate": "20U"
+   },
+   "facts": [],
+   "sources": [
+    "SPEC",
+    "EST"
+   ],
+   "kind": "object",
+   "room": "cas_l1_passaggio_4_5",
+   "floor": "L1",
+   "room_prefix": "vuota",
+   "version": "vuota",
+   "tris": 1896,
+   "bbox": [
+    [
+     0.084,
+     -3.828,
+     4.75
+    ],
+    [
+     0.684,
+     -3.208,
+     5.744
     ]
    ]
   },
@@ -10412,6 +10553,18 @@
     {
      "id": "giuseppe",
      "name": "Giuseppe"
+    },
+    {
+     "id": "vuota",
+     "name": "Vuota",
+     "empty": true
+    },
+    {
+     "id": "impianti",
+     "name": "Impianti",
+     "empty": true,
+     "lines": true,
+     "site": false
     }
    ],
    "rooms": {
